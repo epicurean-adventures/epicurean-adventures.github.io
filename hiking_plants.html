@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Hiking Plants Database" />
+        <meta name="author" content="Epicurean Adventures" />
+        <title>Hiking Plants - Epicurean Adventures</title>
+        <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="sb-nav-fixed">
+        <!-- Navbar Placeholder -->
+        <div id="navbar-placeholder"></div>
+        
+        <div id="layoutSidenav">
+            <!-- Sidebar Placeholder -->
+            <div id="sidebar-placeholder"></div>
+            
+            <!-- Main Content Area -->
+            <div id="layoutSidenav_content">
+                <main>
+                    <div class="container-fluid px-4">
+                        <h1 class="mt-4">Hiking Plants</h1>
+                        <p>A collection of plants encountered during hiking adventures.</p>
+                        
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-leaf me-1"></i>
+                                        Plant Database
+                                    </div>
+                                    <div class="card-body">
+                                        <div id="loading-message" class="text-center">
+                                            <div class="spinner-border text-primary" role="status">
+                                                <span class="visually-hidden">Loading...</span>
+                                            </div>
+                                            <p class="mt-2">Loading plants data...</p>
+                                        </div>
+                                        <div id="error-message" class="alert alert-danger d-none" role="alert">
+                                            <i class="fas fa-exclamation-triangle me-2"></i>
+                                            <span id="error-text"></span>
+                                        </div>
+                                        <div id="plants-container" class="d-none plants-table">
+                                            <div class="table-responsive">
+                                                <table class="table table-striped table-hover" id="plants-table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Name</th>
+                                                            <th>Scientific Name</th>
+                                                            <th>Location Found</th>
+                                                            <th>Date Spotted</th>
+                                                            <th>Notes</th>
+                                                            <th>Photo</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody id="plants-tbody">
+                                                        <!-- Plant data will be populated here -->
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <!-- Footer Placeholder -->
+                <div id="footer-placeholder"></div>
+            </div>
+        </div>
+
+        <!-- Bootstrap Bundle JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <!-- Custom Scripts -->
+        <script src="js/scripts.js"></script>
+        <!-- Component Loader Script -->
+        <script src="js/includes.js"></script>
+        <!-- Hiking Plants Script -->
+        <script src="js/hiking-plants.js"></script>
+    </body>
+</html>
