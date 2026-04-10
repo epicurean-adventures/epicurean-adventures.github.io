@@ -1,63 +1,91 @@
-// js/projects.js
+// projects.js — loads and displays projects from all-projects.json.
+// Supports category filtering via ?category=TAG URL param and text search via SearchManager.
 
-// Function to extract the tag from the URL hash
-function getTagFromHash() {
-    // Expected hash format: "#/category?category=3d-art"
-    const hash = window.location.hash; // e.g. "#/category?category=3d-art"
-    if (!hash) return null;
-    // Remove the part before "?" and create URLSearchParams
-    const queryString = hash.includes('?') ? hash.split('?')[1] : '';
-    const params = new URLSearchParams(queryString);
-    return params.get('category');
-  }
-  
-  function loadProjects() {
-    fetch('projects/all-projects.json')
-      .then(response => {
-        if (!response.ok) {
-          throw new Error(`Failed to fetch projects: ${response.statusText}`);
-        }
-        return response.json();
-      })
-      .then(projects => {
-        const tag = getTagFromHash();
-        let filteredProjects = projects;
-        if (tag) {
-          // Filter projects that include the tag in their tags array (case sensitive)
-          filteredProjects = projects.filter(project => project.tags.includes(tag));
-        }
-        displayProjects(filteredProjects);
-      })
-      .catch(error => console.error('Error loading projects:', error));
-  }
-  
-  function displayProjects(projects) {
+let allProjects = [];
+let currentSearchQuery = '';
+
+function getCategoryFromUrl() {
+    return new URLSearchParams(window.location.search).get('category');
+}
+
+async function loadProjects() {
     const container = document.getElementById('projects-container');
-    container.innerHTML = ''; // Clear any existing content
-  
-    if (projects.length === 0) {
-      container.innerHTML = '<p>No projects found for this category.</p>';
-      return;
+    try {
+        const response = await fetch('projects/all-projects.json');
+        if (!response.ok) throw new Error(response.statusText);
+        allProjects = await response.json();
+        applyFilters();
+    } catch (error) {
+        container.innerHTML =
+            `<div class="alert alert-danger" role="alert">
+                Failed to load projects: ${error.message}
+            </div>`;
     }
-  
+}
+
+function applyFilters() {
+    const category = getCategoryFromUrl();
+    let filtered = allProjects;
+
+    if (category) {
+        filtered = filtered.filter(p => p.tags.includes(category));
+    }
+    if (currentSearchQuery) {
+        filtered = filtered.filter(p =>
+            p.title.toLowerCase().includes(currentSearchQuery) ||
+            p.description.toLowerCase().includes(currentSearchQuery) ||
+            p.tags.some(t => t.includes(currentSearchQuery))
+        );
+    }
+
+    displayProjects(filtered, category);
+}
+
+function displayProjects(projects, category) {
+    const container = document.getElementById('projects-container');
+    container.innerHTML = '';
+
+    const heading = document.createElement('h2');
+    heading.className = 'projects-heading';
+    heading.textContent = category
+        ? `Category: ${category.replace(/-/g, ' ')}`
+        : 'All Projects';
+    container.appendChild(heading);
+
+    if (projects.length === 0) {
+        container.innerHTML += '<p class="text-muted">No projects found.</p>';
+        return;
+    }
+
+    const grid = document.createElement('div');
+    grid.className = 'projects-grid';
+
     projects.forEach(project => {
-      // Create a card or a simple div to display project information
-      const projectCard = document.createElement('div');
-      projectCard.className = 'project-card';
-      projectCard.style.border = '1px solid #ccc';
-      projectCard.style.padding = '1rem';
-      projectCard.style.margin = '1rem 0';
-  
-      projectCard.innerHTML = `
-        <h3>${project.title}</h3>
-        <img src="${project.picture}" alt="${project.title}" style="max-width: 200px;">
-        <p>${project.description}</p>
-        <p><small>Date added: ${project.date_added}</small></p>
-        <a href="${project.page_link}">View Project</a>
-      `;
-      container.appendChild(projectCard);
+        const card = document.createElement('div');
+        card.className = 'project-card';
+        card.innerHTML = `
+            <img src="${project.picture}" alt="${project.title}" class="project-card-img">
+            <div class="project-card-body">
+                <h3 class="project-card-title">${project.title}</h3>
+                <p class="project-card-desc">${project.description}</p>
+                <p class="project-card-date"><small>Added: ${project.date_added}</small></p>
+                ${project.page_link
+                    ? `<a href="${project.page_link}" class="btn btn-sm btn-primary">View Project</a>`
+                    : ''}
+            </div>
+        `;
+        grid.appendChild(card);
     });
-  }
-  
-  // Load projects once the DOM is ready
-  document.addEventListener('DOMContentLoaded', loadProjects);
+
+    container.appendChild(grid);
+}
+
+// Register with SearchManager so the projects grid responds to navbar search
+if (typeof SearchManager !== 'undefined') {
+    SearchManager.register(query => {
+        currentSearchQuery = query;
+        applyFilters();
+    });
+}
+
+document.addEventListener('DOMContentLoaded', loadProjects);

@@ -1,37 +1,4 @@
 @charset "UTF-8";
-
-/* Hiking Plants Page Styles */
-.plant-photo-thumbnail {
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    transition: transform 0.2s ease;
-}
-
-.plant-photo-thumbnail:hover {
-    transform: scale(1.1);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-}
-
-.plants-table .table td {
-    vertical-align: middle;
-}
-
-.plants-table .scientific-name {
-    color: #6c757d;
-    font-style: italic;
-}
-
-.plants-table .notes-cell {
-    max-width: 200px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-
-.plants-table .notes-cell:hover {
-    white-space: normal;
-    overflow: visible;
-}
 /*!
 * Start Bootstrap - SB Admin v7.0.7 (https://startbootstrap.com/template/sb-admin)
 * Copyright 2013-2023 Start Bootstrap

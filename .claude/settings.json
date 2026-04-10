@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls /Users/yunyizhu/Desktop/websites/epicurean-adventures.github.io/*.html)",
+      "Bash(wc -l /Users/yunyizhu/Desktop/websites/epicurean-adventures.github.io/js/*.js /Users/yunyizhu/Desktop/websites/epicurean-adventures.github.io/css/styles.css)"
+    ]
+  }
+}
