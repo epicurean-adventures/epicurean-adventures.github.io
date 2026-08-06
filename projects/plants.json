@@ -1,0 +1,2099 @@
+{
+ "updated": "2026-08-06",
+ "plants": [
+  {
+   "id": "hibiscus",
+   "name": "Tropical Hibiscus",
+   "scientificName": "Hibiscus rosa-sinensis",
+   "nickname": null,
+   "tags": [
+    "flowering",
+    "porch"
+   ],
+   "idConfidence": "confirmed",
+   "idNote": "Braided-trunk standard; blooms red on the porch.",
+   "care": {
+    "humidity": "Likes moderate to high humidity",
+    "light": "Full sun to bright part sun, 6+ hours",
+    "water": "Keep evenly moist; container dries fast in summer heat",
+    "catSafe": true,
+    "catNote": "ASPCA lists hibiscus (Rose of China) as non-toxic to cats.",
+    "difficulty": "moderate",
+    "note": "Each bloom lasts about a day; bring indoors before fall frost in the Northeast."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/hibiscus/2026-07-20.jpg",
+     "thumb": "projects/images/plant-pictures/hibiscus/2026-07-20_thumb.jpg",
+     "date": "2026-07-20",
+     "time": "10:13",
+     "original": "PXL_20260720_141305937.jpg"
+    },
+    {
+     "src": "projects/images/plant-pictures/hibiscus/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/hibiscus/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:53",
+     "original": "PXL_20260806_145339827.MP.jpg"
+    }
+   ]
+  },
+  {
+   "id": "asparagus-fern",
+   "name": "Asparagus Fern",
+   "scientificName": "Asparagus setaceus",
+   "nickname": null,
+   "tags": [
+    "foliage"
+   ],
+   "idConfidence": "confirmed",
+   "idNote": "",
+   "care": {
+    "humidity": "High (60%+); browns at edges in dry air",
+    "light": "Bright indirect light; avoid harsh direct sun",
+    "water": "Keep consistently moist; water when top 2-3 cm dry",
+    "catSafe": false,
+    "catNote": "Toxic to cats per ASPCA (sapogenins); berries cause GI upset, contact dermatitis",
+    "difficulty": "moderate",
+    "note": "Not a true fern, it's an asparagus relative with tiny hidden thorns on mature stems"
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/asparagus-fern/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/asparagus-fern/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:47",
+     "original": "PXL_20260806_144710425.jpg"
+    }
+   ]
+  },
+  {
+   "id": "sempervivum",
+   "name": "Hens & Chicks",
+   "scientificName": "Sempervivum sp.",
+   "nickname": null,
+   "tags": [
+    "succulent"
+   ],
+   "idConfidence": "likely",
+   "idNote": "Fuzzy-edged rosette; exact species uncertain.",
+   "care": {
+    "humidity": "Low - dry air is fine",
+    "light": "Full sun to bright light",
+    "water": "Drench when soil is fully dry; barely in winter",
+    "catSafe": true,
+    "catNote": "Non-toxic to cats per ASPCA.",
+    "difficulty": "easy",
+    "note": "Each rosette dies after flowering, but its 'chicks' carry on."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/sempervivum/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/sempervivum/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:47",
+     "original": "PXL_20260806_144719559.jpg"
+    }
+   ]
+  },
+  {
+   "id": "crinkle-leaf-plant",
+   "name": "Crinkle-Leaf Plant",
+   "scientificName": "Adromischus cristatus",
+   "nickname": null,
+   "tags": [
+    "succulent"
+   ],
+   "idConfidence": "likely",
+   "idNote": "Sending up a flower stalk!",
+   "care": {
+    "humidity": "Low; likes good airflow",
+    "light": "Bright light with some direct sun",
+    "water": "Soak when dry; much less in winter",
+    "catSafe": null,
+    "catNote": "Not on the ASPCA list - a jade relative, so best kept from nibblers.",
+    "difficulty": "easy",
+    "note": "Leaves snap off easily and can root into whole new plants."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/crinkle-leaf-plant/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/crinkle-leaf-plant/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:47",
+     "original": "PXL_20260806_144727363.jpg"
+    }
+   ]
+  },
+  {
+   "id": "aloe-christmas-carol",
+   "name": "Hybrid Aloe",
+   "scientificName": "Aloe 'Christmas Carol' (?)",
+   "nickname": null,
+   "tags": [
+    "succulent"
+   ],
+   "idConfidence": "likely",
+   "idNote": "Red-toothed hybrid aloe; 'Christmas Carol' is our best match.",
+   "care": {
+    "humidity": "Low - average room air is fine",
+    "light": "Bright light; sun deepens the red color",
+    "water": "Water deeply only when soil is fully dry",
+    "catSafe": false,
+    "catNote": "Aloes are toxic to cats per ASPCA (vomiting, lethargy).",
+    "difficulty": "easy",
+    "note": "Sun stress and cool nights turn it ruby red."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/aloe-christmas-carol/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/aloe-christmas-carol/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:47",
+     "original": "PXL_20260806_144731965.jpg"
+    }
+   ]
+  },
+  {
+   "id": "artillery-plant",
+   "name": "Artillery Plant",
+   "scientificName": "Pilea microphylla",
+   "nickname": null,
+   "tags": [
+    "foliage",
+    "hanging"
+   ],
+   "idConfidence": "likely",
+   "idNote": "",
+   "care": {
+    "humidity": "Moderate; tolerates ~45% if soil stays moist",
+    "light": "Bright indirect light to part shade",
+    "water": "Keep soil evenly moist, not soggy",
+    "catSafe": true,
+    "catNote": "Non-toxic to cats per ASPCA (Pilea microphylla listed as safe)",
+    "difficulty": "easy",
+    "note": "Named for flowers that explosively fire pollen in little puffs when touched"
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/artillery-plant/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/artillery-plant/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:47",
+     "original": "PXL_20260806_144740813.jpg"
+    }
+   ]
+  },
+  {
+   "id": "split-rock",
+   "name": "Split Rock",
+   "scientificName": "Pleiospilos nelii",
+   "nickname": null,
+   "tags": [
+    "succulent",
+    "mesemb"
+   ],
+   "idConfidence": "confirmed",
+   "idNote": "",
+   "care": {
+    "humidity": "Low; hates damp air",
+    "light": "As much direct sun as possible",
+    "water": "Very sparingly; none while splitting or in winter",
+    "catSafe": true,
+    "catNote": "Mesembs are generally non-toxic to cats.",
+    "difficulty": "fussy",
+    "note": "Overwatering makes it burst - it should hold only one leaf pair at a time."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/split-rock/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/split-rock/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:47",
+     "original": "PXL_20260806_144753016.jpg"
+    }
+   ]
+  },
+  {
+   "id": "baby-toes",
+   "name": "Baby Toes",
+   "scientificName": "Fenestraria rhopalophylla",
+   "nickname": null,
+   "tags": [
+    "succulent",
+    "mesemb"
+   ],
+   "idConfidence": "likely",
+   "idNote": "",
+   "care": {
+    "humidity": "Low",
+    "light": "Bright sun on a windowsill",
+    "water": "Lightly in spring/fall; keep dry in summer heat and winter",
+    "catSafe": true,
+    "catNote": "Non-toxic to cats (mesemb family, generally pet-safe).",
+    "difficulty": "fussy",
+    "note": "In habitat it grows buried, with only its clear leaf 'windows' above the sand."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/baby-toes/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/baby-toes/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:47",
+     "original": "PXL_20260806_144759478.jpg"
+    }
+   ]
+  },
+  {
+   "id": "fairy-washboard",
+   "name": "Fairy Washboard",
+   "scientificName": "Haworthiopsis limifolia",
+   "nickname": null,
+   "tags": [
+    "succulent"
+   ],
+   "idConfidence": "likely",
+   "idNote": "",
+   "care": {
+    "humidity": "Any - unfussy",
+    "light": "Bright indirect; tolerates less sun than most succulents",
+    "water": "When fully dry, roughly every 2-3 weeks",
+    "catSafe": true,
+    "catNote": "Haworthia are non-toxic to cats per ASPCA.",
+    "difficulty": "easy",
+    "note": "One of the best succulents for windows without full sun."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/fairy-washboard/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/fairy-washboard/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:48",
+     "original": "PXL_20260806_144802091.jpg"
+    }
+   ]
+  },
+  {
+   "id": "gasteria",
+   "name": "Ox Tongue",
+   "scientificName": "Gasteria sp.",
+   "nickname": null,
+   "tags": [
+    "succulent"
+   ],
+   "idConfidence": "likely",
+   "idNote": "",
+   "care": {
+    "humidity": "Any - unfussy",
+    "light": "Bright indirect light; tolerates some shade",
+    "water": "Soak when dry; sparingly in winter",
+    "catSafe": true,
+    "catNote": "Gasteria are commonly listed as pet-safe (non-toxic).",
+    "difficulty": "easy",
+    "note": "Named for its little stomach-shaped flowers."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/gasteria/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/gasteria/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:48",
+     "original": "PXL_20260806_144804374.jpg"
+    }
+   ]
+  },
+  {
+   "id": "tradescantia-zebrina",
+   "name": "Inch Plant",
+   "scientificName": "Tradescantia zebrina",
+   "nickname": null,
+   "tags": [
+    "foliage",
+    "hanging"
+   ],
+   "idConfidence": "confirmed",
+   "idNote": "",
+   "care": {
+    "humidity": "Average home humidity fine; a bit extra keeps tips green",
+    "light": "Bright indirect; purple stripes fade in low light",
+    "water": "Let top 2-3 cm dry between waterings",
+    "catSafe": false,
+    "catNote": "Toxic to cats per ASPCA inch plant listing; sap causes dermatitis and GI upset",
+    "difficulty": "easy",
+    "note": "Grows an inch at a time; pinch stem tips often to keep it bushy instead of leggy"
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/tradescantia-zebrina/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/tradescantia-zebrina/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:50",
+     "original": "PXL_20260806_145018099.MP.jpg"
+    }
+   ]
+  },
+  {
+   "id": "pentas",
+   "name": "Egyptian Star Cluster",
+   "scientificName": "Pentas lanceolata",
+   "nickname": null,
+   "tags": [
+    "flowering"
+   ],
+   "idConfidence": "likely",
+   "idNote": "",
+   "care": {
+    "humidity": "Average; thrives in warm humid summers",
+    "light": "Full sun",
+    "water": "Evenly moist; tolerates brief dry spells",
+    "catSafe": true,
+    "catNote": "Not on ASPCA lists but widely reported non-toxic to cats, dogs, and people.",
+    "difficulty": "easy",
+    "note": "Star-shaped flower clusters are butterfly favorites; deadhead to keep blooms coming all season."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/pentas/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/pentas/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:50",
+     "original": "PXL_20260806_145037590.jpg"
+    }
+   ]
+  },
+  {
+   "id": "tiger-jaws",
+   "name": "Pebbled Tiger Jaws",
+   "scientificName": "Faucaria tuberculosa",
+   "nickname": null,
+   "tags": [
+    "succulent",
+    "mesemb"
+   ],
+   "idConfidence": "likely",
+   "idNote": "",
+   "care": {
+    "humidity": "Low",
+    "light": "Full sun to bright light",
+    "water": "Soak-and-dry in summer; nearly dry in winter",
+    "catSafe": true,
+    "catNote": "Not known to be toxic to cats.",
+    "difficulty": "moderate",
+    "note": "The 'teeth' are soft - in habitat they help collect fog moisture."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/tiger-jaws/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/tiger-jaws/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:51",
+     "original": "PXL_20260806_145102294.jpg"
+    }
+   ]
+  },
+  {
+   "id": "eves-needle",
+   "name": "Eve's Needle Cactus",
+   "scientificName": "Austrocylindropuntia subulata (?)",
+   "nickname": null,
+   "tags": [
+    "succulent",
+    "cactus"
+   ],
+   "idConfidence": "guess",
+   "idNote": "Knobby stems with tiny leaf tufts; could also be a corncob euphorbia.",
+   "care": {
+    "humidity": "Low",
+    "light": "Full sun",
+    "water": "Water when fully dry; roughly monthly",
+    "catSafe": true,
+    "catNote": "Not toxic to cats, but the spines are a real physical hazard.",
+    "difficulty": "easy",
+    "note": "In the Andes it grows into a four-meter tree."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/eves-needle/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/eves-needle/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:51",
+     "original": "PXL_20260806_145105158.jpg"
+    }
+   ]
+  },
+  {
+   "id": "cheiridopsis",
+   "name": "Mystery Mesemb",
+   "scientificName": "Cheiridopsis sp. (?)",
+   "nickname": null,
+   "tags": [
+    "succulent",
+    "mesemb"
+   ],
+   "idConfidence": "guess",
+   "idNote": "Smooth paired 'fingers' - our best guess is a Cheiridopsis.",
+   "care": {
+    "humidity": "Low",
+    "light": "Bright sun",
+    "water": "Winter grower: water fall-spring, keep mostly dry in summer",
+    "catSafe": null,
+    "catNote": "Mesembs are generally pet-safe, but our ID is uncertain.",
+    "difficulty": "fussy",
+    "note": "A South African winter grower - its seasons run opposite ours."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/cheiridopsis/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/cheiridopsis/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:51",
+     "original": "PXL_20260806_145109959.jpg"
+    }
+   ]
+  },
+  {
+   "id": "string-of-buttons",
+   "name": "Variegated String of Buttons",
+   "scientificName": "Crassula perforata variegata",
+   "nickname": null,
+   "tags": [
+    "succulent"
+   ],
+   "idConfidence": "confirmed",
+   "idNote": "Nursery label reads 'Crassula perforata variegata'.",
+   "care": {
+    "humidity": "Low",
+    "light": "Bright light with some direct sun",
+    "water": "Soak when dry; eases off in midsummer",
+    "catSafe": false,
+    "catNote": "Crassula (jade family) are toxic to cats per ASPCA.",
+    "difficulty": "easy",
+    "note": "The stems look threaded straight through the stacked leaves."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/string-of-buttons/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/string-of-buttons/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:51",
+     "original": "PXL_20260806_145112677.jpg"
+    }
+   ]
+  },
+  {
+   "id": "zipper-plant",
+   "name": "Tanzanian Zipper Plant",
+   "scientificName": "Euphorbia anoplia",
+   "nickname": null,
+   "tags": [
+    "succulent"
+   ],
+   "idConfidence": "likely",
+   "idNote": "",
+   "care": {
+    "humidity": "Low",
+    "light": "Bright light to full sun",
+    "water": "Water when dry spring-fall; sparingly in winter",
+    "catSafe": false,
+    "catNote": "Euphorbia sap is toxic and irritating to cats per ASPCA.",
+    "difficulty": "easy",
+    "note": "The milky sap irritates human skin too - gloves on for repotting."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/zipper-plant/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/zipper-plant/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:51",
+     "original": "PXL_20260806_145115388.jpg"
+    }
+   ]
+  },
+  {
+   "id": "anise-hyssop",
+   "name": "Anise Hyssop",
+   "scientificName": "Agastache foeniculum",
+   "nickname": null,
+   "tags": [
+    "herb",
+    "flowering"
+   ],
+   "idConfidence": "likely",
+   "idNote": "Flower spikes drying - seeds incoming?",
+   "care": {
+    "humidity": "Tolerates dry air well",
+    "light": "Full sun to part shade, 6+ hours best",
+    "water": "Water when soil dries a few inches down; drought tolerant once established",
+    "catSafe": true,
+    "catNote": "Not on the ASPCA toxic list; widely regarded as non-toxic to cats.",
+    "difficulty": "easy",
+    "note": "Licorice-scented leaves make good tea, and blooms are a bee and hummingbird magnet."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/anise-hyssop/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/anise-hyssop/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:51",
+     "original": "PXL_20260806_145122205.jpg"
+    }
+   ]
+  },
+  {
+   "id": "coleus",
+   "name": "Coleus",
+   "scientificName": "Coleus scutellarioides",
+   "nickname": null,
+   "tags": [
+    "foliage",
+    "porch"
+   ],
+   "idConfidence": "confirmed",
+   "idNote": "Came with its own COLEUS tag.",
+   "care": {
+    "humidity": "Enjoys moderate humidity",
+    "light": "Part shade to bright indirect; morning sun is ideal",
+    "water": "Keep evenly moist; water when top inch feels dry",
+    "catSafe": false,
+    "catNote": "ASPCA lists coleus as toxic to cats; essential oils cause vomiting and diarrhea.",
+    "difficulty": "easy",
+    "note": "Pinch off flower spikes so energy goes into its vividly colored foliage."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/coleus/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/coleus/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:51",
+     "original": "PXL_20260806_145130523.jpg"
+    }
+   ]
+  },
+  {
+   "id": "rosemary",
+   "name": "Rosemary",
+   "scientificName": "Salvia rosmarinus",
+   "nickname": null,
+   "tags": [
+    "herb",
+    "porch"
+   ],
+   "idConfidence": "confirmed",
+   "idNote": "",
+   "care": {
+    "humidity": "Prefers dry air with good airflow",
+    "light": "Full sun, 6+ hours",
+    "water": "Water when top inch is dry; never let pot sit in water",
+    "catSafe": true,
+    "catNote": "ASPCA lists rosemary as non-toxic to cats.",
+    "difficulty": "moderate",
+    "note": "Overwatering is the top killer of potted rosemary; sharp drainage is essential."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/rosemary/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/rosemary/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:51",
+     "original": "PXL_20260806_145134109.jpg"
+    }
+   ]
+  },
+  {
+   "id": "mystery-seedling",
+   "name": "Mystery Seedling",
+   "scientificName": "Unknown (Tamarindus indica?)",
+   "nickname": null,
+   "tags": [
+    "seedling",
+    "mystery"
+   ],
+   "idConfidence": "guess",
+   "idNote": "Pinnate baby leaves - best guess is a tamarind sprouted from seed.",
+   "care": {
+    "humidity": "High, 60%+; mist or use a humidifier",
+    "light": "Bright direct sun; south window, 6+ hours",
+    "water": "Keep seedling evenly moist; later water when top 1-2 inches dry",
+    "catSafe": true,
+    "catNote": "Not on the ASPCA toxic list; tamarind is generally considered non-toxic to cats.",
+    "difficulty": "fussy",
+    "note": "Soak seeds 12-24 hours before sowing; keep it warm (70-80F) away from cold drafts."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/mystery-seedling/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/mystery-seedling/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:51",
+     "original": "PXL_20260806_145148547.jpg"
+    }
+   ]
+  },
+  {
+   "id": "moss-rose",
+   "name": "Moss Rose",
+   "scientificName": "Portulaca grandiflora",
+   "nickname": null,
+   "tags": [
+    "flowering",
+    "annual"
+   ],
+   "idConfidence": "confirmed",
+   "idNote": "",
+   "care": {
+    "humidity": "Thrives in hot, dry air",
+    "light": "Full sun, 6-8 hours; won't bloom in shade",
+    "water": "Drought tolerant; one deep watering a week in summer",
+    "catSafe": false,
+    "catNote": "ASPCA lists moss rose (Portulaca) as toxic to cats via soluble calcium oxalates.",
+    "difficulty": "easy",
+    "note": "Succulent leaves store water, and flowers close at night and on cloudy days."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/moss-rose/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/moss-rose/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:52",
+     "original": "PXL_20260806_145201866.jpg"
+    }
+   ]
+  },
+  {
+   "id": "spider-plant-cutting",
+   "name": "Spider Plant Cutting",
+   "scientificName": "Chlorophytum comosum 'Bonnie'",
+   "nickname": null,
+   "tags": [
+    "foliage",
+    "propagation"
+   ],
+   "idConfidence": "confirmed",
+   "idNote": "Rooting in water - likely a pup of the big curly spider plant.",
+   "care": {
+    "humidity": "Average home humidity (40-50%) fine",
+    "light": "Medium to bright indirect; avoid direct midday sun",
+    "water": "Let top 2-5 cm dry between waterings",
+    "catSafe": true,
+    "catNote": "Non-toxic to cats per ASPCA, though cats love chewing it and may get mild GI upset",
+    "difficulty": "easy",
+    "note": "Fluoride in tap water causes brown tips; 'Bonnie' has fun curly leaves and makes babies"
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/spider-plant-cutting/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/spider-plant-cutting/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:52",
+     "original": "PXL_20260806_145216913.jpg"
+    }
+   ]
+  },
+  {
+   "id": "poinsettia-small",
+   "name": "Poinsettia (Windowsill)",
+   "scientificName": "Euphorbia pulcherrima",
+   "nickname": null,
+   "tags": [
+    "foliage"
+   ],
+   "idConfidence": "confirmed",
+   "idNote": "",
+   "care": {
+    "humidity": "Moderate; avoid dry drafts",
+    "light": "6+ hours of bright indirect light",
+    "water": "When top inch dries; drain the foil sleeve",
+    "catSafe": false,
+    "catNote": "Mildly toxic per ASPCA; sap irritates mouth and stomach, though its danger is often overrated.",
+    "difficulty": "moderate",
+    "note": "Needs about 14 hours of total darkness nightly for 8 weeks in fall to re-color its bracts."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/poinsettia-small/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/poinsettia-small/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:52",
+     "original": "PXL_20260806_145230480.MP.jpg"
+    }
+   ]
+  },
+  {
+   "id": "brain-cactus",
+   "name": "Brain Cactus",
+   "scientificName": "Mammillaria elongata 'Cristata'",
+   "nickname": null,
+   "tags": [
+    "succulent",
+    "cactus"
+   ],
+   "idConfidence": "likely",
+   "idNote": "",
+   "care": {
+    "humidity": "Low",
+    "light": "Bright direct light, 4+ hours daily",
+    "water": "Soak and dry; barely water in winter",
+    "catSafe": true,
+    "catNote": "Not on ASPCA toxic list; Mammillaria cacti are non-toxic, though spines pose a poke hazard.",
+    "difficulty": "easy",
+    "note": "Its folded brain shape comes from a rare crested mutation of the ladyfinger cactus."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/brain-cactus/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/brain-cactus/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:52",
+     "original": "PXL_20260806_145233732.jpg"
+    }
+   ]
+  },
+  {
+   "id": "boston-fern",
+   "name": "Boston Fern",
+   "scientificName": "Nephrolepis exaltata",
+   "nickname": null,
+   "tags": [
+    "foliage",
+    "hanging"
+   ],
+   "idConfidence": "confirmed",
+   "idNote": "",
+   "care": {
+    "humidity": "High; most homes too dry, use humidifier or pebble tray",
+    "light": "Bright filtered/indirect light; direct sun burns fronds",
+    "water": "Keep soil evenly moist; water when surface starts to dry",
+    "catSafe": true,
+    "catNote": "Non-toxic to cats per ASPCA (a true fern, safe to nibble)",
+    "difficulty": "moderate",
+    "note": "Sheds and browns in dry winter air; regular misting or a bathroom spot keeps it lush"
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/boston-fern/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/boston-fern/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:52",
+     "original": "PXL_20260806_145249126.jpg"
+    }
+   ]
+  },
+  {
+   "id": "poinsettia-large",
+   "name": "Poinsettia (Big One)",
+   "scientificName": "Euphorbia pulcherrima",
+   "nickname": null,
+   "tags": [
+    "foliage"
+   ],
+   "idConfidence": "confirmed",
+   "idNote": "Survived the holidays and thriving.",
+   "care": {
+    "humidity": "Moderate; avoid dry drafts",
+    "light": "6+ hours of bright indirect light",
+    "water": "When top inch dries; drain the foil sleeve",
+    "catSafe": false,
+    "catNote": "Mildly toxic per ASPCA; sap irritates mouth and stomach, though its danger is often overrated.",
+    "difficulty": "moderate",
+    "note": "Needs about 14 hours of total darkness nightly for 8 weeks in fall to re-color its bracts."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/poinsettia-large/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/poinsettia-large/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:52",
+     "original": "PXL_20260806_145255884.jpg"
+    }
+   ]
+  },
+  {
+   "id": "lavender",
+   "name": "Lavender",
+   "scientificName": "Lavandula angustifolia",
+   "nickname": null,
+   "tags": [
+    "herb",
+    "porch"
+   ],
+   "idConfidence": "likely",
+   "idNote": "Looking crispy on the porch - fingers crossed.",
+   "care": {
+    "humidity": "Needs dry air; dislikes humid, stagnant spots",
+    "light": "Full sun, 6-8 hours",
+    "water": "Sparingly; let soil dry out, hates wet feet",
+    "catSafe": false,
+    "catNote": "ASPCA lists lavender as toxic to cats; linalool causes nausea and vomiting.",
+    "difficulty": "fussy",
+    "note": "Use lean gritty mix in an unglazed pot; humid Northeast summers invite fungal issues."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/lavender/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/lavender/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:53",
+     "original": "PXL_20260806_145305392.jpg"
+    }
+   ]
+  },
+  {
+   "id": "cleome",
+   "name": "Spider Flower",
+   "scientificName": "Cleome hassleriana (?)",
+   "nickname": null,
+   "tags": [
+    "flowering",
+    "annual",
+    "porch",
+    "mystery"
+   ],
+   "idConfidence": "guess",
+   "idNote": "Hairy stems + palmate leaves; best guess is cleome.",
+   "care": {
+    "humidity": "Average humidity; very tolerant",
+    "light": "Full sun",
+    "water": "Let soil dry slightly between waterings; drought tolerant once established",
+    "catSafe": true,
+    "catNote": "ASPCA lists spider flower as non-toxic to cats.",
+    "difficulty": "easy",
+    "note": "Self-sows readily and deadheads itself; older varieties have thorny, musky stems."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/cleome/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/cleome/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:53",
+     "original": "PXL_20260806_145308981.jpg"
+    }
+   ]
+  },
+  {
+   "id": "monstera-thai-constellation",
+   "name": "Monstera 'Thai Constellation'",
+   "scientificName": "Monstera deliciosa 'Thai Constellation'",
+   "nickname": null,
+   "tags": [
+    "foliage"
+   ],
+   "idConfidence": "confirmed",
+   "idNote": "",
+   "care": {
+    "humidity": "High (60%+) preferred",
+    "light": "Bright indirect; direct sun scorches cream patches",
+    "water": "Water when top 2-3 cm dry; never soggy",
+    "catSafe": false,
+    "catNote": "Toxic to cats per ASPCA (insoluble calcium oxalates), listed as Swiss cheese plant",
+    "difficulty": "moderate",
+    "note": "Tissue-culture variegation is stable, but white areas lack chlorophyll so it grows slowly"
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/monstera-thai-constellation/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/monstera-thai-constellation/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:53",
+     "original": "PXL_20260806_145329349.jpg"
+    }
+   ]
+  },
+  {
+   "id": "golden-pothos",
+   "name": "Golden Pothos",
+   "scientificName": "Epipremnum aureum",
+   "nickname": null,
+   "tags": [
+    "foliage",
+    "hanging"
+   ],
+   "idConfidence": "confirmed",
+   "idNote": "",
+   "care": {
+    "humidity": "Average home humidity (40-50%) fine",
+    "light": "Low to bright indirect; variegation fades in dim spots",
+    "water": "Let top 2-5 cm dry between waterings",
+    "catSafe": false,
+    "catNote": "Toxic to cats per ASPCA (insoluble calcium oxalates); causes oral burning and drooling",
+    "difficulty": "easy",
+    "note": "Tolerates missed waterings and low light; one of the most forgiving trailing houseplants"
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/golden-pothos/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/golden-pothos/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:54",
+     "original": "PXL_20260806_145401790.jpg"
+    }
+   ]
+  },
+  {
+   "id": "sedeveria",
+   "name": "Sedeveria",
+   "scientificName": "× Sedeveria (cf. 'Letizia')",
+   "nickname": null,
+   "tags": [
+    "succulent"
+   ],
+   "idConfidence": "guess",
+   "idNote": "Rosettes on stems - some Sedum/Echeveria hybrid.",
+   "care": {
+    "humidity": "Low",
+    "light": "Bright light with direct sun",
+    "water": "Soak-and-dry",
+    "catSafe": true,
+    "catNote": "Both parents (Sedum, Echeveria) are non-toxic per ASPCA.",
+    "difficulty": "easy",
+    "note": "Dropped leaves root wherever they land - free plants."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/sedeveria/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/sedeveria/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:54",
+     "original": "PXL_20260806_145407906.jpg"
+    }
+   ]
+  },
+  {
+   "id": "red-pagoda",
+   "name": "Red Pagoda",
+   "scientificName": "Crassula capitella",
+   "nickname": null,
+   "tags": [
+    "succulent"
+   ],
+   "idConfidence": "likely",
+   "idNote": "",
+   "care": {
+    "humidity": "Low",
+    "light": "Bright sun brings out the red",
+    "water": "Soak-and-dry; light in winter",
+    "catSafe": false,
+    "catNote": "Crassula are toxic to cats per ASPCA.",
+    "difficulty": "easy",
+    "note": "More sun means redder pagodas."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/red-pagoda/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/red-pagoda/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:54",
+     "original": "PXL_20260806_145410238.jpg"
+    }
+   ]
+  },
+  {
+   "id": "ficus-ginseng",
+   "name": "Ginseng Ficus Bonsai",
+   "scientificName": "Ficus microcarpa",
+   "nickname": null,
+   "tags": [
+    "tree",
+    "bonsai"
+   ],
+   "idConfidence": "confirmed",
+   "idNote": "",
+   "care": {
+    "humidity": "Average humidity ok; likes a boost, avoid dry drafts",
+    "light": "Bright indirect light; no hot midday sun",
+    "water": "Water when top 2-3 cm dry; much less in winter",
+    "catSafe": false,
+    "catNote": "Toxic to cats (Ficus sap contains ficin/ficusin); irritates mouth, skin, and gut",
+    "difficulty": "moderate",
+    "note": "One of the easiest bonsai, but it drops leaves when moved or hit by cold drafts"
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/ficus-ginseng/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/ficus-ginseng/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:54",
+     "original": "PXL_20260806_145433626.jpg"
+    }
+   ]
+  },
+  {
+   "id": "fittonia-white",
+   "name": "Nerve Plant (White)",
+   "scientificName": "Fittonia albivenis",
+   "nickname": null,
+   "tags": [
+    "foliage"
+   ],
+   "idConfidence": "confirmed",
+   "idNote": "",
+   "care": {
+    "humidity": "High (60%+); thrives in terrariums",
+    "light": "Low to medium indirect light; direct sun scorches",
+    "water": "Keep consistently moist; never let it fully dry",
+    "catSafe": true,
+    "catNote": "Non-toxic to cats per ASPCA",
+    "difficulty": "fussy",
+    "note": "Famously 'faints' dramatically when thirsty, then revives within hours of watering"
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/fittonia-white/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/fittonia-white/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:54",
+     "original": "PXL_20260806_145440040.jpg"
+    }
+   ]
+  },
+  {
+   "id": "mystery-rosettes",
+   "name": "Mystery Rosette Seedlings",
+   "scientificName": "Unknown",
+   "nickname": null,
+   "tags": [
+    "seedling",
+    "mystery"
+   ],
+   "idConfidence": "guess",
+   "idNote": "Narrow-leaved rosettes in the handmade pot - dianthus seedlings, perhaps?",
+   "care": {
+    "humidity": null,
+    "light": null,
+    "water": null,
+    "catSafe": null,
+    "catNote": null,
+    "difficulty": null,
+    "note": null
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/mystery-rosettes/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/mystery-rosettes/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:54",
+     "original": "PXL_20260806_145445290.jpg"
+    }
+   ]
+  },
+  {
+   "id": "basil",
+   "name": "Sweet Basil",
+   "scientificName": "Ocimum basilicum",
+   "nickname": null,
+   "tags": [
+    "herb"
+   ],
+   "idConfidence": "confirmed",
+   "idNote": "",
+   "care": {
+    "humidity": "Average humidity is fine",
+    "light": "Full sun, 6-8 hours",
+    "water": "Keep soil moist; water deeply when top inch dries",
+    "catSafe": true,
+    "catNote": "ASPCA lists basil as non-toxic to cats.",
+    "difficulty": "easy",
+    "note": "Pinch tops and flower buds often for bushier plants; hates temps below 50F."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/basil/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/basil/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:54",
+     "original": "PXL_20260806_145453945.MP.jpg"
+    }
+   ]
+  },
+  {
+   "id": "burros-tail",
+   "name": "Burro's Tail",
+   "scientificName": "Sedum morganianum",
+   "nickname": null,
+   "tags": [
+    "succulent",
+    "hanging"
+   ],
+   "idConfidence": "confirmed",
+   "idNote": "",
+   "care": {
+    "humidity": "Low to average",
+    "light": "Bright light; morning sun is ideal",
+    "water": "Water when dry; leaves wrinkle when thirsty",
+    "catSafe": true,
+    "catNote": "Non-toxic to cats per ASPCA.",
+    "difficulty": "easy",
+    "note": "Extremely brittle - every fallen leaf is a future plant."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/burros-tail/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/burros-tail/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:54",
+     "original": "PXL_20260806_145457253.jpg"
+    }
+   ]
+  },
+  {
+   "id": "balloon-flower",
+   "name": "Balloon Flower",
+   "scientificName": "Platycodon grandiflorus",
+   "nickname": null,
+   "tags": [
+    "flowering",
+    "perennial"
+   ],
+   "idConfidence": "confirmed",
+   "idNote": "",
+   "care": {
+    "humidity": "Average outdoor humidity",
+    "light": "Full sun to part shade",
+    "water": "Medium; drought tolerant once established",
+    "catSafe": true,
+    "catNote": "Not listed as toxic by the ASPCA; generally considered cat-safe despite saponins in the roots.",
+    "difficulty": "easy",
+    "note": "Buds inflate like little balloons before popping open; shoots emerge late in spring, so be patient."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/balloon-flower/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/balloon-flower/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:55",
+     "original": "PXL_20260806_145504143.jpg"
+    }
+   ]
+  },
+  {
+   "id": "peperomia-red-log",
+   "name": "Red Log Peperomia",
+   "scientificName": "Peperomia verticillata",
+   "nickname": null,
+   "tags": [
+    "foliage"
+   ],
+   "idConfidence": "likely",
+   "idNote": "",
+   "care": {
+    "humidity": "Average to dry rooms fine; skip misting to avoid fungus",
+    "light": "Bright indirect; tolerates a little direct sun",
+    "water": "Semi-succulent; let soil nearly dry out between drinks",
+    "catSafe": true,
+    "catNote": "Non-toxic to cats per ASPCA (Peperomia genus is cat-safe)",
+    "difficulty": "easy",
+    "note": "Fuzzy leaves are green on top, wine-red beneath; stores water so it forgives forgetfulness"
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/peperomia-red-log/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/peperomia-red-log/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:55",
+     "original": "PXL_20260806_145508136.jpg"
+    }
+   ]
+  },
+  {
+   "id": "gourd-vine",
+   "name": "Gourd Vine",
+   "scientificName": "Cucurbita / Lagenaria sp.",
+   "nickname": null,
+   "tags": [
+    "vegetable",
+    "vine",
+    "porch"
+   ],
+   "idConfidence": "likely",
+   "idNote": "Huge fuzzy leaves racing up the balcony window.",
+   "care": {
+    "humidity": "Average outdoor humidity is fine",
+    "light": "Full sun, 6-8 hours",
+    "water": "Thirsty; deep, steady water, big pots dry out fast",
+    "catSafe": true,
+    "catNote": "ASPCA lists squashes (Cucurbita) as non-toxic to cats.",
+    "difficulty": "moderate",
+    "note": "On a porch, hand-pollinate morning flowers with a brush if bees are scarce."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/gourd-vine/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/gourd-vine/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:55",
+     "original": "PXL_20260806_145532514.jpg"
+    }
+   ]
+  },
+  {
+   "id": "prickly-pear",
+   "name": "Prickly Pear",
+   "scientificName": "Opuntia sp.",
+   "nickname": null,
+   "tags": [
+    "succulent",
+    "cactus"
+   ],
+   "idConfidence": "likely",
+   "idNote": "",
+   "care": {
+    "humidity": "Low; loves dry air",
+    "light": "Full sun",
+    "water": "Deep but infrequent; dry out fully between waterings",
+    "catSafe": true,
+    "catNote": "Opuntia is non-toxic to cats per ASPCA, but barbed glochid spines can injure paws and mouths.",
+    "difficulty": "easy",
+    "note": "Young pads (nopales) are edible; handle with tongs since glochids detach at the lightest touch."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/prickly-pear/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/prickly-pear/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:55",
+     "original": "PXL_20260806_145541931.jpg"
+    }
+   ]
+  },
+  {
+   "id": "gollum-jade",
+   "name": "Gollum Jade",
+   "scientificName": "Crassula ovata 'Gollum'",
+   "nickname": null,
+   "tags": [
+    "succulent"
+   ],
+   "idConfidence": "confirmed",
+   "idNote": "",
+   "care": {
+    "humidity": "Low; dry indoor air is fine",
+    "light": "Bright light with several hours of direct sun",
+    "water": "Soak and dry; water only when soil is fully dry",
+    "catSafe": false,
+    "catNote": "Toxic per ASPCA; jade plants cause vomiting, depression, and incoordination in cats.",
+    "difficulty": "easy",
+    "note": "Tubular 'Shrek ear' leaves blush red in strong sun; cut water way back in winter."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/gollum-jade/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/gollum-jade/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:55",
+     "original": "PXL_20260806_145544153.jpg"
+    }
+   ]
+  },
+  {
+   "id": "string-of-pearls",
+   "name": "String of Pearls",
+   "scientificName": "Curio rowleyanus",
+   "nickname": null,
+   "tags": [
+    "succulent",
+    "hanging"
+   ],
+   "idConfidence": "confirmed",
+   "idNote": "",
+   "care": {
+    "humidity": "Low to average",
+    "light": "Bright indirect light with gentle morning sun",
+    "water": "Sparse; let soil dry completely, rots easily",
+    "catSafe": false,
+    "catNote": "Toxic per ASPCA; causes vomiting and lethargy, so hang it well out of feline reach.",
+    "difficulty": "fussy",
+    "note": "Wrinkled pearls signal thirst; shallow roots rot fast, so use a shallow pot and gritty mix."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/string-of-pearls/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/string-of-pearls/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:55",
+     "original": "PXL_20260806_145548628.jpg"
+    }
+   ]
+  },
+  {
+   "id": "tomatoes",
+   "name": "Tomatoes",
+   "scientificName": "Solanum lycopersicum",
+   "nickname": null,
+   "tags": [
+    "vegetable",
+    "porch"
+   ],
+   "idConfidence": "confirmed",
+   "idNote": "",
+   "care": {
+    "humidity": "Average outdoor humidity is fine",
+    "light": "Full sun, 6-8 hours",
+    "water": "Deep, consistent watering; uneven moisture causes blossom end rot",
+    "catSafe": false,
+    "catNote": "ASPCA lists tomato plant as toxic to cats; solanine in green parts, ripe fruit is safe.",
+    "difficulty": "moderate",
+    "note": "Determinate varieties do best in pots; feed regularly, as containers leach nutrients."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/tomatoes/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/tomatoes/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:56",
+     "original": "PXL_20260806_145630469.jpg"
+    }
+   ]
+  },
+  {
+   "id": "phalaenopsis-orchid",
+   "name": "Moth Orchid",
+   "scientificName": "Phalaenopsis hybrid",
+   "nickname": null,
+   "tags": [
+    "flowering"
+   ],
+   "idConfidence": "confirmed",
+   "idNote": "",
+   "care": {
+    "humidity": "50-70%; likes a pebble humidity tray",
+    "light": "Bright indirect; no hot midday sun",
+    "water": "Weekly when bark and roots dry; never soggy",
+    "catSafe": true,
+    "catNote": "Phalaenopsis orchids are listed as non-toxic to cats by the ASPCA.",
+    "difficulty": "moderate",
+    "note": "Silvery roots mean it's thirsty; after bloom, cut the spike above a node to coax a rebloom."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/phalaenopsis-orchid/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/phalaenopsis-orchid/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:57",
+     "original": "PXL_20260806_145714383.MP.jpg"
+    }
+   ]
+  },
+  {
+   "id": "parlor-palm",
+   "name": "Parlor Palm",
+   "scientificName": "Chamaedorea elegans",
+   "nickname": null,
+   "tags": [
+    "foliage"
+   ],
+   "idConfidence": "confirmed",
+   "idNote": "",
+   "care": {
+    "humidity": "Average home humidity fine; enjoys occasional misting",
+    "light": "Low to medium indirect light; no direct sun",
+    "water": "Keep lightly moist; let top 2-3 cm dry, avoid soggy soil",
+    "catSafe": true,
+    "catNote": "Non-toxic to cats per ASPCA",
+    "difficulty": "easy",
+    "note": "A Victorian-era favorite that tolerates low light and neglect; overwatering is its main killer"
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/parlor-palm/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/parlor-palm/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:57",
+     "original": "PXL_20260806_145721686.MP.jpg"
+    }
+   ]
+  },
+  {
+   "id": "pilea-peperomioides",
+   "name": "Chinese Money Plant",
+   "scientificName": "Pilea peperomioides",
+   "nickname": null,
+   "tags": [
+    "foliage"
+   ],
+   "idConfidence": "confirmed",
+   "idNote": "",
+   "care": {
+    "humidity": "Average home humidity fine",
+    "light": "Bright indirect; rotate weekly to keep it symmetrical",
+    "water": "Let top 2-3 cm dry between waterings",
+    "catSafe": true,
+    "catNote": "Non-toxic to cats per ASPCA (Pilea genus is cat-safe)",
+    "difficulty": "easy",
+    "note": "Produces baby 'pups' around the pot, earning its pass-along 'friendship plant' reputation"
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/pilea-peperomioides/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/pilea-peperomioides/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "10:57",
+     "original": "PXL_20260806_145729507.jpg"
+    }
+   ]
+  },
+  {
+   "id": "new-guinea-impatiens",
+   "name": "New Guinea Impatiens",
+   "scientificName": "Impatiens hawkeri (?)",
+   "nickname": null,
+   "tags": [
+    "flowering"
+   ],
+   "idConfidence": "guess",
+   "idNote": "ID'd from the bronze foliage - flowers will tell.",
+   "care": {
+    "humidity": "Moderate to high",
+    "light": "Part shade; morning sun or filtered light",
+    "water": "Consistently moist; wilts fast if it dries out",
+    "catSafe": true,
+    "catNote": "Impatiens are listed as non-toxic to cats by the ASPCA.",
+    "difficulty": "moderate",
+    "note": "Handles more sun than common impatiens and resists downy mildew, but never let it dry out."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/new-guinea-impatiens/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/new-guinea-impatiens/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "11:02",
+     "original": "PXL_20260806_150250423.jpg"
+    }
+   ]
+  },
+  {
+   "id": "scarlet-sage",
+   "name": "Scarlet Sage",
+   "scientificName": "Salvia splendens",
+   "nickname": null,
+   "tags": [
+    "flowering",
+    "annual"
+   ],
+   "idConfidence": "confirmed",
+   "idNote": "",
+   "care": {
+    "humidity": "Average",
+    "light": "Full sun to light shade",
+    "water": "Keep soil evenly moist; don't let it bake dry",
+    "catSafe": true,
+    "catNote": "Scarlet sage is listed as non-toxic to cats by the ASPCA.",
+    "difficulty": "easy",
+    "note": "A hummingbird magnet; deadhead spent flower spikes for color until frost."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/scarlet-sage/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/scarlet-sage/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "11:03",
+     "original": "PXL_20260806_150302507.MP.jpg"
+    }
+   ]
+  },
+  {
+   "id": "callisia-pink-lady",
+   "name": "Turtle Vine 'Pink Lady'",
+   "scientificName": "Callisia repens 'Pink Lady'",
+   "nickname": null,
+   "tags": [
+    "foliage",
+    "hanging"
+   ],
+   "idConfidence": "likely",
+   "idNote": "",
+   "care": {
+    "humidity": "Average household humidity",
+    "light": "Bright indirect light keeps the pink color",
+    "water": "Let top of soil dry between waterings",
+    "catSafe": false,
+    "catNote": "Not on ASPCA list, but its sap is known to cause dermatitis and GI upset in cats and dogs.",
+    "difficulty": "easy",
+    "note": "Leaves fade from pink to plain green in dim light; pinch tips often to keep it dense."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/callisia-pink-lady/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/callisia-pink-lady/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "11:03",
+     "original": "PXL_20260806_150306656.MP.jpg"
+    }
+   ]
+  },
+  {
+   "id": "autumn-joy-stonecrop",
+   "name": "Stonecrop 'Autumn Joy'",
+   "scientificName": "Hylotelephium 'Herbstfreude'",
+   "nickname": null,
+   "tags": [
+    "succulent",
+    "perennial"
+   ],
+   "idConfidence": "confirmed",
+   "idNote": "Nursery tag: Stonecrop 'Autumn Joy' ('Herbstfreude').",
+   "care": {
+    "humidity": "Low; average outdoor air is fine",
+    "light": "Full sun",
+    "water": "Drought tolerant; water only when soil dries",
+    "catSafe": true,
+    "catNote": "Sedum/stonecrop is listed as non-toxic to cats by the ASPCA.",
+    "difficulty": "easy",
+    "note": "Leave dried flower heads standing for winter interest; overly rich soil makes stems flop."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/autumn-joy-stonecrop/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/autumn-joy-stonecrop/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "11:03",
+     "original": "PXL_20260806_150314219.MP.jpg"
+    }
+   ]
+  },
+  {
+   "id": "fittonia-red",
+   "name": "Nerve Plant (Pink)",
+   "scientificName": "Fittonia albivenis",
+   "nickname": null,
+   "tags": [
+    "foliage"
+   ],
+   "idConfidence": "confirmed",
+   "idNote": "",
+   "care": {
+    "humidity": "High (60%+); thrives in terrariums",
+    "light": "Low to medium indirect light; direct sun scorches",
+    "water": "Keep consistently moist; never let it fully dry",
+    "catSafe": true,
+    "catNote": "Non-toxic to cats per ASPCA",
+    "difficulty": "fussy",
+    "note": "Famously 'faints' dramatically when thirsty, then revives within hours of watering"
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/fittonia-red/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/fittonia-red/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "11:03",
+     "original": "PXL_20260806_150319231.jpg"
+    }
+   ]
+  },
+  {
+   "id": "false-aralia",
+   "name": "False Aralia",
+   "scientificName": "Plerandra elegantissima",
+   "nickname": null,
+   "tags": [
+    "foliage",
+    "tree"
+   ],
+   "idConfidence": "confirmed",
+   "idNote": "",
+   "care": {
+    "humidity": "High (60%+); leaf edges crisp below 40%",
+    "light": "Bright indirect light; no direct sun",
+    "water": "Keep lightly moist; water when top 2-3 cm dry",
+    "catSafe": true,
+    "catNote": "Non-toxic to cats per ASPCA (listed as False Aralia, Dizygotheca elegantissima)",
+    "difficulty": "fussy",
+    "note": "Drops leaves at drafts, cold, moves, or watering swings; keep conditions steady"
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/false-aralia/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/false-aralia/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "11:03",
+     "original": "PXL_20260806_150322218.jpg"
+    }
+   ]
+  },
+  {
+   "id": "pineapple-lily",
+   "name": "Pineapple Lily",
+   "scientificName": "Eucomis sp.",
+   "nickname": null,
+   "tags": [
+    "flowering",
+    "bulb"
+   ],
+   "idConfidence": "likely",
+   "idNote": "Big bulb + strap leaves + pineapple-shaped bloom.",
+   "care": {
+    "humidity": "Average",
+    "light": "Full sun, 6+ hours",
+    "water": "Regular in summer; keep nearly dry when dormant",
+    "catSafe": false,
+    "catNote": "Not on ASPCA lists; saponin-rich bulbs may cause GI upset, so keep cats away to be safe.",
+    "difficulty": "easy",
+    "note": "Flower spikes topped with leafy tufts really do look like pineapples; bulbs need a dry winter rest."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/pineapple-lily/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/pineapple-lily/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "11:03",
+     "original": "PXL_20260806_150325414.jpg"
+    }
+   ]
+  },
+  {
+   "id": "moon-valley-pilea",
+   "name": "Moon Valley Pilea",
+   "scientificName": "Pilea mollis 'Moon Valley'",
+   "nickname": null,
+   "tags": [
+    "foliage"
+   ],
+   "idConfidence": "confirmed",
+   "idNote": "Costa Farms tag: 'Moon Valley Pilea'.",
+   "care": {
+    "humidity": "High (60%+); ideal in terrariums or on pebble trays",
+    "light": "Medium to bright indirect light",
+    "water": "Keep evenly moist; let just the surface dry slightly",
+    "catSafe": true,
+    "catNote": "Non-toxic to cats per ASPCA (friendship plant/Pilea listed as safe)",
+    "difficulty": "moderate",
+    "note": "Quilted chartreuse leaves look like moon craters; shrivels fast in dry rooms"
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/moon-valley-pilea/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/moon-valley-pilea/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "11:03",
+     "original": "PXL_20260806_150329507.jpg"
+    }
+   ]
+  },
+  {
+   "id": "peperomia-rosso",
+   "name": "Peperomia 'Rosso'",
+   "scientificName": "Peperomia caperata 'Rosso'",
+   "nickname": null,
+   "tags": [
+    "foliage",
+    "hanging"
+   ],
+   "idConfidence": "likely",
+   "idNote": "Lives in the crocheted hanger.",
+   "care": {
+    "humidity": "Average home humidity fine",
+    "light": "Medium to bright indirect light",
+    "water": "Let top 2-3 cm dry; sensitive to overwatering",
+    "catSafe": true,
+    "catNote": "Non-toxic to cats per ASPCA (listed as Emerald Ripple Peperomia, P. caperata)",
+    "difficulty": "easy",
+    "note": "Dark rippled leaves with red undersides; sends up quirky rat-tail flower spikes"
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/peperomia-rosso/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/peperomia-rosso/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "11:03",
+     "original": "PXL_20260806_150342322.jpg"
+    }
+   ]
+  },
+  {
+   "id": "spider-plant-bonnie",
+   "name": "Curly Spider Plant",
+   "scientificName": "Chlorophytum comosum 'Bonnie'",
+   "nickname": null,
+   "tags": [
+    "foliage",
+    "hanging"
+   ],
+   "idConfidence": "confirmed",
+   "idNote": "",
+   "care": {
+    "humidity": "Average home humidity (40-50%) fine",
+    "light": "Medium to bright indirect; avoid direct midday sun",
+    "water": "Let top 2-5 cm dry between waterings",
+    "catSafe": true,
+    "catNote": "Non-toxic to cats per ASPCA, though cats love chewing it and may get mild GI upset",
+    "difficulty": "easy",
+    "note": "Fluoride in tap water causes brown tips; 'Bonnie' has fun curly leaves and makes babies"
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/spider-plant-bonnie/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/spider-plant-bonnie/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "11:03",
+     "original": "PXL_20260806_150347643.jpg"
+    }
+   ]
+  },
+  {
+   "id": "chenille-plant",
+   "name": "Trailing Chenille Plant",
+   "scientificName": "Acalypha reptans",
+   "nickname": null,
+   "tags": [
+    "flowering",
+    "hanging"
+   ],
+   "idConfidence": "likely",
+   "idNote": "",
+   "care": {
+    "humidity": "High; mist or use a pebble tray",
+    "light": "Bright light with some direct sun for blooms",
+    "water": "Keep soil evenly moist year-round",
+    "catSafe": false,
+    "catNote": "ASPCA lists chenille (Acalypha) as toxic to cats: drooling, vomiting, diarrhea.",
+    "difficulty": "moderate",
+    "note": "Fuzzy red 'cat tail' catkins bloom nearly year-round; pinch off faded ones to encourage more."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/chenille-plant/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/chenille-plant/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "11:03",
+     "original": "PXL_20260806_150351227.jpg"
+    }
+   ]
+  },
+  {
+   "id": "rubber-plant",
+   "name": "Rubber Plant",
+   "scientificName": "Ficus elastica 'Burgundy'",
+   "nickname": null,
+   "tags": [
+    "foliage",
+    "tree"
+   ],
+   "idConfidence": "confirmed",
+   "idNote": "",
+   "care": {
+    "humidity": "Average home humidity fine; occasional misting appreciated",
+    "light": "Bright indirect; more light deepens the burgundy color",
+    "water": "Let top 3-5 cm dry between thorough waterings",
+    "catSafe": false,
+    "catNote": "Toxic to cats per ASPCA (ficin and ficusin in milky sap); GI and skin irritation",
+    "difficulty": "easy",
+    "note": "Wipe the big leaves so they can breathe; milky sap can irritate skin when pruning"
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/rubber-plant/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/rubber-plant/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "11:03",
+     "original": "PXL_20260806_150357146.MP.jpg"
+    }
+   ]
+  },
+  {
+   "id": "blue-star-juniper",
+   "name": "Blue Star Juniper",
+   "scientificName": "Juniperus squamata 'Blue Star'",
+   "nickname": null,
+   "tags": [
+    "tree",
+    "conifer"
+   ],
+   "idConfidence": "likely",
+   "idNote": "Currently hosting two felt birds.",
+   "care": {
+    "humidity": "Fine in dry air; wants good air circulation",
+    "light": "Full sun",
+    "water": "Well-drained; drought tolerant once established, water in dry spells",
+    "catSafe": false,
+    "catNote": "Not on ASPCA lists; junipers can cause GI upset if nibbled, so treat as unsafe.",
+    "difficulty": "easy",
+    "note": "Very slow growing and cold hardy; can overwinter outside in a pot in the Northeast."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/blue-star-juniper/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/blue-star-juniper/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "11:04",
+     "original": "PXL_20260806_150415231.jpg"
+    }
+   ]
+  },
+  {
+   "id": "dianthus",
+   "name": "Pinks",
+   "scientificName": "Dianthus sp.",
+   "nickname": null,
+   "tags": [
+    "flowering",
+    "perennial"
+   ],
+   "idConfidence": "confirmed",
+   "idNote": "Store label reads DIANTHUS.",
+   "care": {
+    "humidity": "Low; needs good air circulation",
+    "light": "Full sun",
+    "water": "Moderate; well-drained soil, avoid soggy crowns",
+    "catSafe": false,
+    "catNote": "ASPCA lists pinks/carnations (Dianthus) as toxic to cats: mild GI upset and dermatitis.",
+    "difficulty": "easy",
+    "note": "Flowers smell of cloves; shear plants after the first flush for a repeat bloom."
+   },
+   "lineage": {
+    "parent": null,
+    "propagationNote": null
+   },
+   "photos": [
+    {
+     "src": "projects/images/plant-pictures/dianthus/2026-08-06.jpg",
+     "thumb": "projects/images/plant-pictures/dianthus/2026-08-06_thumb.jpg",
+     "date": "2026-08-06",
+     "time": "11:04",
+     "original": "PXL_20260806_150431458.jpg"
+    }
+   ]
+  }
+ ]
+}

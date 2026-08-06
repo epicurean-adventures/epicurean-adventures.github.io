@@ -34,6 +34,130 @@
     overflow: visible;
 }
 
+/* ─── Our Plants ────────────────────────────────────────────────────────────── */
+
+.plants-search {
+    max-width: 240px;
+}
+
+.plants-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 1.25rem;
+}
+
+.plant-card {
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+    cursor: pointer;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.plant-card:hover {
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.14);
+    transform: translateY(-2px);
+}
+
+.plant-card-img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+}
+
+.plant-card-body {
+    padding: 0.75rem 0.9rem 0.85rem;
+}
+
+.plant-card-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.15rem;
+}
+
+.plant-card .scientific-name,
+#plant-modal .scientific-name {
+    color: #6c757d;
+    font-style: italic;
+    font-size: 0.82rem;
+}
+
+.plant-nickname {
+    font-size: 0.85rem;
+    color: #d63384;
+    margin-top: 0.15rem;
+}
+
+.plant-card-date {
+    font-size: 0.78rem;
+    color: #adb5bd;
+    margin-top: 0.4rem;
+}
+
+.cat-badge {
+    font-size: 0.7rem;
+    flex-shrink: 0;
+}
+
+.cat-badge.cat-safe {
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+
+.cat-badge.cat-toxic {
+    background-color: #f8d7da;
+    color: #842029;
+}
+
+.cat-badge.cat-unknown {
+    background-color: #e9ecef;
+    color: #6c757d;
+}
+
+.care-row {
+    display: flex;
+    align-items: baseline;
+    gap: 0.55rem;
+    margin-bottom: 0.35rem;
+    font-size: 0.92rem;
+}
+
+.care-icon {
+    width: 1.1rem;
+    text-align: center;
+    color: #198754;
+}
+
+.plant-timeline {
+    display: flex;
+    gap: 0.75rem;
+    overflow-x: auto;
+    padding-bottom: 0.5rem;
+}
+
+.plant-photo-figure {
+    flex: 0 0 auto;
+    width: 220px;
+    margin: 0;
+}
+
+.plant-photo-figure img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.plant-photo-figure figcaption {
+    font-size: 0.78rem;
+    color: #6c757d;
+    margin-top: 0.25rem;
+    text-align: center;
+}
+
 /* ─── Projects Grid ─────────────────────────────────────────────────────────── */
 
 .projects-heading {

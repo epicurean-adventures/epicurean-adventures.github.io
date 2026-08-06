@@ -2,7 +2,11 @@
   "permissions": {
     "allow": [
       "Bash(ls /Users/yunyizhu/Desktop/websites/epicurean-adventures.github.io/*.html)",
-      "Bash(wc -l /Users/yunyizhu/Desktop/websites/epicurean-adventures.github.io/js/*.js /Users/yunyizhu/Desktop/websites/epicurean-adventures.github.io/css/styles.css)"
+      "Bash(wc -l /Users/yunyizhu/Desktop/websites/epicurean-adventures.github.io/js/*.js /Users/yunyizhu/Desktop/websites/epicurean-adventures.github.io/css/styles.css)",
+      "Bash(sips -g pixelWidth -g pixelHeight \"projects/images/plant-pictures/PXL_20260806_144710425.jpg\")",
+      "Bash(sips -g creation -g make -g model \"PXL_20260806_144710425.jpg\")",
+      "Bash(mdls -name kMDItemContentCreationDate \"PXL_20260806_144710425.jpg\")",
+      "WebSearch"
     ]
   }
 }
