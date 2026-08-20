@@ -1,50 +1,130 @@
 [
-    {
-        "title": "Niuniu Drawing #40",
-        "tags": ["2d-art", "digital-drawing","digital-painting","niuniu-drawing"],
-        "description": "A digital drawing of Niuniu.",
-        "page_link": "",
-        "picture": "projects/images/drawing/niuniu/40_niuniu.png",
-        "date_added": "2023-01-23"
-    },
-    {
-        "title": "Niuniu Drawing #41",
-        "tags": ["2d-art", "digital-drawing","digital-painting","niuniu-drawing"],
-        "description": "A digital drawing of Niuniu.",
-        "page_link": "",
-        "picture": "projects/images/drawing/niuniu/41_niuniu.png",
-        "date_added": "2023-01-23"
-    },
-    {
-        "title": "Niuniu Drawing #42",
-        "tags": ["2d-art", "digital-drawing","digital-painting","niuniu-drawing"],
-        "description": "A digital drawing of Niuniu.",
-        "page_link": "",
-        "picture": "projects/images/drawing/niuniu/42_niuniu.png",
-        "date_added": "2023-01-23"
-    },
-    {
-        "title": "Warhammer Faction Name",
-        "tags": ["3d-art", "warhammer"],
-        "description": "Painted warhammer model.",
-        "page_link": "",
-        "picture": "projects/images/warhammer/1.jpg",
-        "date_added": "2025-03-22"
-    },
-    {
-        "title": "Warhammer Faction Name",
-        "tags": ["3d-art", "warhammer"],
-        "description": "Painted warhammer model.",
-        "page_link": "",
-        "picture": "projects/images/warhammer/2.jpg",
-        "date_added": "2025-03-22"
-    },
-    {
-        "title": "Warhammer Faction Name",
-        "tags": ["3d-art", "warhammer"],
-        "description": "Painted warhammer model.",
-        "page_link": "",
-        "picture": "projects/images/warhammer/3.jpg",
-        "date_added": "2025-03-22"
-    }
-  ]
+ {
+  "title": "Cat Market",
+  "section": "Watercolors",
+  "description": "Watercolor: the neighborhood market, fully staffed by cats - gelato, fresh peaches (sold by Peaches), noodles, and self-serve peppers.",
+  "page_link": "",
+  "picture": "projects/images/drawing/watercolor/cat-market_2026-08-10.jpg",
+  "date_added": "2026-08-10"
+ },
+ {
+  "title": "Studies of a Calico (with Critic)",
+  "section": "Watercolors",
+  "description": "Watercolor studies of Peaches, presented to Peaches for review. The critic remains unmoved.",
+  "page_link": "",
+  "picture": "projects/images/drawing/watercolor/peaches-studies_2026-08-15.jpg",
+  "date_added": "2026-08-15"
+ },
+ {
+  "title": "Warhammer Faction Name",
+  "section": "Warhammer Miniatures",
+  "description": "Painted warhammer model.",
+  "page_link": "",
+  "picture": "projects/images/warhammer/1.jpg",
+  "date_added": "2025-03-22"
+ },
+ {
+  "title": "Warhammer Faction Name",
+  "section": "Warhammer Miniatures",
+  "description": "Painted warhammer model.",
+  "page_link": "",
+  "picture": "projects/images/warhammer/2.jpg",
+  "date_added": "2025-03-22"
+ },
+ {
+  "title": "Warhammer Faction Name",
+  "section": "Warhammer Miniatures",
+  "description": "Painted warhammer model.",
+  "page_link": "",
+  "picture": "projects/images/warhammer/3.jpg",
+  "date_added": "2025-03-22"
+ },
+ {
+  "title": "Niuniu, Head Bowed",
+  "section": "Digital Paintings",
+  "description": "Digital painting of Niuniu, deep in thought.",
+  "page_link": "",
+  "picture": "projects/images/drawing/digital/40_niuniu.png",
+  "date_added": "2023-01-23"
+ },
+ {
+  "title": "Niuniu, Front and Center",
+  "section": "Digital Paintings",
+  "description": "Digital painting of Niuniu sitting at attention, green eyes on you.",
+  "page_link": "",
+  "picture": "projects/images/drawing/digital/41_niuniu.png",
+  "date_added": "2023-01-23"
+ },
+ {
+  "title": "Niuniu, Full Stretch",
+  "section": "Digital Paintings",
+  "description": "Digital painting of Niuniu caught mid-leap.",
+  "page_link": "",
+  "picture": "projects/images/drawing/digital/42_niuniu.png",
+  "date_added": "2023-01-23"
+ },
+ {
+  "title": "Niuniu, Looking Up",
+  "section": "Digital Paintings",
+  "description": "Digital painting of Niuniu gazing at something above.",
+  "page_link": "",
+  "picture": "projects/images/drawing/digital/43_niuniu.png",
+  "date_added": "2023-01-23"
+ },
+ {
+  "title": "Piglet",
+  "section": "Digital Paintings",
+  "description": "Digital painting of the resident Piglet plush.",
+  "page_link": "",
+  "picture": "projects/images/drawing/digital/44_piglet.png",
+  "date_added": "2023-01-23"
+ },
+ {
+  "title": "Niuniu, Standing Tall",
+  "section": "Digital Paintings",
+  "description": "Digital painting of Niuniu up on two legs, reaching for greatness.",
+  "page_link": "",
+  "picture": "projects/images/drawing/digital/45_niuniu.png",
+  "date_added": "2023-01-23"
+ },
+ {
+  "title": "Niuniu, Loafing",
+  "section": "Digital Paintings",
+  "description": "Digital painting of Niuniu in classic loaf formation.",
+  "page_link": "",
+  "picture": "projects/images/drawing/digital/46_niuniu.png",
+  "date_added": "2023-01-23"
+ },
+ {
+  "title": "Niuniu by Night",
+  "section": "Digital Paintings",
+  "description": "Digital painting of Niuniu in profile against the dark.",
+  "page_link": "",
+  "picture": "projects/images/drawing/digital/47_niuniu.png",
+  "date_added": "2023-01-23"
+ },
+ {
+  "title": "Caterpie",
+  "section": "Digital Paintings",
+  "description": "Digital painting of the Caterpie plush, string shot not pictured.",
+  "page_link": "",
+  "picture": "projects/images/drawing/digital/48_caterpie.png",
+  "date_added": "2023-01-23"
+ },
+ {
+  "title": "Niuniu, Belly Up",
+  "section": "Digital Paintings",
+  "description": "Digital painting of Niuniu rolling over, showing the belly trap.",
+  "page_link": "",
+  "picture": "projects/images/drawing/digital/49_niuniu.png",
+  "date_added": "2023-01-23"
+ },
+ {
+  "title": "Pumpkin Bran",
+  "section": "Digital Paintings",
+  "description": "Digital painting of Pumpkin Bran, a friend's most excellent calico.",
+  "page_link": "",
+  "picture": "projects/images/drawing/digital/50_pumpkin-bran.png",
+  "date_added": "2023-01-23"
+ }
+]

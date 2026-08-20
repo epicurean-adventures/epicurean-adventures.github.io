@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Spencer's Bar: the drinks we've tried, tasted, and photographed." />
+        <meta name="author" content="Spencer and Yunyi" />
+        <title>Drinks - Epicurean Adventures</title>
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/custom.css" rel="stylesheet" />
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="sb-nav-fixed">
+        <!-- Navbar Placeholder -->
+        <div id="navbar-placeholder"></div>
+
+        <div id="layoutSidenav">
+            <!-- Sidebar Placeholder -->
+            <div id="sidebar-placeholder"></div>
+
+            <!-- Main Content Area -->
+            <div id="layoutSidenav_content">
+                <main>
+                    <div class="container-fluid px-4">
+                        <!-- Hero: the real Spencer's Bar sign, cut out of its photo -->
+                        <div class="drinks-hero">
+                            <div>
+                                <h1 class="mt-4">Spencer's Bar</h1>
+                                <p class="mb-2">
+                                    The house drinks ledger &mdash; beers, spirits, and whatever else
+                                    makes it past the bottle opener. Click a card for photos and tasting notes.
+                                </p>
+                            </div>
+                            <img src="projects/images/drinks/spencer-bar/sign.webp"
+                                 alt="Spencer's Bar - carved wooden sign with bottle opener"
+                                 class="drinks-hero-sign" />
+                        </div>
+
+                        <!-- Filter / search controls (chips are built from drinks.json) -->
+                        <div class="d-flex flex-wrap align-items-center gap-2 mb-2">
+                            <div class="input-group plants-search">
+                                <span class="input-group-text"><i class="fas fa-search"></i></span>
+                                <input type="text" id="drink-search" class="form-control" placeholder="Search drinks..." aria-label="Search drinks" />
+                            </div>
+                            <div id="drink-filters" class="btn-group flex-wrap" role="group" aria-label="Drink categories"></div>
+                            <span id="drink-count" class="text-muted ms-auto small"></span>
+                        </div>
+                        <div id="drink-subfilters" class="btn-group flex-wrap mb-3 d-none" role="group" aria-label="Drink styles"></div>
+
+                        <div id="loading-message" class="text-center my-5">
+                            <div class="spinner-border text-warning" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                            <p class="mt-2">Opening the bar...</p>
+                        </div>
+                        <div id="error-message" class="alert alert-danger d-none" role="alert">
+                            <i class="fas fa-exclamation-triangle me-2"></i>
+                            <span id="error-text"></span>
+                        </div>
+
+                        <!-- Drink cards -->
+                        <div id="drinks-grid" class="plants-grid mb-5"></div>
+                    </div>
+                </main>
+                <!-- Footer Placeholder -->
+                <div id="footer-placeholder"></div>
+            </div>
+        </div>
+
+        <!-- Drink detail modal -->
+        <div class="modal fade" id="drink-modal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div>
+                            <h5 class="modal-title" id="drink-modal-title"></h5>
+                            <div class="drink-maker" id="drink-modal-maker"></div>
+                        </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" id="drink-modal-body"></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="js/search.js"></script>
+        <script src="js/includes.js"></script>
+        <script src="js/drinks.js"></script>
+    </body>
+</html>

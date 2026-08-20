@@ -22,6 +22,12 @@ class PlantsPage {
             document.getElementById('loading-message').classList.add('d-none');
             this.attachControls();
             this.render();
+            // Deep-linkable filter: plants.html?filter=cat-safe
+            const wanted = new URLSearchParams(window.location.search).get('filter');
+            if (wanted) {
+                const btn = document.querySelector(`#plant-filters button[data-filter="${CSS.escape(wanted)}"]`);
+                if (btn) btn.click();
+            }
             // Deep link: plants.html#plant-id opens that plant's details
             const hash = decodeURIComponent(window.location.hash.replace('#', ''));
             if (hash && this.plants.some(p => p.id === hash)) this.openModal(hash);

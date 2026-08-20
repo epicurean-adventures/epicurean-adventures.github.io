@@ -1,0 +1,151 @@
+{
+ "updated": "2026-08-20",
+ "drinks": [
+  {
+   "id": "rock-dove-ipa",
+   "name": "Rock Dove",
+   "maker": "Lucky Pigeon Brewing Co.",
+   "makerLocation": "Biddeford, ME",
+   "makerLogo": "projects/images/drinks/_logos/lucky-pigeon.webp",
+   "style": "New England IPA",
+   "category": "beer",
+   "subcategory": "IPA",
+   "abv": "6.5%",
+   "tags": [
+    "beer",
+    "ipa",
+    "gluten-free"
+   ],
+   "notes": "From Maine's first dedicated gluten-free brewery. Intensely hoppy yet soft and drinkable - notes of mango, stone fruit, and candied orange.",
+   "rating": null,
+   "dateTried": "2026-08-20",
+   "photos": [
+    {
+     "src": "projects/images/drinks/rock-dove-ipa/2026-08-20.jpg",
+     "thumb": "projects/images/drinks/rock-dove-ipa/2026-08-20_thumb.jpg",
+     "date": "2026-08-20",
+     "time": "09:59",
+     "original": "PXL_20260820_135932516.jpg"
+    },
+    {
+     "src": "projects/images/drinks/rock-dove-ipa/2026-08-20_2.jpg",
+     "thumb": "projects/images/drinks/rock-dove-ipa/2026-08-20_2_thumb.jpg",
+     "date": "2026-08-20",
+     "time": "09:59",
+     "original": "PXL_20260820_135938460.jpg"
+    },
+    {
+     "src": "projects/images/drinks/rock-dove-ipa/2026-08-20_3.jpg",
+     "thumb": "projects/images/drinks/rock-dove-ipa/2026-08-20_3_thumb.jpg",
+     "date": "2026-08-20",
+     "time": "09:59",
+     "original": "PXL_20260820_135943938.jpg"
+    }
+   ]
+  },
+  {
+   "id": "baby-kittens",
+   "name": "Baby Kittens",
+   "maker": "Fat Orange Cat Brew Co.",
+   "makerLocation": "East Hampton, CT",
+   "makerLogo": "projects/images/drinks/_logos/fat-orange-cat.webp",
+   "style": "Hazy New England IPA",
+   "category": "beer",
+   "subcategory": "IPA",
+   "abv": "6.5%",
+   "tags": [
+    "beer",
+    "ipa",
+    "hazy"
+   ],
+   "notes": "Smooth, juicy hazy IPA from a farmhouse brewery where every label crawls with technicolor kittens.",
+   "rating": null,
+   "dateTried": "2026-08-20",
+   "photos": [
+    {
+     "src": "projects/images/drinks/baby-kittens/2026-08-20.jpg",
+     "thumb": "projects/images/drinks/baby-kittens/2026-08-20_thumb.jpg",
+     "date": "2026-08-20",
+     "time": "10:00",
+     "original": "PXL_20260820_140052248.jpg"
+    },
+    {
+     "src": "projects/images/drinks/baby-kittens/2026-08-20_2.jpg",
+     "thumb": "projects/images/drinks/baby-kittens/2026-08-20_2_thumb.jpg",
+     "date": "2026-08-20",
+     "time": "10:00",
+     "original": "PXL_20260820_140057910.jpg"
+    },
+    {
+     "src": "projects/images/drinks/baby-kittens/2026-08-20_3.jpg",
+     "thumb": "projects/images/drinks/baby-kittens/2026-08-20_3_thumb.jpg",
+     "date": "2026-08-20",
+     "time": "10:01",
+     "original": "PXL_20260820_140103914.jpg"
+    }
+   ]
+  },
+  {
+   "id": "beer-named-duck",
+   "name": "a beer named duck",
+   "maker": "Mast Landing Brewing Co.",
+   "makerLocation": "Westbrook, ME",
+   "makerLogo": "projects/images/drinks/_logos/mast-landing.webp",
+   "style": "New England Pale Ale",
+   "category": "beer",
+   "subcategory": "Pale Ale",
+   "abv": "5.2%",
+   "tags": [
+    "beer",
+    "pale-ale"
+   ],
+   "notes": "Easy-drinking pale ale brewed with Simcoe, Centennial, and Cascade hops - crisp citrus and floral brightness.",
+   "rating": null,
+   "dateTried": "2026-08-20",
+   "photos": [
+    {
+     "src": "projects/images/drinks/beer-named-duck/2026-08-20.jpg",
+     "thumb": "projects/images/drinks/beer-named-duck/2026-08-20_thumb.jpg",
+     "date": "2026-08-20",
+     "time": "10:01",
+     "original": "PXL_20260820_140111711.jpg"
+    },
+    {
+     "src": "projects/images/drinks/beer-named-duck/2026-08-20_2.jpg",
+     "thumb": "projects/images/drinks/beer-named-duck/2026-08-20_2_thumb.jpg",
+     "date": "2026-08-20",
+     "time": "10:01",
+     "original": "PXL_20260820_140116189.jpg"
+    }
+   ]
+  },
+  {
+   "id": "tom-cat-gin",
+   "name": "Tom Cat Gin (Barrel Selection)",
+   "maker": "Barr Hill / Caledonia Spirits",
+   "makerLocation": "Montpelier, VT",
+   "makerLogo": "projects/images/drinks/_logos/barr-hill.webp",
+   "style": "Barrel-aged gin",
+   "category": "spirits",
+   "subcategory": "Gin",
+   "abv": "43% (86 proof)",
+   "tags": [
+    "spirits",
+    "gin",
+    "barrel-aged"
+   ],
+   "notes": "Raw-honey gin aged in new charred American oak - juniper up front, then caramel, spice, and oak. This bottle is a Gordon's barrel selection.",
+   "rating": null,
+   "dateTried": "2026-05-05",
+   "photos": [
+    {
+     "src": "projects/images/drinks/tom-cat-gin/2026-05-05.jpg",
+     "thumb": "projects/images/drinks/tom-cat-gin/2026-05-05_thumb.jpg",
+     "date": "2026-05-05",
+     "time": "19:08",
+     "original": "PXL_20260505_230822946.jpg"
+    }
+   ]
+  }
+ ]
+}

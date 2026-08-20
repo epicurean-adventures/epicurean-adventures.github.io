@@ -1,4 +1,7 @@
 # Full-resolution photo originals (large, may contain GPS EXIF) - keep local only
 projects/images/plant-pictures/_originals/
+projects/images/drinks/_originals/
 .env
 .DS_Store
+projects/images/peaches/_originals/
+projects/images/drawing/watercolor/_originals/
