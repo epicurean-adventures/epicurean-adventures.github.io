@@ -1,9 +1,10 @@
 // drinks.js - renders the Spencer's Bar drinks ledger from projects/drinks.json.
 //
-// Each drink groups one or more photos (front/side/back or repeat tastings)
-// with dates preserved, plus style, ABV, tasting notes, and a rating slot.
-// Filters are two levels: category (beer, spirits, ...) then style
-// subcategory (IPA, Pale Ale, Gin, ...), both built from the data.
+// Each drink groups one or more photos with dates preserved, plus style, ABV,
+// tasting notes, and a rating slot. Filters are two levels: category then
+// style subcategory, both built from the data. Text data may be bilingual
+// ({en, zh}); UI strings come from the I18N dictionary and the page
+// re-renders on language toggle.
 
 class DrinksPage {
     constructor() {
@@ -51,6 +52,10 @@ class DrinksPage {
             // Deep link: drinks.html#drink-id opens that drink's details
             const hash = decodeURIComponent(window.location.hash.replace('#', ''));
             if (hash && this.drinks.some(d => d.id === hash)) this.openModal(hash);
+            document.addEventListener('langchange', () => {
+                this.buildFilters(true);
+                this.render();
+            });
         } catch (error) {
             document.getElementById('loading-message').classList.add('d-none');
             const err = document.getElementById('error-message');
@@ -59,15 +64,29 @@ class DrinksPage {
         }
     }
 
-    // Top-level category chips (All, Beer, Spirits, ...), built from the data
-    buildFilters() {
+    catLabel(cat) {
+        const key = 'cat.' + cat;
+        const label = I18N.t(key);
+        return label === key ? this.cap(cat) : label;
+    }
+
+    subLabel(sub) {
+        const key = 'sub.' + sub;
+        const label = I18N.t(key);
+        return label === key ? sub : label;
+    }
+
+    // Top-level category chips (All, Beer, Spirits, ...), built from the data.
+    // keepSelection preserves the active filter across a language re-render.
+    buildFilters(keepSelection = false) {
+        const selected = keepSelection ? this.filter : 'all';
         const categories = [...new Set(this.drinks.map(d => d.category))].sort();
         const chip = cat => {
             const icon = this.categoryIcons[cat] ? `<i class="fas ${this.categoryIcons[cat]} me-1"></i>` : '';
-            return `<button type="button" class="btn btn-outline-warning btn-sm" data-filter="${cat}">${icon}${this.cap(cat)}</button>`;
+            return `<button type="button" class="btn btn-outline-warning btn-sm${cat === selected ? ' active' : ''}" data-filter="${cat}">${icon}${this.catLabel(cat)}</button>`;
         };
         this.filtersEl.innerHTML =
-            `<button type="button" class="btn btn-outline-warning btn-sm active" data-filter="all">All</button>` +
+            `<button type="button" class="btn btn-outline-warning btn-sm${selected === 'all' ? ' active' : ''}" data-filter="all">${I18N.t('drinks.all')}</button>` +
             categories.map(chip).join('');
         this.filtersEl.querySelectorAll('button').forEach(btn => {
             btn.addEventListener('click', () => {
@@ -79,11 +98,14 @@ class DrinksPage {
                 this.render();
             });
         });
-        this.buildSubfilters();
+        this.filter = selected;
+        this.buildSubfilters(keepSelection);
     }
 
     // Second-level style chips (IPA, Pale Ale, ...) for the selected category
-    buildSubfilters() {
+    buildSubfilters(keepSelection = false) {
+        const selected = keepSelection ? this.subfilter : 'all';
+        this.subfilter = selected;
         if (this.filter === 'all') {
             this.subfiltersEl.classList.add('d-none');
             this.subfiltersEl.innerHTML = '';
@@ -100,8 +122,8 @@ class DrinksPage {
         }
         this.subfiltersEl.classList.remove('d-none');
         this.subfiltersEl.innerHTML =
-            `<button type="button" class="btn btn-outline-secondary btn-sm active" data-subfilter="all">All ${this.esc(this.cap(this.filter))}</button>` +
-            subs.map(s => `<button type="button" class="btn btn-outline-secondary btn-sm" data-subfilter="${this.esc(s)}">${this.esc(s)}</button>`).join('');
+            `<button type="button" class="btn btn-outline-secondary btn-sm${selected === 'all' ? ' active' : ''}" data-subfilter="all">${I18N.t('drinks.allOf').replace('{cat}', this.catLabel(this.filter))}</button>` +
+            subs.map(s => `<button type="button" class="btn btn-outline-secondary btn-sm${s === selected ? ' active' : ''}" data-subfilter="${this.esc(s)}">${this.esc(this.subLabel(s))}</button>`).join('');
         this.subfiltersEl.querySelectorAll('button').forEach(btn => {
             btn.addEventListener('click', () => {
                 this.subfiltersEl.querySelectorAll('button').forEach(b => b.classList.remove('active'));
@@ -116,7 +138,7 @@ class DrinksPage {
         if (this.filter !== 'all' && drink.category !== this.filter) return false;
         if (this.subfilter !== 'all' && drink.subcategory !== this.subfilter) return false;
         if (this.query) {
-            const hay = [drink.name, drink.maker, drink.makerLocation, drink.style, drink.subcategory, drink.tags.join(' ')].join(' ').toLowerCase();
+            const hay = [drink.name, drink.maker, I18N.all(drink.makerLocation), I18N.all(drink.style), drink.subcategory, drink.tags.join(' ')].join(' ').toLowerCase();
             if (!hay.includes(this.query)) return false;
         }
         return true;
@@ -133,14 +155,14 @@ class DrinksPage {
     // Brewery/distillery block: logo (or monogram fallback) + name, location below
     makerHtml(drink) {
         const mark = drink.makerLogo
-            ? `<img src="${drink.makerLogo}" alt="${this.esc(drink.maker)} logo" class="drink-maker-logo" loading="lazy" />`
+            ? `<img src="${drink.makerLogo}" alt="${this.esc(drink.maker)}" class="drink-maker-logo" loading="lazy" />`
             : `<span class="drink-maker-monogram">${this.esc(this.monogram(drink.maker))}</span>`;
         return `
             <div class="drink-maker-row">
                 ${mark}
                 <div>
                     <div class="drink-maker-name">${this.esc(drink.maker)}</div>
-                    <div class="drink-maker-loc"><i class="fas fa-location-dot me-1"></i>${this.esc(drink.makerLocation || '')}</div>
+                    <div class="drink-maker-loc"><i class="fas fa-location-dot me-1"></i>${this.esc(I18N.tr(drink.makerLocation) || '')}</div>
                 </div>
             </div>`;
     }
@@ -155,7 +177,7 @@ class DrinksPage {
 
     render() {
         const visible = this.drinks.filter(d => this.matches(d));
-        this.countEl.textContent = `${visible.length} of ${this.drinks.length} drinks`;
+        this.countEl.textContent = I18N.t('drinks.count').replace('{n}', visible.length).replace('{total}', this.drinks.length);
         this.grid.innerHTML = visible.map(drink => this.cardHtml(drink)).join('');
         this.grid.querySelectorAll('[data-drink-id]').forEach(card => {
             card.addEventListener('click', () => this.openModal(card.dataset.drinkId));
@@ -172,10 +194,10 @@ class DrinksPage {
                         <h2 class="plant-card-title">${this.esc(drink.name)}</h2>
                         <span class="badge drink-abv">${this.esc(drink.abv)}</span>
                     </div>
-                    <div class="drink-style">${this.esc(drink.style)} ${this.ratingHtml(drink)}</div>
+                    <div class="drink-style">${this.esc(I18N.tr(drink.style))} ${this.ratingHtml(drink)}</div>
                     ${this.makerHtml(drink)}
                     <div class="plant-card-date"><i class="fas fa-calendar-day me-1"></i>${this.fmtDate(drink.dateTried)}
-                        ${drink.photos.length > 1 ? `&middot; <i class="fas fa-camera me-1"></i>${drink.photos.length} photos` : ''}
+                        ${drink.photos.length > 1 ? `&middot; <i class="fas fa-camera me-1"></i>${drink.photos.length} ${I18N.t('drinks.photos')}` : ''}
                     </div>
                 </div>
             </div>`;
@@ -196,22 +218,23 @@ class DrinksPage {
     modalHtml(drink) {
         const gallery = drink.photos.map(photo => `
             <figure class="plant-photo-figure">
-                <a href="${photo.src}" target="_blank" rel="noopener" title="Open full size">
+                <a href="${photo.src}" target="_blank" rel="noopener">
                     <img src="${photo.src}" alt="${this.esc(drink.name)}" loading="lazy" />
                 </a>
                 <figcaption><i class="fas fa-calendar-day me-1"></i>${this.fmtDate(photo.date)} &middot; ${photo.time}</figcaption>
             </figure>`).join('');
+        const notes = I18N.tr(drink.notes);
 
         return `
             <div class="d-flex flex-wrap gap-1 mb-2 align-items-center">
-                <span class="badge text-bg-warning">${this.esc(this.cap(drink.category))}${drink.subcategory ? ' &middot; ' + this.esc(drink.subcategory) : ''}</span>
-                <span class="badge text-bg-light border">${this.esc(drink.style)}</span>
+                <span class="badge text-bg-warning">${this.catLabel(drink.category)}${drink.subcategory ? ' &middot; ' + this.esc(this.subLabel(drink.subcategory)) : ''}</span>
+                <span class="badge text-bg-light border">${this.esc(I18N.tr(drink.style))}</span>
                 <span class="badge drink-abv">${this.esc(drink.abv)}</span>
                 ${this.ratingHtml(drink)}
             </div>
-            ${drink.notes ? `<p class="mb-1">${this.esc(drink.notes)}</p>` : ''}
-            <p class="small text-muted"><i class="fas fa-calendar-day me-1"></i>First tried ${this.fmtDate(drink.dateTried)}</p>
-            <h6 class="mt-3"><i class="fas fa-images me-1"></i>Photos</h6>
+            ${notes ? `<p class="mb-1">${this.esc(notes)}</p>` : ''}
+            <p class="small text-muted"><i class="fas fa-calendar-day me-1"></i>${I18N.t('drinks.firstTried')} ${this.fmtDate(drink.dateTried)}</p>
+            <h6 class="mt-3"><i class="fas fa-images me-1"></i>${I18N.t('drinks.photosHeading')}</h6>
             <div class="plant-timeline">${gallery}</div>`;
     }
 
@@ -221,7 +244,7 @@ class DrinksPage {
 
     fmtDate(iso) {
         const [y, m, d] = iso.split('-').map(Number);
-        return new Date(y, m - 1, d).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+        return new Date(y, m - 1, d).toLocaleDateString(I18N.dateLocale(), { year: 'numeric', month: 'short', day: 'numeric' });
     }
 
     esc(text) {

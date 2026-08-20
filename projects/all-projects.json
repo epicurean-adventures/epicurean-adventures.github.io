@@ -1,128 +1,272 @@
 [
  {
-  "title": "Cat Market",
-  "section": "Watercolors",
-  "description": "Watercolor: the neighborhood market, fully staffed by cats - gelato, fresh peaches (sold by Peaches), noodles, and self-serve peppers.",
+  "title": {
+   "en": "Cat Market",
+   "zh": "《猫咪市集》"
+  },
+  "section": {
+   "en": "Watercolors",
+   "zh": "水彩"
+  },
+  "description": {
+   "en": "Watercolor: the neighborhood market, fully staffed by cats - gelato, fresh peaches (sold by Peaches), noodles, and self-serve peppers.",
+   "zh": "水彩：由猫全员经营的街边市集——冰淇淋、鲜桃（Peaches 卖的）、面条和自助辣椒。"
+  },
   "page_link": "",
   "picture": "projects/images/drawing/watercolor/cat-market_2026-08-10.jpg",
   "date_added": "2026-08-10"
  },
  {
-  "title": "Studies of a Calico (with Critic)",
-  "section": "Watercolors",
-  "description": "Watercolor studies of Peaches, presented to Peaches for review. The critic remains unmoved.",
+  "title": {
+   "en": "Studies of a Calico (with Critic)",
+   "zh": "《三花猫习作（附评审）》"
+  },
+  "section": {
+   "en": "Watercolors",
+   "zh": "水彩"
+  },
+  "description": {
+   "en": "Watercolor studies of Peaches, presented to Peaches for review. The critic remains unmoved.",
+   "zh": "水彩：Peaches 的速写习作，呈给 Peaches 本猫过目。评审不为所动。"
+  },
   "page_link": "",
   "picture": "projects/images/drawing/watercolor/peaches-studies_2026-08-15.jpg",
   "date_added": "2026-08-15"
  },
  {
-  "title": "Warhammer Faction Name",
-  "section": "Warhammer Miniatures",
-  "description": "Painted warhammer model.",
+  "title": {
+   "en": "Warhammer Faction Name",
+   "zh": "战锤模型（待命名）"
+  },
+  "section": {
+   "en": "Warhammer Miniatures",
+   "zh": "战锤模型"
+  },
+  "description": {
+   "en": "Painted warhammer model.",
+   "zh": "上色完成的战锤模型。"
+  },
   "page_link": "",
   "picture": "projects/images/warhammer/1.jpg",
   "date_added": "2025-03-22"
  },
  {
-  "title": "Warhammer Faction Name",
-  "section": "Warhammer Miniatures",
-  "description": "Painted warhammer model.",
+  "title": {
+   "en": "Warhammer Faction Name",
+   "zh": "战锤模型（待命名）"
+  },
+  "section": {
+   "en": "Warhammer Miniatures",
+   "zh": "战锤模型"
+  },
+  "description": {
+   "en": "Painted warhammer model.",
+   "zh": "上色完成的战锤模型。"
+  },
   "page_link": "",
   "picture": "projects/images/warhammer/2.jpg",
   "date_added": "2025-03-22"
  },
  {
-  "title": "Warhammer Faction Name",
-  "section": "Warhammer Miniatures",
-  "description": "Painted warhammer model.",
+  "title": {
+   "en": "Warhammer Faction Name",
+   "zh": "战锤模型（待命名）"
+  },
+  "section": {
+   "en": "Warhammer Miniatures",
+   "zh": "战锤模型"
+  },
+  "description": {
+   "en": "Painted warhammer model.",
+   "zh": "上色完成的战锤模型。"
+  },
   "page_link": "",
   "picture": "projects/images/warhammer/3.jpg",
   "date_added": "2025-03-22"
  },
  {
-  "title": "Niuniu, Head Bowed",
-  "section": "Digital Paintings",
-  "description": "Digital painting of Niuniu, deep in thought.",
+  "title": {
+   "en": "Niuniu, Head Bowed",
+   "zh": "《低头的 Niuniu》"
+  },
+  "section": {
+   "en": "Digital Paintings",
+   "zh": "数字绘画"
+  },
+  "description": {
+   "en": "Digital painting of Niuniu, deep in thought.",
+   "zh": "数字绘画：陷入沉思的 Niuniu。"
+  },
   "page_link": "",
   "picture": "projects/images/drawing/digital/40_niuniu.png",
   "date_added": "2023-01-23"
  },
  {
-  "title": "Niuniu, Front and Center",
-  "section": "Digital Paintings",
-  "description": "Digital painting of Niuniu sitting at attention, green eyes on you.",
+  "title": {
+   "en": "Niuniu, Front and Center",
+   "zh": "《正襟危坐的 Niuniu》"
+  },
+  "section": {
+   "en": "Digital Paintings",
+   "zh": "数字绘画"
+  },
+  "description": {
+   "en": "Digital painting of Niuniu sitting at attention, green eyes on you.",
+   "zh": "数字绘画：端坐注视你的 Niuniu，绿眼睛炯炯有神。"
+  },
   "page_link": "",
   "picture": "projects/images/drawing/digital/41_niuniu.png",
   "date_added": "2023-01-23"
  },
  {
-  "title": "Niuniu, Full Stretch",
-  "section": "Digital Paintings",
-  "description": "Digital painting of Niuniu caught mid-leap.",
+  "title": {
+   "en": "Niuniu, Full Stretch",
+   "zh": "《飞跃的 Niuniu》"
+  },
+  "section": {
+   "en": "Digital Paintings",
+   "zh": "数字绘画"
+  },
+  "description": {
+   "en": "Digital painting of Niuniu caught mid-leap.",
+   "zh": "数字绘画：腾空一跃的 Niuniu。"
+  },
   "page_link": "",
   "picture": "projects/images/drawing/digital/42_niuniu.png",
   "date_added": "2023-01-23"
  },
  {
-  "title": "Niuniu, Looking Up",
-  "section": "Digital Paintings",
-  "description": "Digital painting of Niuniu gazing at something above.",
+  "title": {
+   "en": "Niuniu, Looking Up",
+   "zh": "《仰望的 Niuniu》"
+  },
+  "section": {
+   "en": "Digital Paintings",
+   "zh": "数字绘画"
+  },
+  "description": {
+   "en": "Digital painting of Niuniu gazing at something above.",
+   "zh": "数字绘画：望着上方什么东西的 Niuniu。"
+  },
   "page_link": "",
   "picture": "projects/images/drawing/digital/43_niuniu.png",
   "date_added": "2023-01-23"
  },
  {
-  "title": "Piglet",
-  "section": "Digital Paintings",
-  "description": "Digital painting of the resident Piglet plush.",
+  "title": {
+   "en": "Piglet",
+   "zh": "《小猪皮杰》"
+  },
+  "section": {
+   "en": "Digital Paintings",
+   "zh": "数字绘画"
+  },
+  "description": {
+   "en": "Digital painting of the resident Piglet plush.",
+   "zh": "数字绘画：家里常驻的皮杰玩偶。"
+  },
   "page_link": "",
   "picture": "projects/images/drawing/digital/44_piglet.png",
   "date_added": "2023-01-23"
  },
  {
-  "title": "Niuniu, Standing Tall",
-  "section": "Digital Paintings",
-  "description": "Digital painting of Niuniu up on two legs, reaching for greatness.",
+  "title": {
+   "en": "Niuniu, Standing Tall",
+   "zh": "《站起来的 Niuniu》"
+  },
+  "section": {
+   "en": "Digital Paintings",
+   "zh": "数字绘画"
+  },
+  "description": {
+   "en": "Digital painting of Niuniu up on two legs, reaching for greatness.",
+   "zh": "数字绘画：两脚站立、志存高远的 Niuniu。"
+  },
   "page_link": "",
   "picture": "projects/images/drawing/digital/45_niuniu.png",
   "date_added": "2023-01-23"
  },
  {
-  "title": "Niuniu, Loafing",
-  "section": "Digital Paintings",
-  "description": "Digital painting of Niuniu in classic loaf formation.",
+  "title": {
+   "en": "Niuniu, Loafing",
+   "zh": "《趴窝的 Niuniu》"
+  },
+  "section": {
+   "en": "Digital Paintings",
+   "zh": "数字绘画"
+  },
+  "description": {
+   "en": "Digital painting of Niuniu in classic loaf formation.",
+   "zh": "数字绘画：经典“猫面包”造型的 Niuniu。"
+  },
   "page_link": "",
   "picture": "projects/images/drawing/digital/46_niuniu.png",
   "date_added": "2023-01-23"
  },
  {
-  "title": "Niuniu by Night",
-  "section": "Digital Paintings",
-  "description": "Digital painting of Niuniu in profile against the dark.",
+  "title": {
+   "en": "Niuniu by Night",
+   "zh": "《夜色中的 Niuniu》"
+  },
+  "section": {
+   "en": "Digital Paintings",
+   "zh": "数字绘画"
+  },
+  "description": {
+   "en": "Digital painting of Niuniu in profile against the dark.",
+   "zh": "数字绘画：暗色背景里的 Niuniu 侧影。"
+  },
   "page_link": "",
   "picture": "projects/images/drawing/digital/47_niuniu.png",
   "date_added": "2023-01-23"
  },
  {
-  "title": "Caterpie",
-  "section": "Digital Paintings",
-  "description": "Digital painting of the Caterpie plush, string shot not pictured.",
+  "title": {
+   "en": "Caterpie",
+   "zh": "《绿毛虫》"
+  },
+  "section": {
+   "en": "Digital Paintings",
+   "zh": "数字绘画"
+  },
+  "description": {
+   "en": "Digital painting of the Caterpie plush, string shot not pictured.",
+   "zh": "数字绘画：绿毛虫玩偶（吐丝技能未入画）。"
+  },
   "page_link": "",
   "picture": "projects/images/drawing/digital/48_caterpie.png",
   "date_added": "2023-01-23"
  },
  {
-  "title": "Niuniu, Belly Up",
-  "section": "Digital Paintings",
-  "description": "Digital painting of Niuniu rolling over, showing the belly trap.",
+  "title": {
+   "en": "Niuniu, Belly Up",
+   "zh": "《翻肚皮的 Niuniu》"
+  },
+  "section": {
+   "en": "Digital Paintings",
+   "zh": "数字绘画"
+  },
+  "description": {
+   "en": "Digital painting of Niuniu rolling over, showing the belly trap.",
+   "zh": "数字绘画：打滚露肚皮的 Niuniu——摸了会中陷阱。"
+  },
   "page_link": "",
   "picture": "projects/images/drawing/digital/49_niuniu.png",
   "date_added": "2023-01-23"
  },
  {
-  "title": "Pumpkin Bran",
-  "section": "Digital Paintings",
-  "description": "Digital painting of Pumpkin Bran, a friend's most excellent calico.",
+  "title": {
+   "en": "Pumpkin Bran",
+   "zh": "《Pumpkin Bran》"
+  },
+  "section": {
+   "en": "Digital Paintings",
+   "zh": "数字绘画"
+  },
+  "description": {
+   "en": "Digital painting of Pumpkin Bran, a friend's most excellent calico.",
+   "zh": "数字绘画：朋友家特别棒的三花猫 Pumpkin Bran。"
+  },
   "page_link": "",
   "picture": "projects/images/drawing/digital/50_pumpkin-bran.png",
   "date_added": "2023-01-23"

@@ -5,9 +5,15 @@
    "id": "rock-dove-ipa",
    "name": "Rock Dove",
    "maker": "Lucky Pigeon Brewing Co.",
-   "makerLocation": "Biddeford, ME",
+   "makerLocation": {
+    "en": "Biddeford, ME",
+    "zh": "缅因州比德福德"
+   },
    "makerLogo": "projects/images/drinks/_logos/lucky-pigeon.webp",
-   "style": "New England IPA",
+   "style": {
+    "en": "New England IPA",
+    "zh": "新英格兰 IPA"
+   },
    "category": "beer",
    "subcategory": "IPA",
    "abv": "6.5%",
@@ -16,7 +22,10 @@
     "ipa",
     "gluten-free"
    ],
-   "notes": "From Maine's first dedicated gluten-free brewery. Intensely hoppy yet soft and drinkable - notes of mango, stone fruit, and candied orange.",
+   "notes": {
+    "en": "From Maine's first dedicated gluten-free brewery. Intensely hoppy yet soft and drinkable - notes of mango, stone fruit, and candied orange.",
+    "zh": "来自缅因州第一家专做无麸质啤酒的酒厂。酒花浓郁却柔和易饮——带芒果、核果与糖渍橙皮的香气。"
+   },
    "rating": null,
    "dateTried": "2026-08-20",
    "photos": [
@@ -47,9 +56,15 @@
    "id": "baby-kittens",
    "name": "Baby Kittens",
    "maker": "Fat Orange Cat Brew Co.",
-   "makerLocation": "East Hampton, CT",
+   "makerLocation": {
+    "en": "East Hampton, CT",
+    "zh": "康涅狄格州东汉普顿"
+   },
    "makerLogo": "projects/images/drinks/_logos/fat-orange-cat.webp",
-   "style": "Hazy New England IPA",
+   "style": {
+    "en": "Hazy New England IPA",
+    "zh": "浑浊新英格兰 IPA"
+   },
    "category": "beer",
    "subcategory": "IPA",
    "abv": "6.5%",
@@ -58,7 +73,10 @@
     "ipa",
     "hazy"
    ],
-   "notes": "Smooth, juicy hazy IPA from a farmhouse brewery where every label crawls with technicolor kittens.",
+   "notes": {
+    "en": "Smooth, juicy hazy IPA from a farmhouse brewery where every label crawls with technicolor kittens.",
+    "zh": "顺滑多汁的浑浊 IPA，来自一家农场酒厂——每张酒标上都爬满五彩小猫。"
+   },
    "rating": null,
    "dateTried": "2026-08-20",
    "photos": [
@@ -89,9 +107,15 @@
    "id": "beer-named-duck",
    "name": "a beer named duck",
    "maker": "Mast Landing Brewing Co.",
-   "makerLocation": "Westbrook, ME",
+   "makerLocation": {
+    "en": "Westbrook, ME",
+    "zh": "缅因州韦斯特布鲁克"
+   },
    "makerLogo": "projects/images/drinks/_logos/mast-landing.webp",
-   "style": "New England Pale Ale",
+   "style": {
+    "en": "New England Pale Ale",
+    "zh": "新英格兰淡色艾尔"
+   },
    "category": "beer",
    "subcategory": "Pale Ale",
    "abv": "5.2%",
@@ -99,7 +123,10 @@
     "beer",
     "pale-ale"
    ],
-   "notes": "Easy-drinking pale ale brewed with Simcoe, Centennial, and Cascade hops - crisp citrus and floral brightness.",
+   "notes": {
+    "en": "Easy-drinking pale ale brewed with Simcoe, Centennial, and Cascade hops - crisp citrus and floral brightness.",
+    "zh": "易饮的淡色艾尔，用 Simcoe、Centennial 和 Cascade 酒花酿造——清爽的柑橘与花香。"
+   },
    "rating": null,
    "dateTried": "2026-08-20",
    "photos": [
@@ -123,9 +150,15 @@
    "id": "tom-cat-gin",
    "name": "Tom Cat Gin (Barrel Selection)",
    "maker": "Barr Hill / Caledonia Spirits",
-   "makerLocation": "Montpelier, VT",
+   "makerLocation": {
+    "en": "Montpelier, VT",
+    "zh": "佛蒙特州蒙彼利埃"
+   },
    "makerLogo": "projects/images/drinks/_logos/barr-hill.webp",
-   "style": "Barrel-aged gin",
+   "style": {
+    "en": "Barrel-aged gin",
+    "zh": "桶陈金酒"
+   },
    "category": "spirits",
    "subcategory": "Gin",
    "abv": "43% (86 proof)",
@@ -134,7 +167,10 @@
     "gin",
     "barrel-aged"
    ],
-   "notes": "Raw-honey gin aged in new charred American oak - juniper up front, then caramel, spice, and oak. This bottle is a Gordon's barrel selection.",
+   "notes": {
+    "en": "Raw-honey gin aged in new charred American oak - juniper up front, then caramel, spice, and oak. This bottle is a Gordon's barrel selection.",
+    "zh": "以生蜂蜜酿造的金酒，在全新炙烤美国橡木桶中陈酿——前调是杜松子，随后是焦糖、香料与橡木。这一瓶是 Gordon's 酒行的选桶版。"
+   },
    "rating": null,
    "dateTried": "2026-05-05",
    "photos": [

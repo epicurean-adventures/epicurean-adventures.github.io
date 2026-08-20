@@ -1,7 +1,8 @@
 // projects.js — loads all-projects.json and renders it grouped by section
-// (Digital Paintings, Watercolors, ...). No categories or tags: sections come
-// straight from the data, in the order they first appear. Navbar search still
-// filters across everything.
+// (Watercolors, Warhammer Miniatures, Digital Paintings). Sections, titles,
+// and descriptions may be bilingual ({en, zh}); grouping and anchors always
+// use the English name so links stay stable across languages. Navbar search
+// still filters across everything, and the page re-renders on language toggle.
 
 let allProjects = [];
 let currentSearchQuery = '';
@@ -14,6 +15,7 @@ async function loadProjects() {
         allProjects = await response.json();
         render();
         scrollToHash();
+        document.addEventListener('langchange', render);
     } catch (error) {
         container.innerHTML =
             `<div class="alert alert-danger" role="alert">
@@ -26,6 +28,10 @@ function slugify(text) {
     return text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
 
+function sectionKey(section) {
+    return typeof section === 'object' ? section.en : section;
+}
+
 function render() {
     const container = document.getElementById('projects-container');
     container.innerHTML = '';
@@ -33,14 +39,14 @@ function render() {
     let projects = allProjects;
     if (currentSearchQuery) {
         projects = projects.filter(p =>
-            p.title.toLowerCase().includes(currentSearchQuery) ||
-            p.description.toLowerCase().includes(currentSearchQuery) ||
-            p.section.toLowerCase().includes(currentSearchQuery)
+            I18N.all(p.title).toLowerCase().includes(currentSearchQuery) ||
+            I18N.all(p.description).toLowerCase().includes(currentSearchQuery) ||
+            I18N.all(p.section).toLowerCase().includes(currentSearchQuery)
         );
     }
 
     if (projects.length === 0) {
-        container.innerHTML = '<p class="text-muted">No projects found.</p>';
+        container.innerHTML = `<p class="text-muted">${I18N.t('projects.none')}</p>`;
         return;
     }
 
@@ -48,31 +54,34 @@ function render() {
     const sections = [];
     const bySection = new Map();
     projects.forEach(p => {
-        if (!bySection.has(p.section)) {
-            bySection.set(p.section, []);
-            sections.push(p.section);
+        const key = sectionKey(p.section);
+        if (!bySection.has(key)) {
+            bySection.set(key, { label: p.section, items: [] });
+            sections.push(key);
         }
-        bySection.get(p.section).push(p);
+        bySection.get(key).items.push(p);
     });
 
-    sections.forEach(section => {
+    sections.forEach(key => {
+        const group = bySection.get(key);
         const heading = document.createElement('h2');
         heading.className = 'projects-heading';
-        heading.id = slugify(section);
-        heading.textContent = section;
+        heading.id = slugify(key);
+        heading.textContent = I18N.tr(group.label);
         container.appendChild(heading);
 
         const grid = document.createElement('div');
         grid.className = 'projects-grid mb-4';
-        bySection.get(section).forEach(project => {
+        group.items.forEach(project => {
             const card = document.createElement('div');
             card.className = 'project-card';
+            const title = I18N.tr(project.title);
             card.innerHTML = `
-                <img src="${project.picture}" alt="${project.title}" class="project-card-img" loading="lazy">
+                <img src="${project.picture}" alt="${title}" class="project-card-img" loading="lazy">
                 <div class="project-card-body">
-                    <h3 class="project-card-title">${project.title}</h3>
-                    <p class="project-card-desc">${project.description}</p>
-                    <p class="project-card-date"><small>Added: ${project.date_added}</small></p>
+                    <h3 class="project-card-title">${title}</h3>
+                    <p class="project-card-desc">${I18N.tr(project.description)}</p>
+                    <p class="project-card-date"><small>${I18N.t('projects.added')} ${project.date_added}</small></p>
                     ${project.page_link
                         ? `<a href="${project.page_link}" class="btn btn-sm btn-primary">View Project</a>`
                         : ''}

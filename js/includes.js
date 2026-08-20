@@ -30,4 +30,7 @@ Promise.all([
     }),
     loadComponent('#sidebar-placeholder', 'sidebar.html'),
     loadComponent('#footer-placeholder', 'footer.html'),
-]);
+]).then(() => {
+    // Translate the freshly injected navbar/sidebar/footer
+    if (typeof I18N !== 'undefined') I18N.apply();
+});

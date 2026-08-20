@@ -26,8 +26,8 @@
                         <!-- Hero: the real Spencer's Bar sign, cut out of its photo -->
                         <div class="drinks-hero">
                             <div>
-                                <h1 class="mt-4">Spencer's Bar</h1>
-                                <p class="mb-2">
+                                <h1 class="mt-4" data-i18n="drinks.title">Spencer's Bar</h1>
+                                <p class="mb-2" data-i18n="drinks.tagline">
                                     The house drinks ledger &mdash; beers, spirits, and whatever else
                                     makes it past the bottle opener. Click a card for photos and tasting notes.
                                 </p>
@@ -41,7 +41,7 @@
                         <div class="d-flex flex-wrap align-items-center gap-2 mb-2">
                             <div class="input-group plants-search">
                                 <span class="input-group-text"><i class="fas fa-search"></i></span>
-                                <input type="text" id="drink-search" class="form-control" placeholder="Search drinks..." aria-label="Search drinks" />
+                                <input type="text" id="drink-search" class="form-control" placeholder="Search drinks..." data-i18n-placeholder="drinks.search" aria-label="Search drinks" />
                             </div>
                             <div id="drink-filters" class="btn-group flex-wrap" role="group" aria-label="Drink categories"></div>
                             <span id="drink-count" class="text-muted ms-auto small"></span>
@@ -52,7 +52,7 @@
                             <div class="spinner-border text-warning" role="status">
                                 <span class="visually-hidden">Loading...</span>
                             </div>
-                            <p class="mt-2">Opening the bar...</p>
+                            <p class="mt-2" data-i18n="drinks.loading">Opening the bar...</p>
                         </div>
                         <div id="error-message" class="alert alert-danger d-none" role="alert">
                             <i class="fas fa-exclamation-triangle me-2"></i>
@@ -85,6 +85,7 @@
         </div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="js/i18n.js"></script>
         <script src="js/search.js"></script>
         <script src="js/includes.js"></script>
         <script src="js/drinks.js"></script>

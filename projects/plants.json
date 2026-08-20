@@ -3,7 +3,10 @@
  "plants": [
   {
    "id": "hibiscus",
-   "name": "Tropical Hibiscus",
+   "name": {
+    "en": "Tropical Hibiscus",
+    "zh": "朱槿（扶桑）"
+   },
    "scientificName": "Hibiscus rosa-sinensis",
    "nickname": null,
    "tags": [
@@ -11,15 +14,33 @@
     "porch"
    ],
    "idConfidence": "confirmed",
-   "idNote": "Braided-trunk standard; blooms red on the porch.",
+   "idNote": {
+    "en": "Braided-trunk standard; blooms red on the porch.",
+    "zh": "编成辫子的树形扶桑，在阳台上开红花。"
+   },
    "care": {
-    "humidity": "Likes moderate to high humidity",
-    "light": "Full sun to bright part sun, 6+ hours",
-    "water": "Keep evenly moist; container dries fast in summer heat",
+    "humidity": {
+     "en": "Likes moderate to high humidity",
+     "zh": "喜中到高湿度"
+    },
+    "light": {
+     "en": "Full sun to bright part sun, 6+ hours",
+     "zh": "全日照到明亮半日照，每天 6 小时以上"
+    },
+    "water": {
+     "en": "Keep evenly moist; container dries fast in summer heat",
+     "zh": "保持土壤均匀湿润；夏天盆栽干得很快"
+    },
     "catSafe": true,
-    "catNote": "ASPCA lists hibiscus (Rose of China) as non-toxic to cats.",
+    "catNote": {
+     "en": "ASPCA lists hibiscus (Rose of China) as non-toxic to cats.",
+     "zh": "ASPCA 认定朱槿（扶桑）对猫无毒。"
+    },
     "difficulty": "moderate",
-    "note": "Each bloom lasts about a day; bring indoors before fall frost in the Northeast."
+    "note": {
+     "en": "Each bloom lasts about a day; bring indoors before fall frost in the Northeast.",
+     "zh": "每朵花只开一天左右；入秋降霜前要搬回室内。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -44,7 +65,10 @@
   },
   {
    "id": "asparagus-fern",
-   "name": "Asparagus Fern",
+   "name": {
+    "en": "Asparagus Fern",
+    "zh": "文竹"
+   },
    "scientificName": "Asparagus setaceus",
    "nickname": null,
    "tags": [
@@ -53,13 +77,28 @@
    "idConfidence": "confirmed",
    "idNote": "",
    "care": {
-    "humidity": "High (60%+); browns at edges in dry air",
-    "light": "Bright indirect light; avoid harsh direct sun",
-    "water": "Keep consistently moist; water when top 2-3 cm dry",
+    "humidity": {
+     "en": "High (60%+); browns at edges in dry air",
+     "zh": "高湿度（60% 以上），空气太干叶尖会发黄"
+    },
+    "light": {
+     "en": "Bright indirect light; avoid harsh direct sun",
+     "zh": "明亮散射光，避免强烈直射"
+    },
+    "water": {
+     "en": "Keep consistently moist; water when top 2-3 cm dry",
+     "zh": "保持微湿；表土 2-3 厘米干了就浇"
+    },
     "catSafe": false,
-    "catNote": "Toxic to cats per ASPCA (sapogenins); berries cause GI upset, contact dermatitis",
+    "catNote": {
+     "en": "Toxic to cats per ASPCA (sapogenins); berries cause GI upset, contact dermatitis",
+     "zh": "ASPCA 认定文竹对猫有毒（皂苷）；浆果会引起肠胃不适。"
+    },
     "difficulty": "moderate",
-    "note": "Not a true fern, it's an asparagus relative with tiny hidden thorns on mature stems"
+    "note": {
+     "en": "Not a true fern, it's an asparagus relative with tiny hidden thorns on mature stems",
+     "zh": "其实不是真蕨类，而是天门冬的亲戚，成熟茎上藏着小刺。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -77,22 +116,43 @@
   },
   {
    "id": "sempervivum",
-   "name": "Hens & Chicks",
+   "name": {
+    "en": "Hens & Chicks",
+    "zh": "长生草"
+   },
    "scientificName": "Sempervivum sp.",
    "nickname": null,
    "tags": [
     "succulent"
    ],
    "idConfidence": "likely",
-   "idNote": "Fuzzy-edged rosette; exact species uncertain.",
+   "idNote": {
+    "en": "Fuzzy-edged rosette; exact species uncertain.",
+    "zh": "毛边小莲座，具体种类待定。"
+   },
    "care": {
-    "humidity": "Low - dry air is fine",
-    "light": "Full sun to bright light",
-    "water": "Drench when soil is fully dry; barely in winter",
+    "humidity": {
+     "en": "Low - dry air is fine",
+     "zh": "低湿度，干燥空气没问题"
+    },
+    "light": {
+     "en": "Full sun to bright light",
+     "zh": "全日照到明亮光线"
+    },
+    "water": {
+     "en": "Drench when soil is fully dry; barely in winter",
+     "zh": "土完全干透再浇透；冬天几乎不浇"
+    },
     "catSafe": true,
-    "catNote": "Non-toxic to cats per ASPCA.",
+    "catNote": {
+     "en": "Non-toxic to cats per ASPCA.",
+     "zh": "ASPCA 认定长生草对猫无毒。"
+    },
     "difficulty": "easy",
-    "note": "Each rosette dies after flowering, but its 'chicks' carry on."
+    "note": {
+     "en": "Each rosette dies after flowering, but its 'chicks' carry on.",
+     "zh": "每个莲座开花后会功成身退，但“小鸡”们会接班。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -110,22 +170,43 @@
   },
   {
    "id": "crinkle-leaf-plant",
-   "name": "Crinkle-Leaf Plant",
+   "name": {
+    "en": "Crinkle-Leaf Plant",
+    "zh": "天章（皱叶天章）"
+   },
    "scientificName": "Adromischus cristatus",
    "nickname": null,
    "tags": [
     "succulent"
    ],
    "idConfidence": "likely",
-   "idNote": "Sending up a flower stalk!",
+   "idNote": {
+    "en": "Sending up a flower stalk!",
+    "zh": "正在抽花剑！"
+   },
    "care": {
-    "humidity": "Low; likes good airflow",
-    "light": "Bright light with some direct sun",
-    "water": "Soak when dry; much less in winter",
+    "humidity": {
+     "en": "Low; likes good airflow",
+     "zh": "低湿度，喜通风"
+    },
+    "light": {
+     "en": "Bright light with some direct sun",
+     "zh": "明亮光线，带些直射"
+    },
+    "water": {
+     "en": "Soak when dry; much less in winter",
+     "zh": "干透浇透；冬天大幅减少"
+    },
     "catSafe": null,
-    "catNote": "Not on the ASPCA list - a jade relative, so best kept from nibblers.",
+    "catNote": {
+     "en": "Not on the ASPCA list - a jade relative, so best kept from nibblers.",
+     "zh": "不在 ASPCA 名录上——玉树近亲，最好别让猫啃。"
+    },
     "difficulty": "easy",
-    "note": "Leaves snap off easily and can root into whole new plants."
+    "note": {
+     "en": "Leaves snap off easily and can root into whole new plants.",
+     "zh": "叶子一碰就掉，但掉下的叶子能长成新株。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -143,22 +224,43 @@
   },
   {
    "id": "aloe-christmas-carol",
-   "name": "Hybrid Aloe",
+   "name": {
+    "en": "Hybrid Aloe",
+    "zh": "杂交芦荟“圣诞颂歌”"
+   },
    "scientificName": "Aloe 'Christmas Carol' (?)",
    "nickname": null,
    "tags": [
     "succulent"
    ],
    "idConfidence": "likely",
-   "idNote": "Red-toothed hybrid aloe; 'Christmas Carol' is our best match.",
+   "idNote": {
+    "en": "Red-toothed hybrid aloe; 'Christmas Carol' is our best match.",
+    "zh": "红齿杂交芦荟，“圣诞颂歌”是我们最接近的猜测。"
+   },
    "care": {
-    "humidity": "Low - average room air is fine",
-    "light": "Bright light; sun deepens the red color",
-    "water": "Water deeply only when soil is fully dry",
+    "humidity": {
+     "en": "Low - average room air is fine",
+     "zh": "低湿度，普通室内空气即可"
+    },
+    "light": {
+     "en": "Bright light; sun deepens the red color",
+     "zh": "明亮光线；晒太阳会更红"
+    },
+    "water": {
+     "en": "Water deeply only when soil is fully dry",
+     "zh": "土完全干透才浇透"
+    },
     "catSafe": false,
-    "catNote": "Aloes are toxic to cats per ASPCA (vomiting, lethargy).",
+    "catNote": {
+     "en": "Aloes are toxic to cats per ASPCA (vomiting, lethargy).",
+     "zh": "ASPCA 认定芦荟对猫有毒（呕吐、嗜睡）。"
+    },
     "difficulty": "easy",
-    "note": "Sun stress and cool nights turn it ruby red."
+    "note": {
+     "en": "Sun stress and cool nights turn it ruby red.",
+     "zh": "日晒加凉爽的夜晚会把它晒成宝石红。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -176,7 +278,10 @@
   },
   {
    "id": "artillery-plant",
-   "name": "Artillery Plant",
+   "name": {
+    "en": "Artillery Plant",
+    "zh": "小叶冷水花"
+   },
    "scientificName": "Pilea microphylla",
    "nickname": null,
    "tags": [
@@ -186,13 +291,28 @@
    "idConfidence": "likely",
    "idNote": "",
    "care": {
-    "humidity": "Moderate; tolerates ~45% if soil stays moist",
-    "light": "Bright indirect light to part shade",
-    "water": "Keep soil evenly moist, not soggy",
+    "humidity": {
+     "en": "Moderate; tolerates ~45% if soil stays moist",
+     "zh": "中等湿度；土保持湿润可耐 45% 左右"
+    },
+    "light": {
+     "en": "Bright indirect light to part shade",
+     "zh": "明亮散射光到半阴"
+    },
+    "water": {
+     "en": "Keep soil evenly moist, not soggy",
+     "zh": "保持土壤均匀湿润但不积水"
+    },
     "catSafe": true,
-    "catNote": "Non-toxic to cats per ASPCA (Pilea microphylla listed as safe)",
+    "catNote": {
+     "en": "Non-toxic to cats per ASPCA (Pilea microphylla listed as safe)",
+     "zh": "ASPCA 认定小叶冷水花对猫无毒。"
+    },
     "difficulty": "easy",
-    "note": "Named for flowers that explosively fire pollen in little puffs when touched"
+    "note": {
+     "en": "Named for flowers that explosively fire pollen in little puffs when touched",
+     "zh": "名字来自它的花——轻轻一碰就“开炮”喷出花粉。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -210,7 +330,10 @@
   },
   {
    "id": "split-rock",
-   "name": "Split Rock",
+   "name": {
+    "en": "Split Rock",
+    "zh": "帝玉"
+   },
    "scientificName": "Pleiospilos nelii",
    "nickname": null,
    "tags": [
@@ -220,13 +343,28 @@
    "idConfidence": "confirmed",
    "idNote": "",
    "care": {
-    "humidity": "Low; hates damp air",
-    "light": "As much direct sun as possible",
-    "water": "Very sparingly; none while splitting or in winter",
+    "humidity": {
+     "en": "Low; hates damp air",
+     "zh": "低湿度，怕闷湿"
+    },
+    "light": {
+     "en": "As much direct sun as possible",
+     "zh": "尽可能多的直射阳光"
+    },
+    "water": {
+     "en": "Very sparingly; none while splitting or in winter",
+     "zh": "极少量；蜕皮期和冬天完全断水"
+    },
     "catSafe": true,
-    "catNote": "Mesembs are generally non-toxic to cats.",
+    "catNote": {
+     "en": "Mesembs are generally non-toxic to cats.",
+     "zh": "番杏科多肉一般对猫无毒。"
+    },
     "difficulty": "fussy",
-    "note": "Overwatering makes it burst - it should hold only one leaf pair at a time."
+    "note": {
+     "en": "Overwatering makes it burst - it should hold only one leaf pair at a time.",
+     "zh": "浇多了会撑裂——同一时间只该保留一对叶子。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -244,7 +382,10 @@
   },
   {
    "id": "baby-toes",
-   "name": "Baby Toes",
+   "name": {
+    "en": "Baby Toes",
+    "zh": "五十铃玉"
+   },
    "scientificName": "Fenestraria rhopalophylla",
    "nickname": null,
    "tags": [
@@ -254,13 +395,28 @@
    "idConfidence": "likely",
    "idNote": "",
    "care": {
-    "humidity": "Low",
-    "light": "Bright sun on a windowsill",
-    "water": "Lightly in spring/fall; keep dry in summer heat and winter",
+    "humidity": {
+     "en": "Low",
+     "zh": "低湿度"
+    },
+    "light": {
+     "en": "Bright sun on a windowsill",
+     "zh": "窗台上的充足阳光"
+    },
+    "water": {
+     "en": "Lightly in spring/fall; keep dry in summer heat and winter",
+     "zh": "春秋少量；盛夏和冬天保持干燥"
+    },
     "catSafe": true,
-    "catNote": "Non-toxic to cats (mesemb family, generally pet-safe).",
+    "catNote": {
+     "en": "Non-toxic to cats (mesemb family, generally pet-safe).",
+     "zh": "对猫无毒（番杏科，一般对宠物安全）。"
+    },
     "difficulty": "fussy",
-    "note": "In habitat it grows buried, with only its clear leaf 'windows' above the sand."
+    "note": {
+     "en": "In habitat it grows buried, with only its clear leaf 'windows' above the sand.",
+     "zh": "原生地整株埋在沙里，只露出透明的叶窗。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -278,7 +434,10 @@
   },
   {
    "id": "fairy-washboard",
-   "name": "Fairy Washboard",
+   "name": {
+    "en": "Fairy Washboard",
+    "zh": "琉璃殿"
+   },
    "scientificName": "Haworthiopsis limifolia",
    "nickname": null,
    "tags": [
@@ -287,13 +446,28 @@
    "idConfidence": "likely",
    "idNote": "",
    "care": {
-    "humidity": "Any - unfussy",
-    "light": "Bright indirect; tolerates less sun than most succulents",
-    "water": "When fully dry, roughly every 2-3 weeks",
+    "humidity": {
+     "en": "Any - unfussy",
+     "zh": "随意，不挑"
+    },
+    "light": {
+     "en": "Bright indirect; tolerates less sun than most succulents",
+     "zh": "明亮散射光；比大多数多肉更耐阴"
+    },
+    "water": {
+     "en": "When fully dry, roughly every 2-3 weeks",
+     "zh": "完全干透再浇，大约两三周一次"
+    },
     "catSafe": true,
-    "catNote": "Haworthia are non-toxic to cats per ASPCA.",
+    "catNote": {
+     "en": "Haworthia are non-toxic to cats per ASPCA.",
+     "zh": "ASPCA 认定瓦苇（十二卷）类对猫无毒。"
+    },
     "difficulty": "easy",
-    "note": "One of the best succulents for windows without full sun."
+    "note": {
+     "en": "One of the best succulents for windows without full sun.",
+     "zh": "不需要全日照窗台的多肉里，它是最好养的之一。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -311,7 +485,10 @@
   },
   {
    "id": "gasteria",
-   "name": "Ox Tongue",
+   "name": {
+    "en": "Ox Tongue",
+    "zh": "沙鱼掌（卧牛）"
+   },
    "scientificName": "Gasteria sp.",
    "nickname": null,
    "tags": [
@@ -320,13 +497,28 @@
    "idConfidence": "likely",
    "idNote": "",
    "care": {
-    "humidity": "Any - unfussy",
-    "light": "Bright indirect light; tolerates some shade",
-    "water": "Soak when dry; sparingly in winter",
+    "humidity": {
+     "en": "Any - unfussy",
+     "zh": "随意，不挑"
+    },
+    "light": {
+     "en": "Bright indirect light; tolerates some shade",
+     "zh": "明亮散射光，耐一点阴"
+    },
+    "water": {
+     "en": "Soak when dry; sparingly in winter",
+     "zh": "干透浇透；冬天少浇"
+    },
     "catSafe": true,
-    "catNote": "Gasteria are commonly listed as pet-safe (non-toxic).",
+    "catNote": {
+     "en": "Gasteria are commonly listed as pet-safe (non-toxic).",
+     "zh": "沙鱼掌一般被认为对宠物安全（无毒）。"
+    },
     "difficulty": "easy",
-    "note": "Named for its little stomach-shaped flowers."
+    "note": {
+     "en": "Named for its little stomach-shaped flowers.",
+     "zh": "属名来自它胃袋形状的小花。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -344,7 +536,10 @@
   },
   {
    "id": "tradescantia-zebrina",
-   "name": "Inch Plant",
+   "name": {
+    "en": "Inch Plant",
+    "zh": "吊竹梅"
+   },
    "scientificName": "Tradescantia zebrina",
    "nickname": null,
    "tags": [
@@ -354,13 +549,28 @@
    "idConfidence": "confirmed",
    "idNote": "",
    "care": {
-    "humidity": "Average home humidity fine; a bit extra keeps tips green",
-    "light": "Bright indirect; purple stripes fade in low light",
-    "water": "Let top 2-3 cm dry between waterings",
+    "humidity": {
+     "en": "Average home humidity fine; a bit extra keeps tips green",
+     "zh": "普通室内湿度即可，稍高些叶尖更绿"
+    },
+    "light": {
+     "en": "Bright indirect; purple stripes fade in low light",
+     "zh": "明亮散射光；光线不足紫纹会变淡"
+    },
+    "water": {
+     "en": "Let top 2-3 cm dry between waterings",
+     "zh": "表土 2-3 厘米干了再浇"
+    },
     "catSafe": false,
-    "catNote": "Toxic to cats per ASPCA inch plant listing; sap causes dermatitis and GI upset",
+    "catNote": {
+     "en": "Toxic to cats per ASPCA inch plant listing; sap causes dermatitis and GI upset",
+     "zh": "ASPCA 列为对猫有毒；汁液会引起皮炎和肠胃不适。"
+    },
     "difficulty": "easy",
-    "note": "Grows an inch at a time; pinch stem tips often to keep it bushy instead of leggy"
+    "note": {
+     "en": "Grows an inch at a time; pinch stem tips often to keep it bushy instead of leggy",
+     "zh": "勤掐尖才长得丰满，不然容易徒长。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -378,7 +588,10 @@
   },
   {
    "id": "pentas",
-   "name": "Egyptian Star Cluster",
+   "name": {
+    "en": "Egyptian Star Cluster",
+    "zh": "五星花"
+   },
    "scientificName": "Pentas lanceolata",
    "nickname": null,
    "tags": [
@@ -387,13 +600,28 @@
    "idConfidence": "likely",
    "idNote": "",
    "care": {
-    "humidity": "Average; thrives in warm humid summers",
-    "light": "Full sun",
-    "water": "Evenly moist; tolerates brief dry spells",
+    "humidity": {
+     "en": "Average; thrives in warm humid summers",
+     "zh": "普通湿度；喜温暖湿润的夏天"
+    },
+    "light": {
+     "en": "Full sun",
+     "zh": "全日照"
+    },
+    "water": {
+     "en": "Evenly moist; tolerates brief dry spells",
+     "zh": "保持均匀湿润；短暂干旱也能扛"
+    },
     "catSafe": true,
-    "catNote": "Not on ASPCA lists but widely reported non-toxic to cats, dogs, and people.",
+    "catNote": {
+     "en": "Not on ASPCA lists but widely reported non-toxic to cats, dogs, and people.",
+     "zh": "不在 ASPCA 名录，但普遍认为对猫狗无毒。"
+    },
     "difficulty": "easy",
-    "note": "Star-shaped flower clusters are butterfly favorites; deadhead to keep blooms coming all season."
+    "note": {
+     "en": "Star-shaped flower clusters are butterfly favorites; deadhead to keep blooms coming all season.",
+     "zh": "星形花簇是蝴蝶最爱；勤剪残花能一直开到秋天。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -411,7 +639,10 @@
   },
   {
    "id": "tiger-jaws",
-   "name": "Pebbled Tiger Jaws",
+   "name": {
+    "en": "Pebbled Tiger Jaws",
+    "zh": "四海波"
+   },
    "scientificName": "Faucaria tuberculosa",
    "nickname": null,
    "tags": [
@@ -421,13 +652,28 @@
    "idConfidence": "likely",
    "idNote": "",
    "care": {
-    "humidity": "Low",
-    "light": "Full sun to bright light",
-    "water": "Soak-and-dry in summer; nearly dry in winter",
+    "humidity": {
+     "en": "Low",
+     "zh": "低湿度"
+    },
+    "light": {
+     "en": "Full sun to bright light",
+     "zh": "全日照到明亮光线"
+    },
+    "water": {
+     "en": "Soak-and-dry in summer; nearly dry in winter",
+     "zh": "夏天干透浇透；冬天几乎断水"
+    },
     "catSafe": true,
-    "catNote": "Not known to be toxic to cats.",
+    "catNote": {
+     "en": "Not known to be toxic to cats.",
+     "zh": "未见对猫有毒的记录。"
+    },
     "difficulty": "moderate",
-    "note": "The 'teeth' are soft - in habitat they help collect fog moisture."
+    "note": {
+     "en": "The 'teeth' are soft - in habitat they help collect fog moisture.",
+     "zh": "那些“牙齿”是软的——原生地用来收集雾气。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -445,7 +691,10 @@
   },
   {
    "id": "eves-needle",
-   "name": "Eve's Needle Cactus",
+   "name": {
+    "en": "Eve's Needle Cactus",
+    "zh": "将军（夏娃之针）"
+   },
    "scientificName": "Austrocylindropuntia subulata (?)",
    "nickname": null,
    "tags": [
@@ -453,15 +702,33 @@
     "cactus"
    ],
    "idConfidence": "guess",
-   "idNote": "Knobby stems with tiny leaf tufts; could also be a corncob euphorbia.",
+   "idNote": {
+    "en": "Knobby stems with tiny leaf tufts; could also be a corncob euphorbia.",
+    "zh": "疙瘩状的茎带小叶簇；也可能是某种玉米棒大戟。"
+   },
    "care": {
-    "humidity": "Low",
-    "light": "Full sun",
-    "water": "Water when fully dry; roughly monthly",
+    "humidity": {
+     "en": "Low",
+     "zh": "低湿度"
+    },
+    "light": {
+     "en": "Full sun",
+     "zh": "全日照"
+    },
+    "water": {
+     "en": "Water when fully dry; roughly monthly",
+     "zh": "完全干透再浇，约一个月一次"
+    },
     "catSafe": true,
-    "catNote": "Not toxic to cats, but the spines are a real physical hazard.",
+    "catNote": {
+     "en": "Not toxic to cats, but the spines are a real physical hazard.",
+     "zh": "对猫无毒，但尖刺是实打实的物理伤害。"
+    },
     "difficulty": "easy",
-    "note": "In the Andes it grows into a four-meter tree."
+    "note": {
+     "en": "In the Andes it grows into a four-meter tree.",
+     "zh": "在安第斯山脉能长成四米高的树。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -479,7 +746,10 @@
   },
   {
    "id": "cheiridopsis",
-   "name": "Mystery Mesemb",
+   "name": {
+    "en": "Mystery Mesemb",
+    "zh": "神秘番杏"
+   },
    "scientificName": "Cheiridopsis sp. (?)",
    "nickname": null,
    "tags": [
@@ -487,15 +757,33 @@
     "mesemb"
    ],
    "idConfidence": "guess",
-   "idNote": "Smooth paired 'fingers' - our best guess is a Cheiridopsis.",
+   "idNote": {
+    "en": "Smooth paired 'fingers' - our best guess is a Cheiridopsis.",
+    "zh": "光滑成对的“手指”——我们最接近的猜测是虾钳花属。"
+   },
    "care": {
-    "humidity": "Low",
-    "light": "Bright sun",
-    "water": "Winter grower: water fall-spring, keep mostly dry in summer",
+    "humidity": {
+     "en": "Low",
+     "zh": "低湿度"
+    },
+    "light": {
+     "en": "Bright sun",
+     "zh": "充足阳光"
+    },
+    "water": {
+     "en": "Winter grower: water fall-spring, keep mostly dry in summer",
+     "zh": "冬型种：秋到春浇水，夏天基本断水"
+    },
     "catSafe": null,
-    "catNote": "Mesembs are generally pet-safe, but our ID is uncertain.",
+    "catNote": {
+     "en": "Mesembs are generally pet-safe, but our ID is uncertain.",
+     "zh": "番杏科一般对宠物安全，但品种鉴定还不确定。"
+    },
     "difficulty": "fussy",
-    "note": "A South African winter grower - its seasons run opposite ours."
+    "note": {
+     "en": "A South African winter grower - its seasons run opposite ours.",
+     "zh": "南非的冬型多肉——它的季节和我们是反的。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -513,22 +801,43 @@
   },
   {
    "id": "string-of-buttons",
-   "name": "Variegated String of Buttons",
+   "name": {
+    "en": "Variegated String of Buttons",
+    "zh": "星乙女锦（钱串锦）"
+   },
    "scientificName": "Crassula perforata variegata",
    "nickname": null,
    "tags": [
     "succulent"
    ],
    "idConfidence": "confirmed",
-   "idNote": "Nursery label reads 'Crassula perforata variegata'.",
+   "idNote": {
+    "en": "Nursery label reads 'Crassula perforata variegata'.",
+    "zh": "苗圃标签写着“Crassula perforata variegata”。"
+   },
    "care": {
-    "humidity": "Low",
-    "light": "Bright light with some direct sun",
-    "water": "Soak when dry; eases off in midsummer",
+    "humidity": {
+     "en": "Low",
+     "zh": "低湿度"
+    },
+    "light": {
+     "en": "Bright light with some direct sun",
+     "zh": "明亮光线，带些直射"
+    },
+    "water": {
+     "en": "Soak when dry; eases off in midsummer",
+     "zh": "干透浇透；盛夏放缓"
+    },
     "catSafe": false,
-    "catNote": "Crassula (jade family) are toxic to cats per ASPCA.",
+    "catNote": {
+     "en": "Crassula (jade family) are toxic to cats per ASPCA.",
+     "zh": "ASPCA 认定青锁龙属（玉树近亲）对猫有毒。"
+    },
     "difficulty": "easy",
-    "note": "The stems look threaded straight through the stacked leaves."
+    "note": {
+     "en": "The stems look threaded straight through the stacked leaves.",
+     "zh": "茎像是从一串叠起的叶子中间穿过去的。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -546,7 +855,10 @@
   },
   {
    "id": "zipper-plant",
-   "name": "Tanzanian Zipper Plant",
+   "name": {
+    "en": "Tanzanian Zipper Plant",
+    "zh": "坦桑尼亚拉链大戟"
+   },
    "scientificName": "Euphorbia anoplia",
    "nickname": null,
    "tags": [
@@ -555,13 +867,28 @@
    "idConfidence": "likely",
    "idNote": "",
    "care": {
-    "humidity": "Low",
-    "light": "Bright light to full sun",
-    "water": "Water when dry spring-fall; sparingly in winter",
+    "humidity": {
+     "en": "Low",
+     "zh": "低湿度"
+    },
+    "light": {
+     "en": "Bright light to full sun",
+     "zh": "明亮光线到全日照"
+    },
+    "water": {
+     "en": "Water when dry spring-fall; sparingly in winter",
+     "zh": "春到秋干了就浇；冬天少量"
+    },
     "catSafe": false,
-    "catNote": "Euphorbia sap is toxic and irritating to cats per ASPCA.",
+    "catNote": {
+     "en": "Euphorbia sap is toxic and irritating to cats per ASPCA.",
+     "zh": "ASPCA 认定大戟属汁液对猫有毒且有刺激性。"
+    },
     "difficulty": "easy",
-    "note": "The milky sap irritates human skin too - gloves on for repotting."
+    "note": {
+     "en": "The milky sap irritates human skin too - gloves on for repotting.",
+     "zh": "乳白汁液对人的皮肤也有刺激——换盆记得戴手套。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -579,7 +906,10 @@
   },
   {
    "id": "anise-hyssop",
-   "name": "Anise Hyssop",
+   "name": {
+    "en": "Anise Hyssop",
+    "zh": "茴藿香"
+   },
    "scientificName": "Agastache foeniculum",
    "nickname": null,
    "tags": [
@@ -587,15 +917,33 @@
     "flowering"
    ],
    "idConfidence": "likely",
-   "idNote": "Flower spikes drying - seeds incoming?",
+   "idNote": {
+    "en": "Flower spikes drying - seeds incoming?",
+    "zh": "花穗正在干枯——是要结种子了吗？"
+   },
    "care": {
-    "humidity": "Tolerates dry air well",
-    "light": "Full sun to part shade, 6+ hours best",
-    "water": "Water when soil dries a few inches down; drought tolerant once established",
+    "humidity": {
+     "en": "Tolerates dry air well",
+     "zh": "很耐干燥空气"
+    },
+    "light": {
+     "en": "Full sun to part shade, 6+ hours best",
+     "zh": "全日照到半阴，最好 6 小时以上"
+    },
+    "water": {
+     "en": "Water when soil dries a few inches down; drought tolerant once established",
+     "zh": "土干下去几厘米再浇；成株耐旱"
+    },
     "catSafe": true,
-    "catNote": "Not on the ASPCA toxic list; widely regarded as non-toxic to cats.",
+    "catNote": {
+     "en": "Not on the ASPCA toxic list; widely regarded as non-toxic to cats.",
+     "zh": "不在 ASPCA 有毒名录，普遍认为对猫无毒。"
+    },
     "difficulty": "easy",
-    "note": "Licorice-scented leaves make good tea, and blooms are a bee and hummingbird magnet."
+    "note": {
+     "en": "Licorice-scented leaves make good tea, and blooms are a bee and hummingbird magnet.",
+     "zh": "叶子有甘草香，能泡茶；花是蜜蜂和蜂鸟的磁铁。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -613,7 +961,10 @@
   },
   {
    "id": "coleus",
-   "name": "Coleus",
+   "name": {
+    "en": "Coleus",
+    "zh": "彩叶草"
+   },
    "scientificName": "Coleus scutellarioides",
    "nickname": null,
    "tags": [
@@ -621,15 +972,33 @@
     "porch"
    ],
    "idConfidence": "confirmed",
-   "idNote": "Came with its own COLEUS tag.",
+   "idNote": {
+    "en": "Came with its own COLEUS tag.",
+    "zh": "自带“COLEUS”标签。"
+   },
    "care": {
-    "humidity": "Enjoys moderate humidity",
-    "light": "Part shade to bright indirect; morning sun is ideal",
-    "water": "Keep evenly moist; water when top inch feels dry",
+    "humidity": {
+     "en": "Enjoys moderate humidity",
+     "zh": "喜中等湿度"
+    },
+    "light": {
+     "en": "Part shade to bright indirect; morning sun is ideal",
+     "zh": "半阴到明亮散射光；晨光最理想"
+    },
+    "water": {
+     "en": "Keep evenly moist; water when top inch feels dry",
+     "zh": "保持均匀湿润；表土一寸干了就浇"
+    },
     "catSafe": false,
-    "catNote": "ASPCA lists coleus as toxic to cats; essential oils cause vomiting and diarrhea.",
+    "catNote": {
+     "en": "ASPCA lists coleus as toxic to cats; essential oils cause vomiting and diarrhea.",
+     "zh": "ASPCA 认定彩叶草对猫有毒；精油会引起呕吐腹泻。"
+    },
     "difficulty": "easy",
-    "note": "Pinch off flower spikes so energy goes into its vividly colored foliage."
+    "note": {
+     "en": "Pinch off flower spikes so energy goes into its vividly colored foliage.",
+     "zh": "掐掉花穗，让养分都留给五彩的叶子。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -647,7 +1016,10 @@
   },
   {
    "id": "rosemary",
-   "name": "Rosemary",
+   "name": {
+    "en": "Rosemary",
+    "zh": "迷迭香"
+   },
    "scientificName": "Salvia rosmarinus",
    "nickname": null,
    "tags": [
@@ -657,13 +1029,28 @@
    "idConfidence": "confirmed",
    "idNote": "",
    "care": {
-    "humidity": "Prefers dry air with good airflow",
-    "light": "Full sun, 6+ hours",
-    "water": "Water when top inch is dry; never let pot sit in water",
+    "humidity": {
+     "en": "Prefers dry air with good airflow",
+     "zh": "喜干燥通风"
+    },
+    "light": {
+     "en": "Full sun, 6+ hours",
+     "zh": "全日照 6 小时以上"
+    },
+    "water": {
+     "en": "Water when top inch is dry; never let pot sit in water",
+     "zh": "表土一寸干了再浇；切忌盆内积水"
+    },
     "catSafe": true,
-    "catNote": "ASPCA lists rosemary as non-toxic to cats.",
+    "catNote": {
+     "en": "ASPCA lists rosemary as non-toxic to cats.",
+     "zh": "ASPCA 认定迷迭香对猫无毒。"
+    },
     "difficulty": "moderate",
-    "note": "Overwatering is the top killer of potted rosemary; sharp drainage is essential."
+    "note": {
+     "en": "Overwatering is the top killer of potted rosemary; sharp drainage is essential.",
+     "zh": "盆栽迷迭香的头号死因是浇太多，排水一定要好。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -681,7 +1068,10 @@
   },
   {
    "id": "mystery-seedling",
-   "name": "Mystery Seedling",
+   "name": {
+    "en": "Mystery Seedling",
+    "zh": "神秘小苗"
+   },
    "scientificName": "Unknown (Tamarindus indica?)",
    "nickname": null,
    "tags": [
@@ -689,15 +1079,33 @@
     "mystery"
    ],
    "idConfidence": "guess",
-   "idNote": "Pinnate baby leaves - best guess is a tamarind sprouted from seed.",
+   "idNote": {
+    "en": "Pinnate baby leaves - best guess is a tamarind sprouted from seed.",
+    "zh": "羽状小叶——我们猜是种子发芽的罗望子（酸角）。"
+   },
    "care": {
-    "humidity": "High, 60%+; mist or use a humidifier",
-    "light": "Bright direct sun; south window, 6+ hours",
-    "water": "Keep seedling evenly moist; later water when top 1-2 inches dry",
+    "humidity": {
+     "en": "High, 60%+; mist or use a humidifier",
+     "zh": "高湿度（60%+），可喷雾或加湿"
+    },
+    "light": {
+     "en": "Bright direct sun; south window, 6+ hours",
+     "zh": "明亮直射光；南窗 6 小时以上"
+    },
+    "water": {
+     "en": "Keep seedling evenly moist; later water when top 1-2 inches dry",
+     "zh": "苗期保持均匀湿润；之后表土干了再浇"
+    },
     "catSafe": true,
-    "catNote": "Not on the ASPCA toxic list; tamarind is generally considered non-toxic to cats.",
+    "catNote": {
+     "en": "Not on the ASPCA toxic list; tamarind is generally considered non-toxic to cats.",
+     "zh": "不在 ASPCA 有毒名录；罗望子一般认为对猫无毒。"
+    },
     "difficulty": "fussy",
-    "note": "Soak seeds 12-24 hours before sowing; keep it warm (70-80F) away from cold drafts."
+    "note": {
+     "en": "Soak seeds 12-24 hours before sowing; keep it warm (70-80F) away from cold drafts.",
+     "zh": "罗望子播种前要泡 12-24 小时；保持温暖，远离冷风。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -715,7 +1123,10 @@
   },
   {
    "id": "moss-rose",
-   "name": "Moss Rose",
+   "name": {
+    "en": "Moss Rose",
+    "zh": "太阳花（大花马齿苋）"
+   },
    "scientificName": "Portulaca grandiflora",
    "nickname": null,
    "tags": [
@@ -725,13 +1136,28 @@
    "idConfidence": "confirmed",
    "idNote": "",
    "care": {
-    "humidity": "Thrives in hot, dry air",
-    "light": "Full sun, 6-8 hours; won't bloom in shade",
-    "water": "Drought tolerant; one deep watering a week in summer",
+    "humidity": {
+     "en": "Thrives in hot, dry air",
+     "zh": "越热越干越开心"
+    },
+    "light": {
+     "en": "Full sun, 6-8 hours; won't bloom in shade",
+     "zh": "全日照 6-8 小时；背阴不开花"
+    },
+    "water": {
+     "en": "Drought tolerant; one deep watering a week in summer",
+     "zh": "很耐旱；盛夏一周浇透一次"
+    },
     "catSafe": false,
-    "catNote": "ASPCA lists moss rose (Portulaca) as toxic to cats via soluble calcium oxalates.",
+    "catNote": {
+     "en": "ASPCA lists moss rose (Portulaca) as toxic to cats via soluble calcium oxalates.",
+     "zh": "ASPCA 认定马齿苋对猫有毒（可溶性草酸盐）。"
+    },
     "difficulty": "easy",
-    "note": "Succulent leaves store water, and flowers close at night and on cloudy days."
+    "note": {
+     "en": "Succulent leaves store water, and flowers close at night and on cloudy days.",
+     "zh": "肉质叶片会储水，花朵夜里和阴天会合上。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -749,7 +1175,10 @@
   },
   {
    "id": "spider-plant-cutting",
-   "name": "Spider Plant Cutting",
+   "name": {
+    "en": "Spider Plant Cutting",
+    "zh": "卷叶吊兰插条"
+   },
    "scientificName": "Chlorophytum comosum 'Bonnie'",
    "nickname": null,
    "tags": [
@@ -757,15 +1186,33 @@
     "propagation"
    ],
    "idConfidence": "confirmed",
-   "idNote": "Rooting in water - likely a pup of the big curly spider plant.",
+   "idNote": {
+    "en": "Rooting in water - likely a pup of the big curly spider plant.",
+    "zh": "正在水培生根——多半是大卷叶吊兰的小崽。"
+   },
    "care": {
-    "humidity": "Average home humidity (40-50%) fine",
-    "light": "Medium to bright indirect; avoid direct midday sun",
-    "water": "Let top 2-5 cm dry between waterings",
+    "humidity": {
+     "en": "Average home humidity (40-50%) fine",
+     "zh": "普通室内湿度即可"
+    },
+    "light": {
+     "en": "Medium to bright indirect; avoid direct midday sun",
+     "zh": "中等到明亮散射光，避开正午直射"
+    },
+    "water": {
+     "en": "Let top 2-5 cm dry between waterings",
+     "zh": "表土干 2-5 厘米再浇"
+    },
     "catSafe": true,
-    "catNote": "Non-toxic to cats per ASPCA, though cats love chewing it and may get mild GI upset",
+    "catNote": {
+     "en": "Non-toxic to cats per ASPCA, though cats love chewing it and may get mild GI upset",
+     "zh": "ASPCA 认定吊兰对猫无毒，但猫爱嚼，吃多了会轻微闹肚子。"
+    },
     "difficulty": "easy",
-    "note": "Fluoride in tap water causes brown tips; 'Bonnie' has fun curly leaves and makes babies"
+    "note": {
+     "en": "Fluoride in tap water causes brown tips; 'Bonnie' has fun curly leaves and makes babies",
+     "zh": "自来水里的氟会让叶尖发焦；“Bonnie”卷叶还会生小崽。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -783,7 +1230,10 @@
   },
   {
    "id": "poinsettia-small",
-   "name": "Poinsettia (Windowsill)",
+   "name": {
+    "en": "Poinsettia (Windowsill)",
+    "zh": "一品红（窗台）"
+   },
    "scientificName": "Euphorbia pulcherrima",
    "nickname": null,
    "tags": [
@@ -792,13 +1242,28 @@
    "idConfidence": "confirmed",
    "idNote": "",
    "care": {
-    "humidity": "Moderate; avoid dry drafts",
-    "light": "6+ hours of bright indirect light",
-    "water": "When top inch dries; drain the foil sleeve",
+    "humidity": {
+     "en": "Moderate; avoid dry drafts",
+     "zh": "中等湿度；避免干燥的风口"
+    },
+    "light": {
+     "en": "6+ hours of bright indirect light",
+     "zh": "每天 6 小时以上明亮散射光"
+    },
+    "water": {
+     "en": "When top inch dries; drain the foil sleeve",
+     "zh": "表土一寸干了再浇；套盆里别积水"
+    },
     "catSafe": false,
-    "catNote": "Mildly toxic per ASPCA; sap irritates mouth and stomach, though its danger is often overrated.",
+    "catNote": {
+     "en": "Mildly toxic per ASPCA; sap irritates mouth and stomach, though its danger is often overrated.",
+     "zh": "ASPCA 认定轻微有毒；汁液刺激口腔和肠胃，但危险性常被夸大。"
+    },
     "difficulty": "moderate",
-    "note": "Needs about 14 hours of total darkness nightly for 8 weeks in fall to re-color its bracts."
+    "note": {
+     "en": "Needs about 14 hours of total darkness nightly for 8 weeks in fall to re-color its bracts.",
+     "zh": "秋起每晚约 14 小时完全黑暗、持续 8 周，苞片才会重新变红。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -816,7 +1281,10 @@
   },
   {
    "id": "brain-cactus",
-   "name": "Brain Cactus",
+   "name": {
+    "en": "Brain Cactus",
+    "zh": "脑状仙人掌（金手指缀化）"
+   },
    "scientificName": "Mammillaria elongata 'Cristata'",
    "nickname": null,
    "tags": [
@@ -826,13 +1294,28 @@
    "idConfidence": "likely",
    "idNote": "",
    "care": {
-    "humidity": "Low",
-    "light": "Bright direct light, 4+ hours daily",
-    "water": "Soak and dry; barely water in winter",
+    "humidity": {
+     "en": "Low",
+     "zh": "低湿度"
+    },
+    "light": {
+     "en": "Bright direct light, 4+ hours daily",
+     "zh": "每天 4 小时以上明亮直射光"
+    },
+    "water": {
+     "en": "Soak and dry; barely water in winter",
+     "zh": "干透浇透；冬天几乎不浇"
+    },
     "catSafe": true,
-    "catNote": "Not on ASPCA toxic list; Mammillaria cacti are non-toxic, though spines pose a poke hazard.",
+    "catNote": {
+     "en": "Not on ASPCA toxic list; Mammillaria cacti are non-toxic, though spines pose a poke hazard.",
+     "zh": "不在 ASPCA 有毒名录；乳突球属无毒，但刺会扎。"
+    },
     "difficulty": "easy",
-    "note": "Its folded brain shape comes from a rare crested mutation of the ladyfinger cactus."
+    "note": {
+     "en": "Its folded brain shape comes from a rare crested mutation of the ladyfinger cactus.",
+     "zh": "大脑般的褶皱来自金手指仙人掌罕见的缀化变异。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -850,7 +1333,10 @@
   },
   {
    "id": "boston-fern",
-   "name": "Boston Fern",
+   "name": {
+    "en": "Boston Fern",
+    "zh": "波士顿蕨"
+   },
    "scientificName": "Nephrolepis exaltata",
    "nickname": null,
    "tags": [
@@ -860,13 +1346,28 @@
    "idConfidence": "confirmed",
    "idNote": "",
    "care": {
-    "humidity": "High; most homes too dry, use humidifier or pebble tray",
-    "light": "Bright filtered/indirect light; direct sun burns fronds",
-    "water": "Keep soil evenly moist; water when surface starts to dry",
+    "humidity": {
+     "en": "High; most homes too dry, use humidifier or pebble tray",
+     "zh": "高湿度；多数家里太干，需要加湿器或垫石盘"
+    },
+    "light": {
+     "en": "Bright filtered/indirect light; direct sun burns fronds",
+     "zh": "明亮的过滤光；直射会烧叶"
+    },
+    "water": {
+     "en": "Keep soil evenly moist; water when surface starts to dry",
+     "zh": "保持土壤均匀湿润；表面刚开始干就浇"
+    },
     "catSafe": true,
-    "catNote": "Non-toxic to cats per ASPCA (a true fern, safe to nibble)",
+    "catNote": {
+     "en": "Non-toxic to cats per ASPCA (a true fern, safe to nibble)",
+     "zh": "ASPCA 认定波士顿蕨对猫无毒（真蕨类，啃了也没事）。"
+    },
     "difficulty": "moderate",
-    "note": "Sheds and browns in dry winter air; regular misting or a bathroom spot keeps it lush"
+    "note": {
+     "en": "Sheds and browns in dry winter air; regular misting or a bathroom spot keeps it lush",
+     "zh": "冬天空气干会掉叶发黄；常喷雾或挪到浴室就能翠绿。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -884,22 +1385,43 @@
   },
   {
    "id": "poinsettia-large",
-   "name": "Poinsettia (Big One)",
+   "name": {
+    "en": "Poinsettia (Big One)",
+    "zh": "一品红（大盆）"
+   },
    "scientificName": "Euphorbia pulcherrima",
    "nickname": null,
    "tags": [
     "foliage"
    ],
    "idConfidence": "confirmed",
-   "idNote": "Survived the holidays and thriving.",
+   "idNote": {
+    "en": "Survived the holidays and thriving.",
+    "zh": "熬过了节日季还越长越旺。"
+   },
    "care": {
-    "humidity": "Moderate; avoid dry drafts",
-    "light": "6+ hours of bright indirect light",
-    "water": "When top inch dries; drain the foil sleeve",
+    "humidity": {
+     "en": "Moderate; avoid dry drafts",
+     "zh": "中等湿度；避免干燥的风口"
+    },
+    "light": {
+     "en": "6+ hours of bright indirect light",
+     "zh": "每天 6 小时以上明亮散射光"
+    },
+    "water": {
+     "en": "When top inch dries; drain the foil sleeve",
+     "zh": "表土一寸干了再浇；套盆里别积水"
+    },
     "catSafe": false,
-    "catNote": "Mildly toxic per ASPCA; sap irritates mouth and stomach, though its danger is often overrated.",
+    "catNote": {
+     "en": "Mildly toxic per ASPCA; sap irritates mouth and stomach, though its danger is often overrated.",
+     "zh": "ASPCA 认定轻微有毒；汁液刺激口腔和肠胃，但危险性常被夸大。"
+    },
     "difficulty": "moderate",
-    "note": "Needs about 14 hours of total darkness nightly for 8 weeks in fall to re-color its bracts."
+    "note": {
+     "en": "Needs about 14 hours of total darkness nightly for 8 weeks in fall to re-color its bracts.",
+     "zh": "秋起每晚约 14 小时完全黑暗、持续 8 周，苞片才会重新变红。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -917,7 +1439,10 @@
   },
   {
    "id": "lavender",
-   "name": "Lavender",
+   "name": {
+    "en": "Lavender",
+    "zh": "薰衣草"
+   },
    "scientificName": "Lavandula angustifolia",
    "nickname": null,
    "tags": [
@@ -925,15 +1450,33 @@
     "porch"
    ],
    "idConfidence": "likely",
-   "idNote": "Looking crispy on the porch - fingers crossed.",
+   "idNote": {
+    "en": "Looking crispy on the porch - fingers crossed.",
+    "zh": "在阳台上晒得有点干脆——祈祷它挺住。"
+   },
    "care": {
-    "humidity": "Needs dry air; dislikes humid, stagnant spots",
-    "light": "Full sun, 6-8 hours",
-    "water": "Sparingly; let soil dry out, hates wet feet",
+    "humidity": {
+     "en": "Needs dry air; dislikes humid, stagnant spots",
+     "zh": "需要干燥空气，怕闷湿"
+    },
+    "light": {
+     "en": "Full sun, 6-8 hours",
+     "zh": "全日照 6-8 小时"
+    },
+    "water": {
+     "en": "Sparingly; let soil dry out, hates wet feet",
+     "zh": "少浇；土干透再浇，最怕烂根"
+    },
     "catSafe": false,
-    "catNote": "ASPCA lists lavender as toxic to cats; linalool causes nausea and vomiting.",
+    "catNote": {
+     "en": "ASPCA lists lavender as toxic to cats; linalool causes nausea and vomiting.",
+     "zh": "ASPCA 认定薰衣草对猫有毒；芳樟醇会引起恶心呕吐。"
+    },
     "difficulty": "fussy",
-    "note": "Use lean gritty mix in an unglazed pot; humid Northeast summers invite fungal issues."
+    "note": {
+     "en": "Use lean gritty mix in an unglazed pot; humid Northeast summers invite fungal issues.",
+     "zh": "用贫瘠的颗粒土和素烧盆；潮湿的夏天容易得真菌病。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -951,7 +1494,10 @@
   },
   {
    "id": "cleome",
-   "name": "Spider Flower",
+   "name": {
+    "en": "Spider Flower",
+    "zh": "醉蝶花"
+   },
    "scientificName": "Cleome hassleriana (?)",
    "nickname": null,
    "tags": [
@@ -961,15 +1507,33 @@
     "mystery"
    ],
    "idConfidence": "guess",
-   "idNote": "Hairy stems + palmate leaves; best guess is cleome.",
+   "idNote": {
+    "en": "Hairy stems + palmate leaves; best guess is cleome.",
+    "zh": "毛茸茸的茎加掌状复叶——我们最接近的猜测是醉蝶花。"
+   },
    "care": {
-    "humidity": "Average humidity; very tolerant",
-    "light": "Full sun",
-    "water": "Let soil dry slightly between waterings; drought tolerant once established",
+    "humidity": {
+     "en": "Average humidity; very tolerant",
+     "zh": "普通湿度，很皮实"
+    },
+    "light": {
+     "en": "Full sun",
+     "zh": "全日照"
+    },
+    "water": {
+     "en": "Let soil dry slightly between waterings; drought tolerant once established",
+     "zh": "两次浇水之间稍微干一干；成株耐旱"
+    },
     "catSafe": true,
-    "catNote": "ASPCA lists spider flower as non-toxic to cats.",
+    "catNote": {
+     "en": "ASPCA lists spider flower as non-toxic to cats.",
+     "zh": "ASPCA 认定醉蝶花对猫无毒。"
+    },
     "difficulty": "easy",
-    "note": "Self-sows readily and deadheads itself; older varieties have thorny, musky stems."
+    "note": {
+     "en": "Self-sows readily and deadheads itself; older varieties have thorny, musky stems.",
+     "zh": "会自播，还会自己掉残花；老品种茎上有刺、带麝香味。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -987,7 +1551,10 @@
   },
   {
    "id": "monstera-thai-constellation",
-   "name": "Monstera 'Thai Constellation'",
+   "name": {
+    "en": "Monstera 'Thai Constellation'",
+    "zh": "龟背竹“泰国星座”"
+   },
    "scientificName": "Monstera deliciosa 'Thai Constellation'",
    "nickname": null,
    "tags": [
@@ -996,13 +1563,28 @@
    "idConfidence": "confirmed",
    "idNote": "",
    "care": {
-    "humidity": "High (60%+) preferred",
-    "light": "Bright indirect; direct sun scorches cream patches",
-    "water": "Water when top 2-3 cm dry; never soggy",
+    "humidity": {
+     "en": "High (60%+) preferred",
+     "zh": "偏好高湿度（60%+）"
+    },
+    "light": {
+     "en": "Bright indirect; direct sun scorches cream patches",
+     "zh": "明亮散射光；直射会晒伤奶油色斑"
+    },
+    "water": {
+     "en": "Water when top 2-3 cm dry; never soggy",
+     "zh": "表土 2-3 厘米干了再浇；切忌积水"
+    },
     "catSafe": false,
-    "catNote": "Toxic to cats per ASPCA (insoluble calcium oxalates), listed as Swiss cheese plant",
+    "catNote": {
+     "en": "Toxic to cats per ASPCA (insoluble calcium oxalates), listed as Swiss cheese plant",
+     "zh": "ASPCA 认定龟背竹对猫有毒（不溶性草酸钙）。"
+    },
     "difficulty": "moderate",
-    "note": "Tissue-culture variegation is stable, but white areas lack chlorophyll so it grows slowly"
+    "note": {
+     "en": "Tissue-culture variegation is stable, but white areas lack chlorophyll so it grows slowly",
+     "zh": "组培锦化很稳定，但白色部分没有叶绿素，长得慢。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -1020,7 +1602,10 @@
   },
   {
    "id": "golden-pothos",
-   "name": "Golden Pothos",
+   "name": {
+    "en": "Golden Pothos",
+    "zh": "绿萝"
+   },
    "scientificName": "Epipremnum aureum",
    "nickname": null,
    "tags": [
@@ -1030,13 +1615,28 @@
    "idConfidence": "confirmed",
    "idNote": "",
    "care": {
-    "humidity": "Average home humidity (40-50%) fine",
-    "light": "Low to bright indirect; variegation fades in dim spots",
-    "water": "Let top 2-5 cm dry between waterings",
+    "humidity": {
+     "en": "Average home humidity (40-50%) fine",
+     "zh": "普通室内湿度（40-50%）即可"
+    },
+    "light": {
+     "en": "Low to bright indirect; variegation fades in dim spots",
+     "zh": "低光到明亮散射光都行；太暗斑纹会变淡"
+    },
+    "water": {
+     "en": "Let top 2-5 cm dry between waterings",
+     "zh": "表土干 2-5 厘米再浇"
+    },
     "catSafe": false,
-    "catNote": "Toxic to cats per ASPCA (insoluble calcium oxalates); causes oral burning and drooling",
+    "catNote": {
+     "en": "Toxic to cats per ASPCA (insoluble calcium oxalates); causes oral burning and drooling",
+     "zh": "ASPCA 认定绿萝对猫有毒（不溶性草酸钙）；啃了会口腔灼痛流口水。"
+    },
     "difficulty": "easy",
-    "note": "Tolerates missed waterings and low light; one of the most forgiving trailing houseplants"
+    "note": {
+     "en": "Tolerates missed waterings and low light; one of the most forgiving trailing houseplants",
+     "zh": "忘浇水、光线差都能忍——最宽容的垂吊植物之一。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -1054,22 +1654,43 @@
   },
   {
    "id": "sedeveria",
-   "name": "Sedeveria",
+   "name": {
+    "en": "Sedeveria",
+    "zh": "蒂亚（景天杂交）"
+   },
    "scientificName": "× Sedeveria (cf. 'Letizia')",
    "nickname": null,
    "tags": [
     "succulent"
    ],
    "idConfidence": "guess",
-   "idNote": "Rosettes on stems - some Sedum/Echeveria hybrid.",
+   "idNote": {
+    "en": "Rosettes on stems - some Sedum/Echeveria hybrid.",
+    "zh": "茎上顶着小莲座——某个景天×石莲花的杂交。"
+   },
    "care": {
-    "humidity": "Low",
-    "light": "Bright light with direct sun",
-    "water": "Soak-and-dry",
+    "humidity": {
+     "en": "Low",
+     "zh": "低湿度"
+    },
+    "light": {
+     "en": "Bright light with direct sun",
+     "zh": "明亮光线带直射"
+    },
+    "water": {
+     "en": "Soak-and-dry",
+     "zh": "干透浇透"
+    },
     "catSafe": true,
-    "catNote": "Both parents (Sedum, Echeveria) are non-toxic per ASPCA.",
+    "catNote": {
+     "en": "Both parents (Sedum, Echeveria) are non-toxic per ASPCA.",
+     "zh": "两个亲本（景天与石莲花）按 ASPCA 都无毒。"
+    },
     "difficulty": "easy",
-    "note": "Dropped leaves root wherever they land - free plants."
+    "note": {
+     "en": "Dropped leaves root wherever they land - free plants.",
+     "zh": "掉下的叶子落地生根——白捡的新株。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -1087,7 +1708,10 @@
   },
   {
    "id": "red-pagoda",
-   "name": "Red Pagoda",
+   "name": {
+    "en": "Red Pagoda",
+    "zh": "红宝塔（青锁龙）"
+   },
    "scientificName": "Crassula capitella",
    "nickname": null,
    "tags": [
@@ -1096,13 +1720,28 @@
    "idConfidence": "likely",
    "idNote": "",
    "care": {
-    "humidity": "Low",
-    "light": "Bright sun brings out the red",
-    "water": "Soak-and-dry; light in winter",
+    "humidity": {
+     "en": "Low",
+     "zh": "低湿度"
+    },
+    "light": {
+     "en": "Bright sun brings out the red",
+     "zh": "晒足太阳才够红"
+    },
+    "water": {
+     "en": "Soak-and-dry; light in winter",
+     "zh": "干透浇透；冬天少量"
+    },
     "catSafe": false,
-    "catNote": "Crassula are toxic to cats per ASPCA.",
+    "catNote": {
+     "en": "Crassula are toxic to cats per ASPCA.",
+     "zh": "ASPCA 认定青锁龙属对猫有毒。"
+    },
     "difficulty": "easy",
-    "note": "More sun means redder pagodas."
+    "note": {
+     "en": "More sun means redder pagodas.",
+     "zh": "太阳越足，宝塔越红。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -1120,7 +1759,10 @@
   },
   {
    "id": "ficus-ginseng",
-   "name": "Ginseng Ficus Bonsai",
+   "name": {
+    "en": "Ginseng Ficus Bonsai",
+    "zh": "人参榕"
+   },
    "scientificName": "Ficus microcarpa",
    "nickname": null,
    "tags": [
@@ -1130,13 +1772,28 @@
    "idConfidence": "confirmed",
    "idNote": "",
    "care": {
-    "humidity": "Average humidity ok; likes a boost, avoid dry drafts",
-    "light": "Bright indirect light; no hot midday sun",
-    "water": "Water when top 2-3 cm dry; much less in winter",
+    "humidity": {
+     "en": "Average humidity ok; likes a boost, avoid dry drafts",
+     "zh": "普通湿度即可；加湿更好，避免干燥风口"
+    },
+    "light": {
+     "en": "Bright indirect light; no hot midday sun",
+     "zh": "明亮散射光；避开正午暴晒"
+    },
+    "water": {
+     "en": "Water when top 2-3 cm dry; much less in winter",
+     "zh": "表土 2-3 厘米干了再浇；冬天大减"
+    },
     "catSafe": false,
-    "catNote": "Toxic to cats (Ficus sap contains ficin/ficusin); irritates mouth, skin, and gut",
+    "catNote": {
+     "en": "Toxic to cats (Ficus sap contains ficin/ficusin); irritates mouth, skin, and gut",
+     "zh": "榕属乳汁对猫有毒；刺激口腔、皮肤和肠胃。"
+    },
     "difficulty": "moderate",
-    "note": "One of the easiest bonsai, but it drops leaves when moved or hit by cold drafts"
+    "note": {
+     "en": "One of the easiest bonsai, but it drops leaves when moved or hit by cold drafts",
+     "zh": "最好养的盆景之一，但一挪位置或吹冷风就掉叶。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -1154,7 +1811,10 @@
   },
   {
    "id": "fittonia-white",
-   "name": "Nerve Plant (White)",
+   "name": {
+    "en": "Nerve Plant (White)",
+    "zh": "网纹草（白脉）"
+   },
    "scientificName": "Fittonia albivenis",
    "nickname": null,
    "tags": [
@@ -1163,13 +1823,28 @@
    "idConfidence": "confirmed",
    "idNote": "",
    "care": {
-    "humidity": "High (60%+); thrives in terrariums",
-    "light": "Low to medium indirect light; direct sun scorches",
-    "water": "Keep consistently moist; never let it fully dry",
+    "humidity": {
+     "en": "High (60%+); thrives in terrariums",
+     "zh": "高湿度（60%+）；生态瓶里如鱼得水"
+    },
+    "light": {
+     "en": "Low to medium indirect light; direct sun scorches",
+     "zh": "低到中等散射光；直射会晒伤"
+    },
+    "water": {
+     "en": "Keep consistently moist; never let it fully dry",
+     "zh": "保持湿润；千万别彻底干透"
+    },
     "catSafe": true,
-    "catNote": "Non-toxic to cats per ASPCA",
+    "catNote": {
+     "en": "Non-toxic to cats per ASPCA",
+     "zh": "ASPCA 认定网纹草对猫无毒。"
+    },
     "difficulty": "fussy",
-    "note": "Famously 'faints' dramatically when thirsty, then revives within hours of watering"
+    "note": {
+     "en": "Famously 'faints' dramatically when thirsty, then revives within hours of watering",
+     "zh": "渴了会戏剧性地“晕倒”，浇水后几小时内又活过来。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -1187,7 +1862,10 @@
   },
   {
    "id": "mystery-rosettes",
-   "name": "Mystery Rosette Seedlings",
+   "name": {
+    "en": "Mystery Rosette Seedlings",
+    "zh": "神秘莲座小苗"
+   },
    "scientificName": "Unknown",
    "nickname": null,
    "tags": [
@@ -1195,7 +1873,10 @@
     "mystery"
    ],
    "idConfidence": "guess",
-   "idNote": "Narrow-leaved rosettes in the handmade pot - dianthus seedlings, perhaps?",
+   "idNote": {
+    "en": "Narrow-leaved rosettes in the handmade pot - dianthus seedlings, perhaps?",
+    "zh": "手作陶盆里的细叶小莲座——说不定是石竹苗？"
+   },
    "care": {
     "humidity": null,
     "light": null,
@@ -1221,7 +1902,10 @@
   },
   {
    "id": "basil",
-   "name": "Sweet Basil",
+   "name": {
+    "en": "Sweet Basil",
+    "zh": "罗勒"
+   },
    "scientificName": "Ocimum basilicum",
    "nickname": null,
    "tags": [
@@ -1230,13 +1914,28 @@
    "idConfidence": "confirmed",
    "idNote": "",
    "care": {
-    "humidity": "Average humidity is fine",
-    "light": "Full sun, 6-8 hours",
-    "water": "Keep soil moist; water deeply when top inch dries",
+    "humidity": {
+     "en": "Average humidity is fine",
+     "zh": "普通湿度即可"
+    },
+    "light": {
+     "en": "Full sun, 6-8 hours",
+     "zh": "全日照 6-8 小时"
+    },
+    "water": {
+     "en": "Keep soil moist; water deeply when top inch dries",
+     "zh": "保持湿润；表土一寸干了浇透"
+    },
     "catSafe": true,
-    "catNote": "ASPCA lists basil as non-toxic to cats.",
+    "catNote": {
+     "en": "ASPCA lists basil as non-toxic to cats.",
+     "zh": "ASPCA 认定罗勒对猫无毒。"
+    },
     "difficulty": "easy",
-    "note": "Pinch tops and flower buds often for bushier plants; hates temps below 50F."
+    "note": {
+     "en": "Pinch tops and flower buds often for bushier plants; hates temps below 50F.",
+     "zh": "勤掐尖、摘花苞会更茂盛；低于 10°C 就蔫。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -1254,7 +1953,10 @@
   },
   {
    "id": "burros-tail",
-   "name": "Burro's Tail",
+   "name": {
+    "en": "Burro's Tail",
+    "zh": "玉缀（翡翠景天）"
+   },
    "scientificName": "Sedum morganianum",
    "nickname": null,
    "tags": [
@@ -1264,13 +1966,28 @@
    "idConfidence": "confirmed",
    "idNote": "",
    "care": {
-    "humidity": "Low to average",
-    "light": "Bright light; morning sun is ideal",
-    "water": "Water when dry; leaves wrinkle when thirsty",
+    "humidity": {
+     "en": "Low to average",
+     "zh": "低到普通湿度"
+    },
+    "light": {
+     "en": "Bright light; morning sun is ideal",
+     "zh": "明亮光线；晨光直射最理想"
+    },
+    "water": {
+     "en": "Water when dry; leaves wrinkle when thirsty",
+     "zh": "干了再浇；叶子发皱就是渴了"
+    },
     "catSafe": true,
-    "catNote": "Non-toxic to cats per ASPCA.",
+    "catNote": {
+     "en": "Non-toxic to cats per ASPCA.",
+     "zh": "ASPCA 认定玉缀对猫无毒。"
+    },
     "difficulty": "easy",
-    "note": "Extremely brittle - every fallen leaf is a future plant."
+    "note": {
+     "en": "Extremely brittle - every fallen leaf is a future plant.",
+     "zh": "极其易碎——每片掉落的叶子都是未来的新株。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -1288,7 +2005,10 @@
   },
   {
    "id": "balloon-flower",
-   "name": "Balloon Flower",
+   "name": {
+    "en": "Balloon Flower",
+    "zh": "桔梗"
+   },
    "scientificName": "Platycodon grandiflorus",
    "nickname": null,
    "tags": [
@@ -1298,13 +2018,28 @@
    "idConfidence": "confirmed",
    "idNote": "",
    "care": {
-    "humidity": "Average outdoor humidity",
-    "light": "Full sun to part shade",
-    "water": "Medium; drought tolerant once established",
+    "humidity": {
+     "en": "Average outdoor humidity",
+     "zh": "普通户外湿度"
+    },
+    "light": {
+     "en": "Full sun to part shade",
+     "zh": "全日照到半阴"
+    },
+    "water": {
+     "en": "Medium; drought tolerant once established",
+     "zh": "中等；成株耐旱"
+    },
     "catSafe": true,
-    "catNote": "Not listed as toxic by the ASPCA; generally considered cat-safe despite saponins in the roots.",
+    "catNote": {
+     "en": "Not listed as toxic by the ASPCA; generally considered cat-safe despite saponins in the roots.",
+     "zh": "不在 ASPCA 有毒名录；虽根含皂苷，一般认为对猫安全。"
+    },
     "difficulty": "easy",
-    "note": "Buds inflate like little balloons before popping open; shoots emerge late in spring, so be patient."
+    "note": {
+     "en": "Buds inflate like little balloons before popping open; shoots emerge late in spring, so be patient.",
+     "zh": "花苞先鼓成小气球再“啪”地绽开；春天发芽晚，要有耐心。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -1322,7 +2057,10 @@
   },
   {
    "id": "peperomia-red-log",
-   "name": "Red Log Peperomia",
+   "name": {
+    "en": "Red Log Peperomia",
+    "zh": "红背椒草"
+   },
    "scientificName": "Peperomia verticillata",
    "nickname": null,
    "tags": [
@@ -1331,13 +2069,28 @@
    "idConfidence": "likely",
    "idNote": "",
    "care": {
-    "humidity": "Average to dry rooms fine; skip misting to avoid fungus",
-    "light": "Bright indirect; tolerates a little direct sun",
-    "water": "Semi-succulent; let soil nearly dry out between drinks",
+    "humidity": {
+     "en": "Average to dry rooms fine; skip misting to avoid fungus",
+     "zh": "普通到干燥的房间都行；别喷雾以免真菌"
+    },
+    "light": {
+     "en": "Bright indirect; tolerates a little direct sun",
+     "zh": "明亮散射光；耐一点直射"
+    },
+    "water": {
+     "en": "Semi-succulent; let soil nearly dry out between drinks",
+     "zh": "半多肉性质；土快干透再浇"
+    },
     "catSafe": true,
-    "catNote": "Non-toxic to cats per ASPCA (Peperomia genus is cat-safe)",
+    "catNote": {
+     "en": "Non-toxic to cats per ASPCA (Peperomia genus is cat-safe)",
+     "zh": "ASPCA 认定椒草属对猫无毒。"
+    },
     "difficulty": "easy",
-    "note": "Fuzzy leaves are green on top, wine-red beneath; stores water so it forgives forgetfulness"
+    "note": {
+     "en": "Fuzzy leaves are green on top, wine-red beneath; stores water so it forgives forgetfulness",
+     "zh": "毛茸茸的叶子上绿下酒红；自带储水，健忘也没关系。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -1355,7 +2108,10 @@
   },
   {
    "id": "gourd-vine",
-   "name": "Gourd Vine",
+   "name": {
+    "en": "Gourd Vine",
+    "zh": "瓜藤（南瓜/葫芦）"
+   },
    "scientificName": "Cucurbita / Lagenaria sp.",
    "nickname": null,
    "tags": [
@@ -1364,15 +2120,33 @@
     "porch"
    ],
    "idConfidence": "likely",
-   "idNote": "Huge fuzzy leaves racing up the balcony window.",
+   "idNote": {
+    "en": "Huge fuzzy leaves racing up the balcony window.",
+    "zh": "毛茸茸的大叶子正沿着阳台窗户攀爬。"
+   },
    "care": {
-    "humidity": "Average outdoor humidity is fine",
-    "light": "Full sun, 6-8 hours",
-    "water": "Thirsty; deep, steady water, big pots dry out fast",
+    "humidity": {
+     "en": "Average outdoor humidity is fine",
+     "zh": "普通户外湿度即可"
+    },
+    "light": {
+     "en": "Full sun, 6-8 hours",
+     "zh": "全日照 6-8 小时"
+    },
+    "water": {
+     "en": "Thirsty; deep, steady water, big pots dry out fast",
+     "zh": "很能喝水；大盆也干得快，要深浇勤浇"
+    },
     "catSafe": true,
-    "catNote": "ASPCA lists squashes (Cucurbita) as non-toxic to cats.",
+    "catNote": {
+     "en": "ASPCA lists squashes (Cucurbita) as non-toxic to cats.",
+     "zh": "ASPCA 认定南瓜类对猫无毒。"
+    },
     "difficulty": "moderate",
-    "note": "On a porch, hand-pollinate morning flowers with a brush if bees are scarce."
+    "note": {
+     "en": "On a porch, hand-pollinate morning flowers with a brush if bees are scarce.",
+     "zh": "阳台上蜜蜂少，早晨用毛笔帮花授粉。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -1390,7 +2164,10 @@
   },
   {
    "id": "prickly-pear",
-   "name": "Prickly Pear",
+   "name": {
+    "en": "Prickly Pear",
+    "zh": "仙人掌（食用掌）"
+   },
    "scientificName": "Opuntia sp.",
    "nickname": null,
    "tags": [
@@ -1400,13 +2177,28 @@
    "idConfidence": "likely",
    "idNote": "",
    "care": {
-    "humidity": "Low; loves dry air",
-    "light": "Full sun",
-    "water": "Deep but infrequent; dry out fully between waterings",
+    "humidity": {
+     "en": "Low; loves dry air",
+     "zh": "低湿度，喜干燥"
+    },
+    "light": {
+     "en": "Full sun",
+     "zh": "全日照"
+    },
+    "water": {
+     "en": "Deep but infrequent; dry out fully between waterings",
+     "zh": "深浇但少浇；两次之间完全干透"
+    },
     "catSafe": true,
-    "catNote": "Opuntia is non-toxic to cats per ASPCA, but barbed glochid spines can injure paws and mouths.",
+    "catNote": {
+     "en": "Opuntia is non-toxic to cats per ASPCA, but barbed glochid spines can injure paws and mouths.",
+     "zh": "ASPCA 认定仙人掌属对猫无毒，但倒钩芒刺会伤爪子和嘴。"
+    },
     "difficulty": "easy",
-    "note": "Young pads (nopales) are edible; handle with tongs since glochids detach at the lightest touch."
+    "note": {
+     "en": "Young pads (nopales) are edible; handle with tongs since glochids detach at the lightest touch.",
+     "zh": "嫩掌片（nopales）能吃；芒刺一碰就脱落，要用夹子拿。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -1424,7 +2216,10 @@
   },
   {
    "id": "gollum-jade",
-   "name": "Gollum Jade",
+   "name": {
+    "en": "Gollum Jade",
+    "zh": "筒叶花月"
+   },
    "scientificName": "Crassula ovata 'Gollum'",
    "nickname": null,
    "tags": [
@@ -1433,13 +2228,28 @@
    "idConfidence": "confirmed",
    "idNote": "",
    "care": {
-    "humidity": "Low; dry indoor air is fine",
-    "light": "Bright light with several hours of direct sun",
-    "water": "Soak and dry; water only when soil is fully dry",
+    "humidity": {
+     "en": "Low; dry indoor air is fine",
+     "zh": "低湿度，干燥室内没问题"
+    },
+    "light": {
+     "en": "Bright light with several hours of direct sun",
+     "zh": "明亮光线，每天几小时直射"
+    },
+    "water": {
+     "en": "Soak and dry; water only when soil is fully dry",
+     "zh": "干透浇透；土完全干了才浇"
+    },
     "catSafe": false,
-    "catNote": "Toxic per ASPCA; jade plants cause vomiting, depression, and incoordination in cats.",
+    "catNote": {
+     "en": "Toxic per ASPCA; jade plants cause vomiting, depression, and incoordination in cats.",
+     "zh": "ASPCA 认定玉树类对猫有毒；会引起呕吐、萎靡和共济失调。"
+    },
     "difficulty": "easy",
-    "note": "Tubular 'Shrek ear' leaves blush red in strong sun; cut water way back in winter."
+    "note": {
+     "en": "Tubular 'Shrek ear' leaves blush red in strong sun; cut water way back in winter.",
+     "zh": "“史莱克耳朵”般的筒叶晒足太阳会泛红；冬天大幅减水。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -1457,7 +2267,10 @@
   },
   {
    "id": "string-of-pearls",
-   "name": "String of Pearls",
+   "name": {
+    "en": "String of Pearls",
+    "zh": "珍珠吊兰（佛珠）"
+   },
    "scientificName": "Curio rowleyanus",
    "nickname": null,
    "tags": [
@@ -1467,13 +2280,28 @@
    "idConfidence": "confirmed",
    "idNote": "",
    "care": {
-    "humidity": "Low to average",
-    "light": "Bright indirect light with gentle morning sun",
-    "water": "Sparse; let soil dry completely, rots easily",
+    "humidity": {
+     "en": "Low to average",
+     "zh": "低到普通湿度"
+    },
+    "light": {
+     "en": "Bright indirect light with gentle morning sun",
+     "zh": "明亮散射光加温和晨光"
+    },
+    "water": {
+     "en": "Sparse; let soil dry completely, rots easily",
+     "zh": "少浇；土完全干透再浇，很容易烂"
+    },
     "catSafe": false,
-    "catNote": "Toxic per ASPCA; causes vomiting and lethargy, so hang it well out of feline reach.",
+    "catNote": {
+     "en": "Toxic per ASPCA; causes vomiting and lethargy, so hang it well out of feline reach.",
+     "zh": "ASPCA 认定对猫有毒；会呕吐嗜睡，一定挂在猫够不到的地方。"
+    },
     "difficulty": "fussy",
-    "note": "Wrinkled pearls signal thirst; shallow roots rot fast, so use a shallow pot and gritty mix."
+    "note": {
+     "en": "Wrinkled pearls signal thirst; shallow roots rot fast, so use a shallow pot and gritty mix.",
+     "zh": "珠子发皱就是渴了；浅根系易烂，用浅盆和颗粒土。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -1491,7 +2319,10 @@
   },
   {
    "id": "tomatoes",
-   "name": "Tomatoes",
+   "name": {
+    "en": "Tomatoes",
+    "zh": "番茄"
+   },
    "scientificName": "Solanum lycopersicum",
    "nickname": null,
    "tags": [
@@ -1501,13 +2332,28 @@
    "idConfidence": "confirmed",
    "idNote": "",
    "care": {
-    "humidity": "Average outdoor humidity is fine",
-    "light": "Full sun, 6-8 hours",
-    "water": "Deep, consistent watering; uneven moisture causes blossom end rot",
+    "humidity": {
+     "en": "Average outdoor humidity is fine",
+     "zh": "普通户外湿度即可"
+    },
+    "light": {
+     "en": "Full sun, 6-8 hours",
+     "zh": "全日照 6-8 小时"
+    },
+    "water": {
+     "en": "Deep, consistent watering; uneven moisture causes blossom end rot",
+     "zh": "深浇且规律；忽干忽湿会得脐腐病"
+    },
     "catSafe": false,
-    "catNote": "ASPCA lists tomato plant as toxic to cats; solanine in green parts, ripe fruit is safe.",
+    "catNote": {
+     "en": "ASPCA lists tomato plant as toxic to cats; solanine in green parts, ripe fruit is safe.",
+     "zh": "ASPCA 认定番茄植株对猫有毒；绿色部分含茄碱，熟果实无害。"
+    },
     "difficulty": "moderate",
-    "note": "Determinate varieties do best in pots; feed regularly, as containers leach nutrients."
+    "note": {
+     "en": "Determinate varieties do best in pots; feed regularly, as containers leach nutrients.",
+     "zh": "盆栽选有限生长型最合适；容器易流失养分，要常施肥。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -1525,7 +2371,10 @@
   },
   {
    "id": "phalaenopsis-orchid",
-   "name": "Moth Orchid",
+   "name": {
+    "en": "Moth Orchid",
+    "zh": "蝴蝶兰"
+   },
    "scientificName": "Phalaenopsis hybrid",
    "nickname": null,
    "tags": [
@@ -1534,13 +2383,28 @@
    "idConfidence": "confirmed",
    "idNote": "",
    "care": {
-    "humidity": "50-70%; likes a pebble humidity tray",
-    "light": "Bright indirect; no hot midday sun",
-    "water": "Weekly when bark and roots dry; never soggy",
+    "humidity": {
+     "en": "50-70%; likes a pebble humidity tray",
+     "zh": "50-70%；垫个加湿石盘最合适"
+    },
+    "light": {
+     "en": "Bright indirect; no hot midday sun",
+     "zh": "明亮散射光；避开正午烈日"
+    },
+    "water": {
+     "en": "Weekly when bark and roots dry; never soggy",
+     "zh": "树皮和根干了再浇，约每周一次；切忌泡水"
+    },
     "catSafe": true,
-    "catNote": "Phalaenopsis orchids are listed as non-toxic to cats by the ASPCA.",
+    "catNote": {
+     "en": "Phalaenopsis orchids are listed as non-toxic to cats by the ASPCA.",
+     "zh": "ASPCA 认定蝴蝶兰对猫无毒。"
+    },
     "difficulty": "moderate",
-    "note": "Silvery roots mean it's thirsty; after bloom, cut the spike above a node to coax a rebloom."
+    "note": {
+     "en": "Silvery roots mean it's thirsty; after bloom, cut the spike above a node to coax a rebloom.",
+     "zh": "根发银白就是渴了；花谢后在节点上方剪掉花剑，能催二次开花。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -1558,7 +2422,10 @@
   },
   {
    "id": "parlor-palm",
-   "name": "Parlor Palm",
+   "name": {
+    "en": "Parlor Palm",
+    "zh": "袖珍椰子"
+   },
    "scientificName": "Chamaedorea elegans",
    "nickname": null,
    "tags": [
@@ -1567,13 +2434,28 @@
    "idConfidence": "confirmed",
    "idNote": "",
    "care": {
-    "humidity": "Average home humidity fine; enjoys occasional misting",
-    "light": "Low to medium indirect light; no direct sun",
-    "water": "Keep lightly moist; let top 2-3 cm dry, avoid soggy soil",
+    "humidity": {
+     "en": "Average home humidity fine; enjoys occasional misting",
+     "zh": "普通室内湿度即可；偶尔喷雾它很开心"
+    },
+    "light": {
+     "en": "Low to medium indirect light; no direct sun",
+     "zh": "低到中等散射光；不要直射"
+    },
+    "water": {
+     "en": "Keep lightly moist; let top 2-3 cm dry, avoid soggy soil",
+     "zh": "保持微湿；表土 2-3 厘米干了再浇，忌积水"
+    },
     "catSafe": true,
-    "catNote": "Non-toxic to cats per ASPCA",
+    "catNote": {
+     "en": "Non-toxic to cats per ASPCA",
+     "zh": "ASPCA 认定袖珍椰子对猫无毒。"
+    },
     "difficulty": "easy",
-    "note": "A Victorian-era favorite that tolerates low light and neglect; overwatering is its main killer"
+    "note": {
+     "en": "A Victorian-era favorite that tolerates low light and neglect; overwatering is its main killer",
+     "zh": "维多利亚时代的老网红，耐阴耐忽视；浇太多才是它的头号杀手。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -1591,7 +2473,10 @@
   },
   {
    "id": "pilea-peperomioides",
-   "name": "Chinese Money Plant",
+   "name": {
+    "en": "Chinese Money Plant",
+    "zh": "镜面草"
+   },
    "scientificName": "Pilea peperomioides",
    "nickname": null,
    "tags": [
@@ -1600,13 +2485,28 @@
    "idConfidence": "confirmed",
    "idNote": "",
    "care": {
-    "humidity": "Average home humidity fine",
-    "light": "Bright indirect; rotate weekly to keep it symmetrical",
-    "water": "Let top 2-3 cm dry between waterings",
+    "humidity": {
+     "en": "Average home humidity fine",
+     "zh": "普通室内湿度即可"
+    },
+    "light": {
+     "en": "Bright indirect; rotate weekly to keep it symmetrical",
+     "zh": "明亮散射光；每周转一转才长得对称"
+    },
+    "water": {
+     "en": "Let top 2-3 cm dry between waterings",
+     "zh": "表土 2-3 厘米干了再浇"
+    },
     "catSafe": true,
-    "catNote": "Non-toxic to cats per ASPCA (Pilea genus is cat-safe)",
+    "catNote": {
+     "en": "Non-toxic to cats per ASPCA (Pilea genus is cat-safe)",
+     "zh": "ASPCA 认定冷水花属对猫无毒。"
+    },
     "difficulty": "easy",
-    "note": "Produces baby 'pups' around the pot, earning its pass-along 'friendship plant' reputation"
+    "note": {
+     "en": "Produces baby 'pups' around the pot, earning its pass-along 'friendship plant' reputation",
+     "zh": "会在盆边冒出小崽，因此得名“友谊草”，适合送人。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -1624,22 +2524,43 @@
   },
   {
    "id": "new-guinea-impatiens",
-   "name": "New Guinea Impatiens",
+   "name": {
+    "en": "New Guinea Impatiens",
+    "zh": "新几内亚凤仙"
+   },
    "scientificName": "Impatiens hawkeri (?)",
    "nickname": null,
    "tags": [
     "flowering"
    ],
    "idConfidence": "guess",
-   "idNote": "ID'd from the bronze foliage - flowers will tell.",
+   "idNote": {
+    "en": "ID'd from the bronze foliage - flowers will tell.",
+    "zh": "靠古铜色叶子认的——开花后见分晓。"
+   },
    "care": {
-    "humidity": "Moderate to high",
-    "light": "Part shade; morning sun or filtered light",
-    "water": "Consistently moist; wilts fast if it dries out",
+    "humidity": {
+     "en": "Moderate to high",
+     "zh": "中到高湿度"
+    },
+    "light": {
+     "en": "Part shade; morning sun or filtered light",
+     "zh": "半阴；晨光或过滤光"
+    },
+    "water": {
+     "en": "Consistently moist; wilts fast if it dries out",
+     "zh": "保持湿润；一干就蔫"
+    },
     "catSafe": true,
-    "catNote": "Impatiens are listed as non-toxic to cats by the ASPCA.",
+    "catNote": {
+     "en": "Impatiens are listed as non-toxic to cats by the ASPCA.",
+     "zh": "ASPCA 认定凤仙花对猫无毒。"
+    },
     "difficulty": "moderate",
-    "note": "Handles more sun than common impatiens and resists downy mildew, but never let it dry out."
+    "note": {
+     "en": "Handles more sun than common impatiens and resists downy mildew, but never let it dry out.",
+     "zh": "比普通凤仙更耐晒、抗霜霉病，但千万别让它干透。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -1657,7 +2578,10 @@
   },
   {
    "id": "scarlet-sage",
-   "name": "Scarlet Sage",
+   "name": {
+    "en": "Scarlet Sage",
+    "zh": "一串红"
+   },
    "scientificName": "Salvia splendens",
    "nickname": null,
    "tags": [
@@ -1667,13 +2591,28 @@
    "idConfidence": "confirmed",
    "idNote": "",
    "care": {
-    "humidity": "Average",
-    "light": "Full sun to light shade",
-    "water": "Keep soil evenly moist; don't let it bake dry",
+    "humidity": {
+     "en": "Average",
+     "zh": "普通湿度"
+    },
+    "light": {
+     "en": "Full sun to light shade",
+     "zh": "全日照到轻微遮阴"
+    },
+    "water": {
+     "en": "Keep soil evenly moist; don't let it bake dry",
+     "zh": "保持均匀湿润；别晒到干裂"
+    },
     "catSafe": true,
-    "catNote": "Scarlet sage is listed as non-toxic to cats by the ASPCA.",
+    "catNote": {
+     "en": "Scarlet sage is listed as non-toxic to cats by the ASPCA.",
+     "zh": "ASPCA 认定一串红对猫无毒。"
+    },
     "difficulty": "easy",
-    "note": "A hummingbird magnet; deadhead spent flower spikes for color until frost."
+    "note": {
+     "en": "A hummingbird magnet; deadhead spent flower spikes for color until frost.",
+     "zh": "蜂鸟磁铁；勤剪残穗能一直红到霜降。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -1691,7 +2630,10 @@
   },
   {
    "id": "callisia-pink-lady",
-   "name": "Turtle Vine 'Pink Lady'",
+   "name": {
+    "en": "Turtle Vine 'Pink Lady'",
+    "zh": "铺地锦竹草“粉红佳人”"
+   },
    "scientificName": "Callisia repens 'Pink Lady'",
    "nickname": null,
    "tags": [
@@ -1701,13 +2643,28 @@
    "idConfidence": "likely",
    "idNote": "",
    "care": {
-    "humidity": "Average household humidity",
-    "light": "Bright indirect light keeps the pink color",
-    "water": "Let top of soil dry between waterings",
+    "humidity": {
+     "en": "Average household humidity",
+     "zh": "普通室内湿度"
+    },
+    "light": {
+     "en": "Bright indirect light keeps the pink color",
+     "zh": "明亮散射光才保得住粉色"
+    },
+    "water": {
+     "en": "Let top of soil dry between waterings",
+     "zh": "表土干了再浇"
+    },
     "catSafe": false,
-    "catNote": "Not on ASPCA list, but its sap is known to cause dermatitis and GI upset in cats and dogs.",
+    "catNote": {
+     "en": "Not on ASPCA list, but its sap is known to cause dermatitis and GI upset in cats and dogs.",
+     "zh": "不在 ASPCA 名录，但汁液可能引起猫狗皮炎和肠胃不适。"
+    },
     "difficulty": "easy",
-    "note": "Leaves fade from pink to plain green in dim light; pinch tips often to keep it dense."
+    "note": {
+     "en": "Leaves fade from pink to plain green in dim light; pinch tips often to keep it dense.",
+     "zh": "光线太暗粉色会褪成绿色；勤掐尖才长得密。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -1725,7 +2682,10 @@
   },
   {
    "id": "autumn-joy-stonecrop",
-   "name": "Stonecrop 'Autumn Joy'",
+   "name": {
+    "en": "Stonecrop 'Autumn Joy'",
+    "zh": "八宝景天“秋悦”"
+   },
    "scientificName": "Hylotelephium 'Herbstfreude'",
    "nickname": null,
    "tags": [
@@ -1733,15 +2693,33 @@
     "perennial"
    ],
    "idConfidence": "confirmed",
-   "idNote": "Nursery tag: Stonecrop 'Autumn Joy' ('Herbstfreude').",
+   "idNote": {
+    "en": "Nursery tag: Stonecrop 'Autumn Joy' ('Herbstfreude').",
+    "zh": "苗圃标签：Stonecrop 'Autumn Joy'（'Herbstfreude'）。"
+   },
    "care": {
-    "humidity": "Low; average outdoor air is fine",
-    "light": "Full sun",
-    "water": "Drought tolerant; water only when soil dries",
+    "humidity": {
+     "en": "Low; average outdoor air is fine",
+     "zh": "低湿度；普通户外空气即可"
+    },
+    "light": {
+     "en": "Full sun",
+     "zh": "全日照"
+    },
+    "water": {
+     "en": "Drought tolerant; water only when soil dries",
+     "zh": "耐旱；土干了才浇"
+    },
     "catSafe": true,
-    "catNote": "Sedum/stonecrop is listed as non-toxic to cats by the ASPCA.",
+    "catNote": {
+     "en": "Sedum/stonecrop is listed as non-toxic to cats by the ASPCA.",
+     "zh": "ASPCA 认定景天（八宝）对猫无毒。"
+    },
     "difficulty": "easy",
-    "note": "Leave dried flower heads standing for winter interest; overly rich soil makes stems flop."
+    "note": {
+     "en": "Leave dried flower heads standing for winter interest; overly rich soil makes stems flop.",
+     "zh": "干枯的花头留着过冬别剪，很有味道；土太肥茎会倒伏。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -1759,7 +2737,10 @@
   },
   {
    "id": "fittonia-red",
-   "name": "Nerve Plant (Pink)",
+   "name": {
+    "en": "Nerve Plant (Pink)",
+    "zh": "网纹草（粉脉）"
+   },
    "scientificName": "Fittonia albivenis",
    "nickname": null,
    "tags": [
@@ -1768,13 +2749,28 @@
    "idConfidence": "confirmed",
    "idNote": "",
    "care": {
-    "humidity": "High (60%+); thrives in terrariums",
-    "light": "Low to medium indirect light; direct sun scorches",
-    "water": "Keep consistently moist; never let it fully dry",
+    "humidity": {
+     "en": "High (60%+); thrives in terrariums",
+     "zh": "高湿度（60%+）；生态瓶里如鱼得水"
+    },
+    "light": {
+     "en": "Low to medium indirect light; direct sun scorches",
+     "zh": "低到中等散射光；直射会晒伤"
+    },
+    "water": {
+     "en": "Keep consistently moist; never let it fully dry",
+     "zh": "保持湿润；千万别彻底干透"
+    },
     "catSafe": true,
-    "catNote": "Non-toxic to cats per ASPCA",
+    "catNote": {
+     "en": "Non-toxic to cats per ASPCA",
+     "zh": "ASPCA 认定网纹草对猫无毒。"
+    },
     "difficulty": "fussy",
-    "note": "Famously 'faints' dramatically when thirsty, then revives within hours of watering"
+    "note": {
+     "en": "Famously 'faints' dramatically when thirsty, then revives within hours of watering",
+     "zh": "渴了会戏剧性地“晕倒”，浇水后几小时内又活过来。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -1792,7 +2788,10 @@
   },
   {
    "id": "false-aralia",
-   "name": "False Aralia",
+   "name": {
+    "en": "False Aralia",
+    "zh": "孔雀木"
+   },
    "scientificName": "Plerandra elegantissima",
    "nickname": null,
    "tags": [
@@ -1802,13 +2801,28 @@
    "idConfidence": "confirmed",
    "idNote": "",
    "care": {
-    "humidity": "High (60%+); leaf edges crisp below 40%",
-    "light": "Bright indirect light; no direct sun",
-    "water": "Keep lightly moist; water when top 2-3 cm dry",
+    "humidity": {
+     "en": "High (60%+); leaf edges crisp below 40%",
+     "zh": "高湿度（60%+）；低于 40% 叶缘会焦"
+    },
+    "light": {
+     "en": "Bright indirect light; no direct sun",
+     "zh": "明亮散射光；不要直射"
+    },
+    "water": {
+     "en": "Keep lightly moist; water when top 2-3 cm dry",
+     "zh": "保持微湿；表土 2-3 厘米干了再浇"
+    },
     "catSafe": true,
-    "catNote": "Non-toxic to cats per ASPCA (listed as False Aralia, Dizygotheca elegantissima)",
+    "catNote": {
+     "en": "Non-toxic to cats per ASPCA (listed as False Aralia, Dizygotheca elegantissima)",
+     "zh": "ASPCA 认定孔雀木对猫无毒。"
+    },
     "difficulty": "fussy",
-    "note": "Drops leaves at drafts, cold, moves, or watering swings; keep conditions steady"
+    "note": {
+     "en": "Drops leaves at drafts, cold, moves, or watering swings; keep conditions steady",
+     "zh": "吹风、受冷、挪位置、浇水不稳都会掉叶——环境要稳定。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -1826,7 +2840,10 @@
   },
   {
    "id": "pineapple-lily",
-   "name": "Pineapple Lily",
+   "name": {
+    "en": "Pineapple Lily",
+    "zh": "凤梨百合"
+   },
    "scientificName": "Eucomis sp.",
    "nickname": null,
    "tags": [
@@ -1834,15 +2851,33 @@
     "bulb"
    ],
    "idConfidence": "likely",
-   "idNote": "Big bulb + strap leaves + pineapple-shaped bloom.",
+   "idNote": {
+    "en": "Big bulb + strap leaves + pineapple-shaped bloom.",
+    "zh": "大鳞茎＋带状叶＋菠萝形花穗。"
+   },
    "care": {
-    "humidity": "Average",
-    "light": "Full sun, 6+ hours",
-    "water": "Regular in summer; keep nearly dry when dormant",
+    "humidity": {
+     "en": "Average",
+     "zh": "普通湿度"
+    },
+    "light": {
+     "en": "Full sun, 6+ hours",
+     "zh": "全日照 6 小时以上"
+    },
+    "water": {
+     "en": "Regular in summer; keep nearly dry when dormant",
+     "zh": "夏天规律浇水；休眠期几乎断水"
+    },
     "catSafe": false,
-    "catNote": "Not on ASPCA lists; saponin-rich bulbs may cause GI upset, so keep cats away to be safe.",
+    "catNote": {
+     "en": "Not on ASPCA lists; saponin-rich bulbs may cause GI upset, so keep cats away to be safe.",
+     "zh": "不在 ASPCA 名录；鳞茎含皂苷可能引起肠胃不适，防着猫为妙。"
+    },
     "difficulty": "easy",
-    "note": "Flower spikes topped with leafy tufts really do look like pineapples; bulbs need a dry winter rest."
+    "note": {
+     "en": "Flower spikes topped with leafy tufts really do look like pineapples; bulbs need a dry winter rest.",
+     "zh": "花穗顶着叶簇，真像小菠萝；鳞茎冬天需要干燥休眠。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -1860,22 +2895,43 @@
   },
   {
    "id": "moon-valley-pilea",
-   "name": "Moon Valley Pilea",
+   "name": {
+    "en": "Moon Valley Pilea",
+    "zh": "月谷冷水花"
+   },
    "scientificName": "Pilea mollis 'Moon Valley'",
    "nickname": null,
    "tags": [
     "foliage"
    ],
    "idConfidence": "confirmed",
-   "idNote": "Costa Farms tag: 'Moon Valley Pilea'.",
+   "idNote": {
+    "en": "Costa Farms tag: 'Moon Valley Pilea'.",
+    "zh": "Costa Farms 标签：“Moon Valley Pilea”。"
+   },
    "care": {
-    "humidity": "High (60%+); ideal in terrariums or on pebble trays",
-    "light": "Medium to bright indirect light",
-    "water": "Keep evenly moist; let just the surface dry slightly",
+    "humidity": {
+     "en": "High (60%+); ideal in terrariums or on pebble trays",
+     "zh": "高湿度（60%+）；适合生态瓶或垫石盘"
+    },
+    "light": {
+     "en": "Medium to bright indirect light",
+     "zh": "中等到明亮散射光"
+    },
+    "water": {
+     "en": "Keep evenly moist; let just the surface dry slightly",
+     "zh": "保持均匀湿润；只让表面稍干"
+    },
     "catSafe": true,
-    "catNote": "Non-toxic to cats per ASPCA (friendship plant/Pilea listed as safe)",
+    "catNote": {
+     "en": "Non-toxic to cats per ASPCA (friendship plant/Pilea listed as safe)",
+     "zh": "ASPCA 认定冷水花（友谊草）对猫无毒。"
+    },
     "difficulty": "moderate",
-    "note": "Quilted chartreuse leaves look like moon craters; shrivels fast in dry rooms"
+    "note": {
+     "en": "Quilted chartreuse leaves look like moon craters; shrivels fast in dry rooms",
+     "zh": "绗缝般的黄绿叶像月球环形山；屋里太干很快蔫。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -1893,7 +2949,10 @@
   },
   {
    "id": "peperomia-rosso",
-   "name": "Peperomia 'Rosso'",
+   "name": {
+    "en": "Peperomia 'Rosso'",
+    "zh": "皱叶椒草“罗索”"
+   },
    "scientificName": "Peperomia caperata 'Rosso'",
    "nickname": null,
    "tags": [
@@ -1901,15 +2960,33 @@
     "hanging"
    ],
    "idConfidence": "likely",
-   "idNote": "Lives in the crocheted hanger.",
+   "idNote": {
+    "en": "Lives in the crocheted hanger.",
+    "zh": "住在钩针编织的吊篮里。"
+   },
    "care": {
-    "humidity": "Average home humidity fine",
-    "light": "Medium to bright indirect light",
-    "water": "Let top 2-3 cm dry; sensitive to overwatering",
+    "humidity": {
+     "en": "Average home humidity fine",
+     "zh": "普通室内湿度即可"
+    },
+    "light": {
+     "en": "Medium to bright indirect light",
+     "zh": "中等到明亮散射光"
+    },
+    "water": {
+     "en": "Let top 2-3 cm dry; sensitive to overwatering",
+     "zh": "表土 2-3 厘米干了再浇；怕涝"
+    },
     "catSafe": true,
-    "catNote": "Non-toxic to cats per ASPCA (listed as Emerald Ripple Peperomia, P. caperata)",
+    "catNote": {
+     "en": "Non-toxic to cats per ASPCA (listed as Emerald Ripple Peperomia, P. caperata)",
+     "zh": "ASPCA 认定皱叶椒草对猫无毒。"
+    },
     "difficulty": "easy",
-    "note": "Dark rippled leaves with red undersides; sends up quirky rat-tail flower spikes"
+    "note": {
+     "en": "Dark rippled leaves with red undersides; sends up quirky rat-tail flower spikes",
+     "zh": "深色皱叶红背，还会抽出古怪的“鼠尾”花穗。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -1927,7 +3004,10 @@
   },
   {
    "id": "spider-plant-bonnie",
-   "name": "Curly Spider Plant",
+   "name": {
+    "en": "Curly Spider Plant",
+    "zh": "卷叶吊兰"
+   },
    "scientificName": "Chlorophytum comosum 'Bonnie'",
    "nickname": null,
    "tags": [
@@ -1937,13 +3017,28 @@
    "idConfidence": "confirmed",
    "idNote": "",
    "care": {
-    "humidity": "Average home humidity (40-50%) fine",
-    "light": "Medium to bright indirect; avoid direct midday sun",
-    "water": "Let top 2-5 cm dry between waterings",
+    "humidity": {
+     "en": "Average home humidity (40-50%) fine",
+     "zh": "普通室内湿度即可"
+    },
+    "light": {
+     "en": "Medium to bright indirect; avoid direct midday sun",
+     "zh": "中等到明亮散射光，避开正午直射"
+    },
+    "water": {
+     "en": "Let top 2-5 cm dry between waterings",
+     "zh": "表土干 2-5 厘米再浇"
+    },
     "catSafe": true,
-    "catNote": "Non-toxic to cats per ASPCA, though cats love chewing it and may get mild GI upset",
+    "catNote": {
+     "en": "Non-toxic to cats per ASPCA, though cats love chewing it and may get mild GI upset",
+     "zh": "ASPCA 认定吊兰对猫无毒，但猫爱嚼，吃多了会轻微闹肚子。"
+    },
     "difficulty": "easy",
-    "note": "Fluoride in tap water causes brown tips; 'Bonnie' has fun curly leaves and makes babies"
+    "note": {
+     "en": "Fluoride in tap water causes brown tips; 'Bonnie' has fun curly leaves and makes babies",
+     "zh": "自来水里的氟会让叶尖发焦；“Bonnie”卷叶还会生小崽。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -1961,7 +3056,10 @@
   },
   {
    "id": "chenille-plant",
-   "name": "Trailing Chenille Plant",
+   "name": {
+    "en": "Trailing Chenille Plant",
+    "zh": "红尾铁苋（垂枝狗尾红）"
+   },
    "scientificName": "Acalypha reptans",
    "nickname": null,
    "tags": [
@@ -1971,13 +3069,28 @@
    "idConfidence": "likely",
    "idNote": "",
    "care": {
-    "humidity": "High; mist or use a pebble tray",
-    "light": "Bright light with some direct sun for blooms",
-    "water": "Keep soil evenly moist year-round",
+    "humidity": {
+     "en": "High; mist or use a pebble tray",
+     "zh": "高湿度；喷雾或垫石盘"
+    },
+    "light": {
+     "en": "Bright light with some direct sun for blooms",
+     "zh": "明亮光线带些直射才开花"
+    },
+    "water": {
+     "en": "Keep soil evenly moist year-round",
+     "zh": "全年保持土壤均匀湿润"
+    },
     "catSafe": false,
-    "catNote": "ASPCA lists chenille (Acalypha) as toxic to cats: drooling, vomiting, diarrhea.",
+    "catNote": {
+     "en": "ASPCA lists chenille (Acalypha) as toxic to cats: drooling, vomiting, diarrhea.",
+     "zh": "ASPCA 认定铁苋（狗尾红）对猫有毒：流涎、呕吐、腹泻。"
+    },
     "difficulty": "moderate",
-    "note": "Fuzzy red 'cat tail' catkins bloom nearly year-round; pinch off faded ones to encourage more."
+    "note": {
+     "en": "Fuzzy red 'cat tail' catkins bloom nearly year-round; pinch off faded ones to encourage more.",
+     "zh": "毛茸茸的红“猫尾巴”几乎全年开；掐掉谢了的能催新花。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -1995,7 +3108,10 @@
   },
   {
    "id": "rubber-plant",
-   "name": "Rubber Plant",
+   "name": {
+    "en": "Rubber Plant",
+    "zh": "橡皮树“黑金刚”"
+   },
    "scientificName": "Ficus elastica 'Burgundy'",
    "nickname": null,
    "tags": [
@@ -2005,13 +3121,28 @@
    "idConfidence": "confirmed",
    "idNote": "",
    "care": {
-    "humidity": "Average home humidity fine; occasional misting appreciated",
-    "light": "Bright indirect; more light deepens the burgundy color",
-    "water": "Let top 3-5 cm dry between thorough waterings",
+    "humidity": {
+     "en": "Average home humidity fine; occasional misting appreciated",
+     "zh": "普通室内湿度即可；偶尔喷雾更佳"
+    },
+    "light": {
+     "en": "Bright indirect; more light deepens the burgundy color",
+     "zh": "明亮散射光；光越足酒红色越深"
+    },
+    "water": {
+     "en": "Let top 3-5 cm dry between thorough waterings",
+     "zh": "表土 3-5 厘米干了再浇透"
+    },
     "catSafe": false,
-    "catNote": "Toxic to cats per ASPCA (ficin and ficusin in milky sap); GI and skin irritation",
+    "catNote": {
+     "en": "Toxic to cats per ASPCA (ficin and ficusin in milky sap); GI and skin irritation",
+     "zh": "ASPCA 认定橡皮树对猫有毒（乳汁）；刺激肠胃和皮肤。"
+    },
     "difficulty": "easy",
-    "note": "Wipe the big leaves so they can breathe; milky sap can irritate skin when pruning"
+    "note": {
+     "en": "Wipe the big leaves so they can breathe; milky sap can irritate skin when pruning",
+     "zh": "常擦大叶子帮它呼吸；修剪时乳汁会刺激皮肤。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -2029,7 +3160,10 @@
   },
   {
    "id": "blue-star-juniper",
-   "name": "Blue Star Juniper",
+   "name": {
+    "en": "Blue Star Juniper",
+    "zh": "蓝星高山柏"
+   },
    "scientificName": "Juniperus squamata 'Blue Star'",
    "nickname": null,
    "tags": [
@@ -2037,15 +3171,33 @@
     "conifer"
    ],
    "idConfidence": "likely",
-   "idNote": "Currently hosting two felt birds.",
+   "idNote": {
+    "en": "Currently hosting two felt birds.",
+    "zh": "目前住着两只毛毡小鸟。"
+   },
    "care": {
-    "humidity": "Fine in dry air; wants good air circulation",
-    "light": "Full sun",
-    "water": "Well-drained; drought tolerant once established, water in dry spells",
+    "humidity": {
+     "en": "Fine in dry air; wants good air circulation",
+     "zh": "干燥空气没问题；需要好的通风"
+    },
+    "light": {
+     "en": "Full sun",
+     "zh": "全日照"
+    },
+    "water": {
+     "en": "Well-drained; drought tolerant once established, water in dry spells",
+     "zh": "排水要好；成株耐旱，干旱时补水"
+    },
     "catSafe": false,
-    "catNote": "Not on ASPCA lists; junipers can cause GI upset if nibbled, so treat as unsafe.",
+    "catNote": {
+     "en": "Not on ASPCA lists; junipers can cause GI upset if nibbled, so treat as unsafe.",
+     "zh": "不在 ASPCA 名录；柏类啃食可能引起肠胃不适，按有毒对待。"
+    },
     "difficulty": "easy",
-    "note": "Very slow growing and cold hardy; can overwinter outside in a pot in the Northeast."
+    "note": {
+     "en": "Very slow growing and cold hardy; can overwinter outside in a pot in the Northeast.",
+     "zh": "长得很慢也很耐寒；可以盆栽在室外过冬。"
+    }
    },
    "lineage": {
     "parent": null,
@@ -2063,7 +3215,10 @@
   },
   {
    "id": "dianthus",
-   "name": "Pinks",
+   "name": {
+    "en": "Pinks",
+    "zh": "石竹"
+   },
    "scientificName": "Dianthus sp.",
    "nickname": null,
    "tags": [
@@ -2071,15 +3226,33 @@
     "perennial"
    ],
    "idConfidence": "confirmed",
-   "idNote": "Store label reads DIANTHUS.",
+   "idNote": {
+    "en": "Store label reads DIANTHUS.",
+    "zh": "商店标签写着 DIANTHUS。"
+   },
    "care": {
-    "humidity": "Low; needs good air circulation",
-    "light": "Full sun",
-    "water": "Moderate; well-drained soil, avoid soggy crowns",
+    "humidity": {
+     "en": "Low; needs good air circulation",
+     "zh": "低湿度；需要好的空气流通"
+    },
+    "light": {
+     "en": "Full sun",
+     "zh": "全日照"
+    },
+    "water": {
+     "en": "Moderate; well-drained soil, avoid soggy crowns",
+     "zh": "中等；排水好的土，别沤根颈"
+    },
     "catSafe": false,
-    "catNote": "ASPCA lists pinks/carnations (Dianthus) as toxic to cats: mild GI upset and dermatitis.",
+    "catNote": {
+     "en": "ASPCA lists pinks/carnations (Dianthus) as toxic to cats: mild GI upset and dermatitis.",
+     "zh": "ASPCA 认定石竹（康乃馨类）对猫有毒：轻度肠胃不适和皮炎。"
+    },
     "difficulty": "easy",
-    "note": "Flowers smell of cloves; shear plants after the first flush for a repeat bloom."
+    "note": {
+     "en": "Flowers smell of cloves; shear plants after the first flush for a repeat bloom.",
+     "zh": "花有丁香气味；第一波花后修剪一轮还能复花。"
+    }
    },
    "lineage": {
     "parent": null,
